@@ -4,7 +4,7 @@ import datetime
 
 # --- CONFIGURATION ---
 INITIAL_LONDON_POP = 422000
-BASE_RIDERSHIP_RATE = 0.07 
+BASE_RIDERSHIP_RATE = 0.07  
 
 ZONE_WEIGHTS = {
     'Residential': {'pop': 100, 'attr': 10},
@@ -35,24 +35,41 @@ def get_academic_multiplier(date_obj):
     year, m, d = date_obj.year, date_obj.month, date_obj.day
     current = datetime.datetime(year, m, d)
     
-    #exam Dates
+    #define Key Periods
     f_exam_start = datetime.datetime(year, 12, 8)
     f_exam_end = datetime.datetime(year, 12, 22)
+    winter_break_start = datetime.datetime(year, 12, 23)
+    #winter break usually goes into the next year (Jan 7)
+    #we handle Jan 1-7 separately in the month check below
+    
     w_exam_start = datetime.datetime(year, 4, 10)
     w_exam_end = datetime.datetime(year, 4, 30)
 
-    #summer
+    #summer (May-Aug) -> LOW
     if 5 <= m <= 8: return 0.6
     
-    #fall Ramp Up & Decay
+    #winter break (Jan 1 - Jan 7) -> LOW
+    if m == 1 and d <= 7: return 0.6
+    
+    #winter break (Dec 23 - Dec 31) -> LOW
+    if m == 12 and d >= 23: return 0.6
+
+    #fall Ramp Up (Nov 13 - Dec 8) -> HIGH
     delta_f = (f_exam_start - current).days
-    if 0 < delta_f <= 25: return 1.3 + (0.3 * (1 - (delta_f / 25.0)))
+    if 0 < delta_f <= 25: 
+        # Linearly interpolate from 1.3 to 1.6
+        return 1.3 + (0.3 * (1 - (delta_f / 25.0)))
+        
+    #fall Exam Decay (Dec 8 - Dec 22) -> DROPPING
     if f_exam_start <= current <= f_exam_end:
         return 1.3 - (0.7 * ((current - f_exam_start).days / (f_exam_end - f_exam_start).days))
-        
-    #winter Ramp Up & Decay
+
+    #winter Ramp Up (Mar 16 - Apr 10) -> HIGH
     delta_w = (w_exam_start - current).days
-    if 0 < delta_w <= 25: return 1.3 + (0.3 * (1 - (delta_w / 25.0)))
+    if 0 < delta_w <= 25: 
+        return 1.3 + (0.3 * (1 - (delta_w / 25.0)))
+        
+    #winter Exam Decay (Apr 10 - Apr 30) -> DROPPING
     if w_exam_start <= current <= w_exam_end:
         return 1.3 - (0.7 * ((current - w_exam_start).days / (w_exam_end - w_exam_start).days))
         
@@ -79,13 +96,10 @@ def simulate_ridership(filename, start_date_str, num_days):
     stop_ids = df['stop_id'].values
     
     start_date = datetime.datetime.strptime(start_date_str, "%d/%m/%Y")
-    
-    #initialize Population
     current_population = INITIAL_LONDON_POP
     all_trips = []
     
     print(f"Generating {num_days} days starting {start_date_str}...")
-    print(f"  Start Population: {current_population}")
     
     for i in range(num_days):
         curr_date = start_date + datetime.timedelta(days=i)
@@ -97,10 +111,7 @@ def simulate_ridership(filename, start_date_str, num_days):
             growth_rate = np.random.uniform(0.07, 0.10)
             increase = int(current_population * growth_rate)
             current_population += increase
-            print(f"  --- WELCOME WEEK (Sept 1, {curr_date.year}) ---")
-            print(f"  Student Influx! Population grew by {growth_rate*100:.2f}% (+{increase}).")
-            print(f"  New Population: {current_population}")
-        # --------------------------------------------------
+            print(f"  [Sept 1] Population Growth: +{increase}. New Total: {current_population}")
         
         weather = np.random.choice(['rain', 'clear', 'snow'], p=[0.25, 0.65, 0.1])
         N_trips = calculate_daily_trips(curr_date, weather, current_population)
@@ -138,6 +149,6 @@ def simulate_ridership(filename, start_date_str, num_days):
     return pd.DataFrame(all_trips, columns=['Origin ID', 'Destination ID', 'Date', 'Time', 'Weather'])
 
 # --- EXECUTION ---
-final_df = simulate_ridership('/Users/devchaudhari/Documents/GitHub/Dyn-Transport-Route-Design-System/dataset_generator/stopwithZones.csv', "20/11/2021", 2065)
-final_df.to_csv("/Users/devchaudhari/Documents/GitHub/Dyn-Transport-Route-Design-System/dataset_generator/london_ridership_generated_data.csv", index=False)
-print("Done!")
+final_df = simulate_ridership('stopwithZones.csv', "20/11/2025", 365)
+final_df.to_csv("london_ridership_fixed_season.csv", index=False)
+print("Done! File saved.")
