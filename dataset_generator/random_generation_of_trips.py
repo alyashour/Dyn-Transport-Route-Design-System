@@ -90,11 +90,23 @@ def calculate_daily_trips(date_obj, weather, current_pop):
     return int(N * weather_mult)
 
 # --- SIMULATION LOOP ---
-def simulate_ridership(filename, start_date_str, num_days):
+def simulate_ridership(filename, start_date_str, num_days, weather_file='london_weather_classified.csv'):
     df = load_and_prep_data(filename)
     stops_coords = df[['stop_lat', 'stop_lon']].values
     stop_ids = df['stop_id'].values
     
+    # --- LOAD WEATHER DATA ---
+    print(f"Loading weather data from {weather_file}...")
+    try:
+        weather_df = pd.read_csv(weather_file)
+        # Ensure dates are datetime objects for matching
+        weather_df['Date'] = pd.to_datetime(weather_df['Date'])
+        # Create a dictionary for fast lookup: Date -> Weather
+        weather_map = weather_df.set_index('Date')['Weather'].to_dict()
+    except Exception as e:
+        print(f"Error loading weather file: {e}")
+        return None
+
     start_date = datetime.datetime.strptime(start_date_str, "%d/%m/%Y")
     current_population = INITIAL_LONDON_POP
     all_trips = []
@@ -113,7 +125,22 @@ def simulate_ridership(filename, start_date_str, num_days):
             current_population += increase
             print(f"  [Sept 1] Population Growth: +{increase}. New Total: {current_population}")
         
-        weather = np.random.choice(['rain', 'clear', 'snow'], p=[0.25, 0.65, 0.1])
+        # --- LOOKUP WEATHER ---
+        # Normalize to midnight timestamp to match weather_map keys
+        lookup_ts = pd.Timestamp(curr_date)
+        
+        # Get weather from map, default to 'Clear' if date missing
+        raw_weather = weather_map.get(lookup_ts, 'Clear')
+        
+        # Map input weather labels (Snowy, Rainy, Clear) to script logic (snow, rain, clear)
+        w_lower = raw_weather.lower()
+        if 'rain' in w_lower:
+            weather = 'rain'
+        elif 'snow' in w_lower:
+            weather = 'snow'
+        else:
+            weather = 'clear'
+
         N_trips = calculate_daily_trips(curr_date, weather, current_population)
         
         #downtown Boost
@@ -142,13 +169,14 @@ def simulate_ridership(filename, start_date_str, num_days):
             for d_idx in d_indices:
                 h = np.random.randint(6, 23)
                 time_str = f"{h:02d}:{np.random.randint(0,60):02d}:{np.random.randint(0,60):02d}"
-                day_trips.append([stop_ids[o_idx], stop_ids[d_idx], date_str, time_str, weather])
+                day_trips.append([stop_ids[o_idx], stop_ids[d_idx], date_str, time_str])
         
         all_trips.extend(day_trips)
         
-    return pd.DataFrame(all_trips, columns=['Origin ID', 'Destination ID', 'Date', 'Time', 'Weather'])
+    return pd.DataFrame(all_trips, columns=['Origin ID', 'Destination ID', 'Date', 'Time'])
 
 # --- EXECUTION ---
-final_df = simulate_ridership('dataset_generator/stopwithZones.csv', "20/11/2021", 365)
+# Make sure the file paths below match your actual file locations
+final_df = simulate_ridership('dataset_generator/stopwithZones.csv', "20/11/2021", 365, weather_file='dataset_generator/london_weather_classified.csv')
 final_df.to_csv("dataset_generator/london_ridership_trip_generation.csv", index=False)
 print("Done!")
