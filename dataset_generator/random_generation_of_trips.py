@@ -149,6 +149,6 @@ def simulate_ridership(filename, start_date_str, num_days):
     return pd.DataFrame(all_trips, columns=['Origin ID', 'Destination ID', 'Date', 'Time', 'Weather'])
 
 # --- EXECUTION ---
-final_df = simulate_ridership('stopwithZones.csv', "20/11/2025", 365)
-final_df.to_csv("london_ridership_trip_generation.csv", index=False)
+final_df = simulate_ridership('dataset_generator/stopwithZones.csv', "20/11/2021", 365)
+final_df.to_csv("dataset_generator/london_ridership_trip_generation.csv", index=False)
 print("Done!")
