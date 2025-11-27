@@ -150,5 +150,5 @@ def simulate_ridership(filename, start_date_str, num_days):
 
 # --- EXECUTION ---
 final_df = simulate_ridership('stopwithZones.csv', "20/11/2025", 365)
-final_df.to_csv("london_ridership_fixed_season.csv", index=False)
-print("Done! File saved.")
+final_df.to_csv("london_ridership_trip_generation.csv", index=False)
+print("Done!")
