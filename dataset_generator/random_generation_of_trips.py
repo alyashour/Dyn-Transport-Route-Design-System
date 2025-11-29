@@ -3,7 +3,7 @@ import numpy as np
 import datetime
 
 # --- CONFIGURATION ---
-INITIAL_LONDON_POP = 440000  
+INITIAL_LONDON_POP = 422000  
 BASE_RIDERSHIP_RATE = 0.12   
 
 # Updated Weights to match LTC Data (55% of rides are students)
@@ -277,7 +277,7 @@ def simulate_ridership(filename, start_date_str, num_days, weather_file='dataset
     return pd.DataFrame(all_trips, columns=['Origin ID', 'Destination ID', 'Day', 'Month', 'Year'])
 
 # --- EXECUTION ---
-final_df = simulate_ridership('dataset_generator/stopwithZones.csv', "18/11/2021", 5, weather_file='dataset_generator/london_weather_hourly_estimated.csv')
+final_df = simulate_ridership('dataset_generator/stopwithZones.csv', "18/11/2021", 1460, weather_file='dataset_generator/london_weather_hourly_estimated.csv')
 final_df.to_csv("dataset_generator/london_ridership_trip_generation.csv", index=False)
 print("Done!")
 print(final_df.head(10))
