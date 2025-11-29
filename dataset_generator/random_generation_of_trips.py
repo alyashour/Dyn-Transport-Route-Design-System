@@ -115,6 +115,7 @@ def simulate_ridership(filename, start_date_str, num_days, weather_file='dataset
         w_df = pd.read_csv(weather_file)
         w_df['Date'] = pd.to_datetime(w_df['Date'])
         weather_lookup = w_df.groupby(w_df['Date'].dt.date)['Estimated_Temperature_C'].apply(np.array).to_dict()
+        cond_lookup = w_df.groupby(w_df['Date'].dt.date)['Weather_Condition'].apply(np.array).to_dict()
     except Exception as e:
         print(f"Error loading weather file: {e}")
         return None
@@ -166,14 +167,23 @@ def simulate_ridership(filename, start_date_str, num_days, weather_file='dataset
         total_potential_trips = calculate_base_demand(curr_date, current_population)
         num_people = total_potential_trips // 2
         
-        # 2.get Weather
+        # 2. Get Weather (Temperature AND Conditions)
         lookup_date = curr_date.date()
         if lookup_date not in weather_lookup:
             daily_temps = np.full(24, 20.0)
+            daily_conds = np.full(24, 'Clear', dtype=object)
         else:
             daily_temps = weather_lookup[lookup_date]
-            if len(daily_temps) < 24: daily_temps = np.pad(daily_temps, (0, 24-len(daily_temps)), 'edge')
-            elif len(daily_temps) > 24: daily_temps = daily_temps[:24]
+            daily_conds = cond_lookup[lookup_date]
+
+            # Fix missing hours (Padding)
+            if len(daily_temps) < 24: 
+                pad_len = 24 - len(daily_temps)
+                daily_temps = np.pad(daily_temps, (0, pad_len), 'edge')
+                daily_conds = np.pad(daily_conds, (0, pad_len), constant_values='Clear')
+            elif len(daily_temps) > 24: 
+                daily_temps = daily_temps[:24]
+                daily_conds = daily_conds[:24]
 
         # 3.generate Times
         start_weights = np.array([0]*6 + [0.08, 0.12, 0.10, 0.07, 0.06, 0.06, 0.06, 0.06, 0.07, 0.07, 0.10, 0.08, 0.05, 0.02])
@@ -190,7 +200,8 @@ def simulate_ridership(filename, start_date_str, num_days, weather_file='dataset
         
         #weather Check (Start Time)
         start_temps = daily_temps[start_hours]
-        weather_probs = apply_weather_rules(start_temps, curr_date.month)
+        start_conds = daily_conds[start_hours] 
+        weather_probs = apply_weather_rules(start_temps, start_conds, curr_date.month)
         
         random_checks = np.random.random(size=num_people)
         weather_accept_mask = random_checks < weather_probs
