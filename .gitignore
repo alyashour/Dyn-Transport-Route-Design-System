@@ -1,2 +1,4 @@
 .venv
 dataset_generator/weatherstats_london_normal_daily-2.csv
+dataset_generator/london_ridership_trip_generation.csv
+dataset_generator/london_weather_hourly_estimated.csv
