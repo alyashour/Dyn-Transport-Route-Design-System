@@ -158,7 +158,7 @@ def simulate_ridership(filename, start_date_str, num_days, weather_file='dataset
 
         #population Growth (Sept 1) - Massive Student Influx
         if curr_date.month == 9 and curr_date.day == 1 and i > 0:
-            growth_pct = np.random.uniform(0.01, 0.07) 
+            growth_pct = np.random.uniform(0.05, 0.07) 
             increase = int(current_population * growth_pct)
             current_population += increase
             print(f"  [Sept 1] Student Influx: +{increase}. New Total: {current_population}")
