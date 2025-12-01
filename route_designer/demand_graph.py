@@ -5,18 +5,13 @@ def build_demand_graph(trips_csv_path: str):
     """
     Build an Origin-Destination demand graph from the trip CSV.
 
-    Your CSV contains these columns:
-    Trip_ID, Origin_ID, Destination_ID, Date, Time
     """
 
-    # Load the trip dataset
     df = pd.read_csv(trips_csv_path)
 
-    # Normalize column names (remove spaces, lowercase)
     df.columns = [c.strip().lower() for c in df.columns]
 
-    # The actual column names in your CSV after lowercasing:
-    # trip_id, origin_id, destination_id, date, time
+   
     origin_col = "origin id"
     dest_col   = "destination id"
 

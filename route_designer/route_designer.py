@@ -1,11 +1,4 @@
-"""
-High-level orchestration for RODES.
 
-This ties together:
-- demand_graph.build_demand_graph(...)
-- cost_matrix.build_cost_matrix(...)
-- clarke_wright.clarke_wright_routes(...)
-"""
 
 import json
 from route_designer.demand_graph import build_demand_graph
@@ -26,7 +19,7 @@ def design_routes(
     Inputs:
         trips_csv_path: path to trip CSV with Origin/Destination IDs.
         stops_csv_path: path to stop info CSV with coordinates.
-        depot_id: stop ID of the central depot.
+        depot_iyd: stop ID of the central depot.
         vehicle_capacity: bus capacity.
         save_path: optional JSON save path.
 
@@ -49,7 +42,7 @@ def design_routes(
         vehicle_capacity=vehicle_capacity,
     )
 
-    print("\n✅ Route design finished!")
+    print("Route design finished!")
     for i, r in enumerate(routes, start=1):
         print(f"Route {i}: {r}")
 
@@ -57,7 +50,7 @@ def design_routes(
         print(f"💾 Saving routes to {save_path} ...")
         with open(save_path, "w") as f:
             json.dump(routes, f, indent=4)
-        print("✔ Routes saved.")
+        print("Routes saved.")
 
     return routes
 
@@ -67,7 +60,7 @@ if __name__ == "__main__":
     design_routes(
         trips_csv_path="dataset_generator/london_ridership_trip_generation.csv",
         stops_csv_path="dataset_generator/stopwithZones.csv",
-        depot_id=1,     # change to your actual downtown stop ID!
+        depot_id="ADELCEN1",
         vehicle_capacity=60,
         save_path="route_designer/generated_routes.json"
     )
