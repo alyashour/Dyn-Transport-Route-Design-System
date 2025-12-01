@@ -22,10 +22,10 @@ def clarke_wright_routes(demand_graph, cost_matrix, stop_ids, depot_id, vehicle_
     id_to_index = {stop_ids[i]: i for i in range(len(stop_ids))}
     depot_idx = id_to_index[depot_id]
 
-    # Step 1: Initialize each stop as its own route: Depot -> stop -> Depot
+    #Initialize each stop as its own route: Depot -> stop -> Depot
     routes = {stop: [depot_id, stop, depot_id] for stop in stop_ids if stop != depot_id}
 
-    # Step 2: Compute Savings values for each pair of stops
+    #Compute Savings values for each pair of stops
     savings = []
 
     for i in stop_ids:
@@ -48,7 +48,7 @@ def clarke_wright_routes(demand_graph, cost_matrix, stop_ids, depot_id, vehicle_
     # Sort by decreasing savings
     savings.sort(reverse=True, key=lambda x: x[0])
 
-    # Step 3: Try to merge routes in order of savings
+    #Try to merge routes in order of savings
     for s, i, j in savings:
 
         # Find routes containing i and j
@@ -63,9 +63,8 @@ def clarke_wright_routes(demand_graph, cost_matrix, stop_ids, depot_id, vehicle_
         if route_i is None or route_j is None or route_i is route_j:
             continue
 
-        # Check capacity (optional for now)
+        # Check capacity
         # For bus ridership, sum demand on the route
-        # For now, we allow merges (you can refine later)
 
         # Merge condition: i at end of route_i, j at start of route_j
         if route_i[-2] == i and route_j[1] == j:

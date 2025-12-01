@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # 1. Load the original daily data
-df = pd.read_csv('dataset_generator/weatherstats_london_normal_daily-2.csv')
+df = pd.read_csv('dataset_generator/london_weather_classified.csv')
 
 # 2. Filter for dates starting from Jan 1, 2020
 df['date'] = pd.to_datetime(df['date'])
