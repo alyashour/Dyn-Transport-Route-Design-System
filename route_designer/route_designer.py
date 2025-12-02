@@ -28,7 +28,12 @@ def design_routes(
     """
 
     print("Loading demand graph...")
-    demand_graph, stop_ids = build_demand_graph(trips_csv_path)
+    from .load_ripr_a_demand import load_ripr_a_grid
+
+    if trips_csv_path.endswith(".csv") and "grid" in trips_csv_path.lower():
+        demand_graph, stop_ids = load_ripr_a_grid(trips_csv_path)
+    else:
+        demand_graph, stop_ids = build_demand_graph(trips_csv_path)
 
     print("Building cost matrix...")
     cost_matrix, stop_ids = build_cost_matrix(stops_csv_path)
@@ -47,7 +52,7 @@ def design_routes(
         print(f"Route {i}: {r}")
 
     if save_path:
-        print(f"💾 Saving routes to {save_path} ...")
+        print(f"Saving routes to {save_path} ...")
         with open(save_path, "w") as f:
             json.dump(routes, f, indent=4)
         print("Routes saved.")
