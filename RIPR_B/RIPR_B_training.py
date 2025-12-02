@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 
 
 print("Loading trip data...")
-df = pd.read_csv("dataset_generator/london_ridership_trip_generation.csv")
+df = pd.read_csv("data/london_ridership_trip_generation.csv")
 
 df["Date"] = pd.to_datetime(df["Date"], dayfirst=True)
 
@@ -15,13 +15,13 @@ print("Aggregating daily ridership...")
 daily = df.groupby("Date").size().reset_index(name="Daily_Ridership")
 
 print("Loading weather data...")
-weather = pd.read_csv("dataset_generator/london_weather_classified.csv")
+weather = pd.read_csv("data/london_weather_classified.csv")
 weather["Date"] = pd.to_datetime(weather["Date"])
 
 print("Merging...")
 full = daily.merge(weather, on="Date", how="left")
 
-print("🛠 Feature engineering...")
+print("Feature engineering...")
 full["DayOfWeek"] = full["Date"].dt.weekday
 full["Month"] = full["Date"].dt.month
 full["Day"] = full["Date"].dt.day
@@ -62,7 +62,7 @@ print(f"RMSE: {rmse:.2f}")
 print("R²:", r2_score(y_test, y_pred))
 
 print("\nSaving model...")
-with open("ridership_predictor/RIPR/rider_count_model.pkl", "wb") as f:
+with open("RIPR_B/rider_count_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
 print("RIPR-B Training Complete!")
