@@ -76,9 +76,8 @@ def clarke_wright_routes(demand_graph, cost_matrix, stop_ids, depot_id, vehicle_
         if route_i is None or route_j is None or route_i is route_j:
             continue
 
-        # --------------------------
+     
         # Capacity Constraint Here
-        # --------------------------
         load_i = route_load(route_i, demand_graph)
         load_j = route_load(route_j, demand_graph)
 
@@ -86,9 +85,7 @@ def clarke_wright_routes(demand_graph, cost_matrix, stop_ids, depot_id, vehicle_
         if load_i + load_j > vehicle_capacity:
             continue
 
-        # --------------------------
-        # Merge logic
-        # --------------------------
+ 
         # Merge only if i is last before depot in route_i
         # and j is first after depot in route_j
         if route_i[-2] == i and route_j[1] == j:
