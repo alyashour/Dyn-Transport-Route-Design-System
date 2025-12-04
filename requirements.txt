@@ -1,10 +1,30 @@
-pandas
-numpy
+# Core data science
+pandas==2.1.2
+numpy==1.26.2
+
+# Machine learning
+scikit-learn==1.4.0
+
+# Visualization (RIDR-A visualization scripts)
+matplotlib==3.8.2
+
+# Geospatial coordinate distance
+geopy==2.3.0
+
+# Progress bars (optional, but useful)
+tqdm==4.66.1
+
+# Google OR-Tools for advanced VRP (RODES-α)
+ortools==9.7.2996
+
+# Jupyter notebooks (optional)
+jupyter==1.0.0
+
+# Environment loading (optional)
+python-dotenv==1.0.0
 folium
 osmnx
 scikit-learn
-matplotlib
-tqdn
+tqdm
 plotly
 geopy
-ortools
