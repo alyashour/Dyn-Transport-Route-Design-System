@@ -9,7 +9,8 @@ from sklearn.model_selection import train_test_split
 print("Loading trip data...")
 df = pd.read_csv("data/london_ridership_trip_generation.csv")
 
-df["Date"] = pd.to_datetime(df["Date"], dayfirst=True)
+# Create a Date column from Year/Month/Day
+df["Date"] = pd.to_datetime(df[["Year","Month","Day"]])
 
 print("Aggregating daily ridership...")
 daily = df.groupby("Date").size().reset_index(name="Daily_Ridership")
