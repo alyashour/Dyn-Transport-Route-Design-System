@@ -1,15 +1,14 @@
 import pickle
 import pandas as pd
 
-with open("rider_count_model.pkl", "rb") as f:
+with open("RIPR_B/rider_count_model.pkl", "rb") as f:
     model = pickle.load(f)
-
 
 def predict_total_riders(date, weather_label, temp):
     """
     date: datetime.date or string
     weather_label: "clear" | "rain" | "snow"
-    temp: temperature in C (optional)
+    temp: temperature in C (optional, not used currently)
     """
     date = pd.to_datetime(date)
 
@@ -23,5 +22,10 @@ def predict_total_riders(date, weather_label, temp):
 
     X = pd.DataFrame([features])
     
+    # Ensure column order matches training
+    expected_cols = ["DayOfWeek", "Month", "Day", "Weather_Label", "Is_Exam_Season"]
+    X = X[expected_cols]
+    
     pred = model.predict(X)[0]
-    return int(pred)
+    return max(0, int(pred))  # Ensure non-negative
+
