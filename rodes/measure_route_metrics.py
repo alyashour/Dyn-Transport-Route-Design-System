@@ -38,11 +38,15 @@ NODES_CACHE = os.path.join(CACHE_DIR, "stop_to_node.pkl")
 ROUTE_METRICS_CACHE = os.path.join(CACHE_DIR, "route_metrics.pkl")
 =======
 
-# Bus utilization
+# -------------------------------
+# Config
+# -------------------------------
 FLEET_SIZE = 60
 SERVICE_HOURS = 16
 AVAILABLE_HOURS = FLEET_SIZE * SERVICE_HOURS
-AVERAGE_SPEED_KMH = 25  # average bus speed
+AVERAGE_SPEED_KMH = 25
+START_DATE = pd.Timestamp(2021, 11, 18)
+END_DATE   = pd.Timestamp(2021, 11, 25)
 
 >>>>>>> 748e956 (clarke_write metrics and implementation)
 
@@ -130,21 +134,24 @@ else:
 =======
 routes_df = pd.read_csv(ROUTES_CSV)
 stops_df = pd.read_csv(STOPS_CSV)
-
 stop_lookup = {row["stop_id"]: (row["stop_lat"], row["stop_lon"]) for _, row in stops_df.iterrows()}
 
 # -------------------------------
-# Build OSMnx graph
+# Build or load OSMnx graph
 # -------------------------------
-all_coords = list(stop_lookup.values())
-lats = [c[0] for c in all_coords]
-lons = [c[1] for c in all_coords]
-
-padding = 0.002
-north = max(lats) + padding
-south = min(lats) - padding
-east = max(lons) + padding
-west = min(lons) - padding
+if os.path.exists(GRAPH_CACHE):
+    print(f'Loading cached OSMnx graph from {GRAPH_CACHE}')
+    G = ox.load_graphml(GRAPH_CACHE)
+else:
+    print('Building OSMnx graph...')
+    all_coords = list(stop_lookup.values())
+    lats = [c[0] for c in all_coords]
+    lons = [c[1] for c in all_coords]
+    padding = 0.002
+    north = max(lats) + padding
+    south = min(lats) - padding
+    east = max(lons) + padding
+    west = min(lons) - padding
 
 G = ox.graph_from_bbox(bbox=(west, south, east, north), network_type="drive", simplify=True)
 stop_to_node = {sid: ox.nearest_nodes(G, X=lon, Y=lat) for sid, (lat, lon) in stop_lookup.items()}

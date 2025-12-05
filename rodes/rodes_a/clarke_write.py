@@ -440,6 +440,9 @@ class TransitRouteDesigner:
 
 if __name__ == "__main__":
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 18f8586 (add cacheing to measure_route_metrics)
     import sys
     args = sys.argv
     if len(args) < 2:
@@ -448,6 +451,7 @@ if __name__ == "__main__":
     else:
         date = args[1]
 
+<<<<<<< HEAD
     designer = TransitRouteDesigner(
         stops_csv_path='../../data/stops.csv',
         trips_npy_path=f'../../data/mlr_output_{date}.npy',
@@ -456,6 +460,11 @@ if __name__ == "__main__":
         stops_csv_path='../../data/stops.csv',
         trips_npy_path='../../data/mlr_output_2021_11_18.npy',
 >>>>>>> 748e956 (clarke_write metrics and implementation)
+=======
+    designer = TransitRouteDesigner(
+        stops_csv_path='../../data/stops.csv',
+        trips_npy_path=f'../../data/mlr_output_{date}.npy',
+>>>>>>> 18f8586 (add cacheing to measure_route_metrics)
         city_name='London, Ontario, Canada',
         use_euclidean=True,
         cache_file='cache/distances_cache.pkl'
@@ -476,10 +485,14 @@ if __name__ == "__main__":
     )
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     routes_df = designer.export_routes(f'designed_routes/clarke_write-{date}')
 =======
     routes_df = designer.export_routes('designed_routes.csv')
 >>>>>>> 748e956 (clarke_write metrics and implementation)
+=======
+    routes_df = designer.export_routes(f'designed_routes/clarke_write-{date}')
+>>>>>>> 18f8586 (add cacheing to measure_route_metrics)
     print("\n" + "="*60)
     print("DESIGNED ROUTES:")
     print("="*60)
