@@ -1,9 +1,11 @@
 """
-OR-Tools VRP for large bus network (2000 stops)
-Constraints:
-- Maximum stops per route: MAX_ROUTE_LENGTH
-- Maximum distance per route: MAX_DISTANCE km
-Caches the distance matrix to speed up repeated runs.
+OR-Tools demand-driven VRP for bus network
+Uses:
+- Stops CSV for stop locations
+- Precomputed OD trip grid (.npy) for daily demand
+- Max stops and max distance constraints
+- Scales OD grid by scalar
+- Outputs CSV of routes with stops, stop names, num stops, total distance
 """
 
 import pandas as pd
@@ -17,6 +19,8 @@ import os
 # Config
 # -------------------------------
 STOPS_CSV = "../../data/stops.csv"
+OD_GRID_NPY = "../../data/mlr_output_2021_11_18.npy"  # precomputed OD trips
+GRID_SCALAR = 1000                         # scale trips by this factor
 OUTPUT_CSV = "optimized_routes.csv"
 DISTANCE_CACHE = "cache/distance_matrix.npy"
 
@@ -24,6 +28,7 @@ NUM_VEHICLES = 60
 DEPOT_STOP_ID = "ADELADA1"
 MAX_ROUTE_LENGTH = 25  # max stops per vehicle
 MAX_DISTANCE = 30      # max distance per vehicle (km)
+VEHICLE_CAPACITY = 50  # passengers per bus (adjust)
 
 # -------------------------------
 # Load stops
@@ -35,6 +40,15 @@ stop_name_lookup = {row["stop_id"]: row["stop_name"] for _, row in stops_df.iter
 stop_ids = list(stop_lookup.keys())
 stop_index = {sid: i for i, sid in enumerate(stop_ids)}
 n = len(stop_ids)
+
+# -------------------------------
+# Load OD demand grid
+# -------------------------------
+print(f'Loading OD grid from {OD_GRID_NPY}')
+trip_grid = np.load(OD_GRID_NPY) * GRID_SCALAR
+
+# Optional: remove very low-demand trips to reduce problem size
+trip_grid[trip_grid < 1e-3] = 0
 
 # -------------------------------
 # Load or build distance matrix
@@ -60,6 +74,7 @@ print('Setting up OR-Tools VRP')
 manager = pywrapcp.RoutingIndexManager(n, NUM_VEHICLES, stop_index[DEPOT_STOP_ID])
 routing = pywrapcp.RoutingModel(manager)
 
+# Distance callback (for route distance)
 def distance_callback(from_index, to_index):
     from_node = manager.IndexToNode(from_index)
     to_node = manager.IndexToNode(to_index)
@@ -71,7 +86,8 @@ routing.SetArcCostEvaluatorOfAllVehicles(transit_callback_index)
 # -------------------------------
 # Add constraints
 # -------------------------------
-# Max route distance
+
+# 1️⃣ Max route distance dimension
 routing.AddDimension(
     transit_callback_index,
     0,
@@ -82,7 +98,7 @@ routing.AddDimension(
 distance_dim = routing.GetDimensionOrDie("Distance")
 distance_dim.SetGlobalSpanCostCoefficient(100)
 
-# Max stops per route
+# 2️⃣ Max stops per route
 def length_callback(from_index, to_index):
     return 1
 length_callback_index = routing.RegisterTransitCallback(length_callback)
@@ -96,18 +112,35 @@ routing.AddDimension(
 length_dim = routing.GetDimensionOrDie("Stops")
 length_dim.SetGlobalSpanCostCoefficient(10)
 
-# Prevent skipping stops
+# 3️⃣ Capacity / demand dimension
+# Compute demand per stop as total outgoing passengers from that stop
+demand_per_stop = trip_grid.sum(axis=1).astype(int).tolist()  # passengers boarding at stop i
+
+def demand_callback(from_index):
+    node = manager.IndexToNode(from_index)
+    return demand_per_stop[node]
+
+demand_callback_index = routing.RegisterUnaryTransitCallback(demand_callback)
+routing.AddDimensionWithVehicleCapacity(
+    demand_callback_index,
+    0,  # slack
+    [VEHICLE_CAPACITY]*NUM_VEHICLES,
+    True,
+    "Capacity"
+)
+
+# 4️⃣ Skip penalties proportional to demand
 for i in range(1, n):
-    routing.AddDisjunction([manager.NodeToIndex(i)], 1_000_000)
+    penalty = int(max(demand_per_stop[i], 1) * 1000)  # high penalty if stop has demand
+    routing.AddDisjunction([manager.NodeToIndex(i)], penalty)
 
 # -------------------------------
 # Solve parameters
 # -------------------------------
-print('Setting solve parameters')
 search_parameters = pywrapcp.DefaultRoutingSearchParameters()
 search_parameters.first_solution_strategy = routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC
 search_parameters.local_search_metaheuristic = routing_enums_pb2.LocalSearchMetaheuristic.GUIDED_LOCAL_SEARCH
-search_parameters.time_limit.seconds = 300  # 5 minutes
+search_parameters.time_limit.seconds = 300  # 5 min
 
 # -------------------------------
 # Solve VRP
