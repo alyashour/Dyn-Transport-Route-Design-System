@@ -65,10 +65,10 @@ def visualize_grids(target_date: str, model_path: str):
     """
     
     # --- Configuration ---
-    TRIPS_CSV = 'data/trips_data_small.csv'
-    WEATHER_CSV = 'data/weather.csv'
-    STOPS_CSV = 'data/stop_data.csv'
-    POPULATION_CSV = 'data/city_population.csv'
+    TRIPS_CSV = '../../data/trips_small.csv'
+    WEATHER_CSV = '../../data/weather.csv'
+    STOPS_CSV = '../../data/stops.csv'
+    POPULATION_CSV = '../../data/city_population.csv'
     
     print(f"--- Processing Date: {target_date} ---")
     

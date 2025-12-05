@@ -1,93 +1,16 @@
 import numpy as np
 
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torch.utils.data import Dataset
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 from transit_data_processor import TransitDataProcessor
 from util import *
 from mlr_grid import MLRGrid
 
 SKIP_CONFIRMATION = True
 
-class TransitDataset(Dataset):
-    """PyTorch dataset for transit data"""
-    
-    def __init__(self, data, scaler, n_stops):
-        self.n_stops = n_stops
-        
-        # Prepare features
-        feature_cols = ['season', 'is_holiday', 'temp_high_c', 'temp_low_c', 'Population', 'Distance'] + \
-                      [col for col in data.columns if col.startswith('Weather_')]
-        self.X = torch.FloatTensor(scaler.transform(data[feature_cols].values))
-        
-        # Prepare targets (route indices and percentages)
-        self.origin_idx = torch.LongTensor(data['origin_idx'].values)
-        self.dest_idx = torch.LongTensor(data['dest_idx'].values)
-        self.route_pct = torch.FloatTensor(data['route_percentage'].values)
-        
-        # Date information for grouping
-        self.dates = data[['Year', 'Month', 'Day']].values
-        
-    def __len__(self):
-        return len(self.X)
-    
-    def __getitem__(self, idx):
-        return {
-            'features': self.X[idx],
-            'origin': self.origin_idx[idx],
-            'dest': self.dest_idx[idx],
-            'route_pct': self.route_pct[idx],
-            'Date': tuple(self.dates[idx])
-        }
-
-class MLPModel(nn.Module):
-    """MLP that predicts route probability matrix"""
-    
-    def __init__(self, n_features, n_stops, hidden_dims=[32, 32]):
-        super().__init__()
-        self.n_stops = n_stops
-        
-        # Build MLP layers
-        layers = []
-        in_dim = n_features
-        for hidden_dim in hidden_dims:
-            layers.extend([
-                nn.Linear(in_dim, hidden_dim),
-                nn.ReLU(),
-                nn.BatchNorm1d(hidden_dim),
-                nn.Dropout(0.3)
-            ])
-            in_dim = hidden_dim
-        
-        # Output layer: predicts logits for all possible routes
-        layers.append(nn.Linear(in_dim, n_stops * n_stops))
-        
-        self.network = nn.Sequential(*layers)
-        
-    def forward(self, x):
-        """
-        Args:
-            x: (batch_size, n_features)
-        Returns:
-            route_probs: (batch_size, n_stops, n_stops) - probability matrix
-        """
-        logits = self.network(x)  # (batch_size, n_stops * n_stops)
-        logits = logits.view(-1, self.n_stops, self.n_stops)
-        
-        # Apply softmax over all routes
-        logits_flat = logits.view(logits.size(0), -1)
-        probs_flat = F.softmax(logits_flat, dim=1)
-        probs = probs_flat.view(-1, self.n_stops, self.n_stops)
-        
-        return probs
-
 # ============================================================================
 # EVALUATION
 # ============================================================================
-
-import numpy as np
-from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 def evaluate_models(mlr_grid, test_data, scaler):
     """Evaluate the MLR Grid model on the test set and print overall metrics."""
@@ -161,10 +84,10 @@ def main():
     """Main execution pipeline"""
     
     # Configuration
-    TRIPS_CSV = 'data/trips_data.csv'
-    WEATHER_CSV = 'data/weather.csv'
-    STOPS_CSV = 'data/stop_data.csv'
-    POPULATION_CSV = 'data/city_population.csv'
+    TRIPS_CSV = '../../data/trips_small.csv'
+    WEATHER_CSV = '../../data/weather.csv'
+    STOPS_CSV = '../../data/stops.csv'
+    POPULATION_CSV = '../../data/city_population.csv'
     
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
     

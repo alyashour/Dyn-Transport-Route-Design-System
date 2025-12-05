@@ -5,10 +5,10 @@ import os
 from transit_data_processor import TransitDataProcessor
 
 # --- Configuration ---
-TRIPS_CSV = 'data/trips_data.csv'
-WEATHER_CSV = 'data/weather.csv'
-STOPS_CSV = 'data/stop_data.csv'
-POPULATION_CSV = 'data/city_population.csv'
+TRIPS_CSV = '../../data/trips_small.csv'
+WEATHER_CSV = '../../data/weather.csv'
+STOPS_CSV = '../../data/stops.csv'
+POPULATION_CSV = '../../data/city_population.csv'
 OUTPUT_CSV = 'data/processed_combined_data.csv'
 
 def consolidate_and_engineer_data():

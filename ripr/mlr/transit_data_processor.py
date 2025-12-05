@@ -127,11 +127,25 @@ class TransitDataProcessor:
         route_counts['route_percentage'] = route_counts['trip_count'] / route_counts['total_trips']
         
         # Merge back with features (take first occurrence per day for context features)
-        feature_cols = ['season', 'is_holiday', 'temp_high_c', 'temp_low_c', 'Population', 'Distance'] + \
-                      [col for col in self.trips.columns if col.startswith('Weather_')]
+        feature_cols = [
+            'season', 'is_holiday', 'temp_high_c', 'temp_low_c',
+            'Population', 'Distance',
+            'Weather_Condition_Clear', 'Weather_Condition_Rainy', 'Weather_Condition_Snowy'
+        ]
         
-        daily_features = self.trips.groupby(date_cols + route_cols)[feature_cols].first().reset_index()
-        
+        # Add missing columns with default False
+        for col in feature_cols:
+            if col not in self.trips.columns:
+                self.trips[col] = False   # or 0
+
+        # Now safely group
+        daily_features = (
+            self.trips
+                .groupby(date_cols + route_cols)[feature_cols]
+                .first()
+                .reset_index()
+        )
+
         self.daily_data = route_counts.merge(daily_features, on=date_cols + route_cols)
         
         print(f"Aggregated to {len(self.daily_data)} daily route observations")
