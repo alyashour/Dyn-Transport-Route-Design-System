@@ -1,0 +1,12 @@
+Distance Matrix Summary
+========================================
+Number of stops: 1952
+Total pairs: 3,810,304
+
+Distance statistics (meters):
+  Min: 5.9
+  Max: 22169.4
+  Mean: 8015.6
+  Median: 7807.9
+
+Unreachable pairs: 0 (0.00%)
