@@ -12,7 +12,7 @@ With the following Schema (respectively):
 - `Date,Hour,Datetime,Estimated_Temperature_C,Weather_Condition`
 
 Then run the following scripts:
-1. `summarize_weather_data.py data/weather_hourly.csv weahter.csv`. This summarizes the hourly data into daily highs and lows.
+1. `summarize_weather_data.py data/weather_hourly.csv weather.csv`. This summarizes the hourly data into daily highs and lows.
 2. `consolidate_data.py`. This combines all the tables into a single table called "processed_combined_data.csv". Every row is 1 trip.
 3. `group_daily_rows_data.py`. This groups every day into a single row in "daily_grouped_data.csv". Every row is 1 day.
 

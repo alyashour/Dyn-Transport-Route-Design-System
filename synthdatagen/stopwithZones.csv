@@ -1,0 +1,1960 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding,id,Name
+ADELCEN1,"22",Adelaide at Central  NB - #22,,"42.9948","-81.23444",,,,,,false,"4",Central_London
+ADELCEN2,"23",Adelaide at Central  SB - #23,,"42.99451","-81.23455",,,,,,false,"4",Central_London
+ADELDUN1,"27",Adelaide at Dundas NB - #27,,"42.989214","-81.231686",,,,,,false,"4",Central_London
+ADELDUN2,"28",Adelaide at Dundas SB - #28,,"42.988343","-81.231467",,,,,,false,"4",Central_London
+ADELHAMI,"36",Adelaide at Hamilton SB - #36,,"42.982275","-81.228829",,,,,,false,"4",Central_London
+ADELHIL1,"37",Adelaide at Hill NB - #37,,"42.979827","-81.227608",,,,,,false,"4",Central_London
+ADELHIL2,"38",Adelaide at Hill SB - #38,,"42.980363","-81.227992",,,,,,false,"4",Central_London
+ADELLISI,"53",Adelaide at Hamilton NB - #53,,"42.982516","-81.228761",,,,,,false,"4",Central_London
+ADELLORN,"54",Adelaide at Lorne NB - #54,,"42.992328","-81.233229",,,,,,false,"4",Central_London
+ADELMCMA,"57",Adelaide at McMahen NB - #57,,"42.99759","-81.23582",,,,,,false,"4",Central_London
+ADELNEL1,"58",Adelaide at Nelson NB - #58,,"42.977567","-81.226683",,,,,,false,"4",Central_London
+ADELNEL2,"59",Adelaide at Nelson SB - #59,,"42.977503","-81.226792",,,,,,false,"4",Central_London
+ADELPAMA,"69",Adelaide at McMahen SB - #69,,"42.99747","-81.23593",,,,,,false,"4",Central_London
+ADELPIC1,"70",Adelaide at Piccadilly NB - #70,,"42.99887","-81.236488",,,,,,false,"4",Central_London
+ADELPIC2,"71",Adelaide at Piccadilly SB - #71,,"42.999014","-81.236686",,,,,,false,"4",Central_London
+ADELPRIN,"72",Adelaide at Princess SB - #72,,"42.992506","-81.233465",,,,,,false,"4",Central_London
+ADELQUEE,"73",Adelaide at Queens SB - #73,,"42.990215","-81.232309",,,,,,false,"4",Central_London
+COLBCEN1,"432",Colborne at Central NB - #432,,"42.992777","-81.242853",,,,,,false,"4",Central_London
+COLBCEN2,"433",Colborne at Central SB - #433,,"42.992253","-81.242789",,,,,,false,"4",Central_London
+COLBDUFF,"434",Colborne at Dufferin SB - #434,,"42.989251","-81.241198",,,,,,false,"4",Central_London
+COLBPAM1,"439",Colborne at Pall Mall NB - #439,,"42.994937","-81.243983",,,,,,false,"4",Central_London
+COLBPAM2,"440",Colborne at Pall Mall SB - #440,,"42.994842","-81.244053",,,,,,false,"4",Central_London
+COLBPRIN,"443",Colborne at Princess NB - #443,,"42.990303","-81.241638",,,,,,false,"4",Central_London
+DUFFCOLB,"531",Dufferin at Colborne EB - #531,,"42.988828","-81.241878",,,,,,false,"4",Central_London
+DUFFPICT,"532",Dufferin at Picton EB - #532,,"42.987954","-81.244986",,,,,,false,"4",Central_London
+DUFFWEL2,"535",Dufferin east of Wellington WB - #535,,"42.987807","-81.245999",,,,,,false,"4",Central_London
+DUNDADE1,"537",Dundas at Adelaide EB - #537,,"42.98857","-81.2323",,,,,,false,"4",Central_London
+DUNDADE2,"538",Dundas at Adelaide WB - #538,,"42.98876","-81.23217",,,,,,false,"4",Central_London
+DUNDCOL1,"552",Dundas at Colborne EB - #552,,"42.986356","-81.239964",,,,,,false,"4",Central_London
+DUNDCOL2,"553",Dundas at Colborne WB - #553,,"42.986632","-81.239501",,,,,,false,"4",Central_London
+DUNDMAI1,"585",Dundas at Maitland EB - #585,,"42.987275","-81.237054",,,,,,false,"4",Central_London
+DUNDMAI2,"586",Dundas at Maitland WB - #586,,"42.987404","-81.236751",,,,,,false,"4",Central_London
+DUNDRIDO,"600",Dundas at Ridout EB - #600,,"42.982377","-81.254162",,,,,,false,"4",Central_London
+DUNDWAT1,"614",Dundas east of Waterloo EB - #614,,"42.985819","-81.241849",,,,,,false,"4",Central_London
+DUNDWAT2,"615",Dundas at Waterloo WB - #615,,"42.985855","-81.242283",,,,,,false,"4",Central_London
+DUNDWEL2,"620",Dundas at Wellington WB - #620,,"42.985046","-81.245045",,,,,,false,"4",Central_London
+DUNDWIL1,"623",Dundas at William EB - #623,,"42.988001","-81.234357",,,,,,false,"4",Central_London
+DUNDWIL2,"624",Dundas at William WB - #624,,"42.988167","-81.234044",,,,,,false,"4",Central_London
+GREYCOLB,"804",Grey at Colborne WB - #804,,"42.979241","-81.236529",,,,,,false,"4",Central_London
+GREYWATE,"805",Grey at Waterloo WB - #805,,"42.978687","-81.238647",,,,,,false,"4",Central_London
+HAMIADE1,"845",Hamilton at Adelaide EB - #845,,"42.981991","-81.228831",,,,,,false,"4",Central_London
+HAMIADE2,"846",Hamilton at Adelaide WB - #846,,"42.982041","-81.228328",,,,,,false,"4",Central_London
+HORTHAMI,"966",Horton at Hamilton WB - #966,,"42.982727","-81.233841",,,,,,false,"4",Central_London
+HORTMAIT,"967",Horton at Maitland EB - #967,,"42.982411","-81.234569",,,,,,false,"4",Central_London
+HORTRIC2,"969",Horton at Richmond WB - #969,,"42.97894","-81.247975",,,,,,false,"4",Central_London
+HORTRID1,"970",Horton at Ridout EB - #970,,"42.977825","-81.251008",,,,,,false,"4",Central_London
+HORTWAT2,"977",Horton at Waterloo WB - #977,,"42.981101","-81.239838",,,,,,false,"4",Central_London
+HORTWELL,"978",Horton at Wellington EB - #978,,"42.980351","-81.242012",,,,,,false,"4",Central_London
+KINGRICH,"1086",King at Richmond EB - #1086,,"42.9826","-81.2486",,,,,,false,"4",Central_London
+OXFOGEO1,"1298",Oxford at St. George EB - #1298,,"42.994743","-81.255576",,,,,,false,"4",Central_London
+OXFOGEO2,"1299",Oxford at St. George WB - #1299,,"42.994758","-81.255944",,,,,,false,"4",Central_London
+OXFORIC1,"1333",Oxford at Richmond EB - #1333,,"42.995586","-81.252763",,,,,,false,"4",Central_London
+OXFOTAL1,"1350",Oxford at Talbot EB - #1350,,"42.993941","-81.258169",,,,,,false,"4",Central_London
+OXFOTAL2,"1351",Oxford at Talbot WB - #1351,,"42.994224","-81.257846",,,,,,false,"4",Central_London
+OXFOWEL1,"1356",Oxford at Wellington EB - #1356,,"42.996041","-81.251186",,,,,,false,"4",Central_London
+QUEECLAR,"1442",Queens at Clarence Station WB - #1442,,"42.98575","-81.2479",,,,,,false,"4",Central_London
+QUENRIDO,"1443",Queens at Ridout Station WB - #1443,,"42.98368","-81.254207",,,,,,false,"4",Central_London
+RICHCENT,"1463",Richmond at Central SB - #1463,,"42.990176","-81.250873",,,,,,false,"4",Central_London
+RICHDUF2,"1467",Richmond at Dufferin SB - #1467,,"42.98696","-81.250781",,,,,,false,"4",Central_London
+RICHGREY,"1475",Richmond at Grey SB - #1475,,"42.976781","-81.246257",,,,,,false,"4",Central_London
+RICHHOT1,"1478",Richmond north of Horton NB - #1478,,"42.979378","-81.247439",,,,,,false,"4",Central_London
+RICHHOT2,"1479",Richmond at Horton SB - #1479,,"42.979296","-81.247519",,,,,,false,"4",Central_London
+RICHHOT3,"1480",Richmond south of Horton NB - #1480,,"42.978707","-81.247083",,,,,,false,"4",Central_London
+RICHHYM1,"1483",Richmond at Hyman NB - #1483,,"42.991222","-81.250886",,,,,,false,"4",Central_London
+RICHKEN1,"1488",Richmond at Angel NB - #1488,,"42.988374","-81.250678",,,,,,false,"4",Central_London
+RICHKEN2,"1489",Richmond at Kent SB - #1489,,"42.988156","-81.250752",,,,,,false,"4",Central_London
+RICHKIN1,"1490",Richmond at King NB - #1490,,"42.98234","-81.2489",,,,,,false,"4",Central_London
+RICHMILL,"1493",Richmond at Mill SB - #1493,,"42.992941","-81.251948",,,,,,false,"4",Central_London
+RICHOXF2,"1495",Richmond at Oxford SB - #1495,,"42.994909","-81.252915",,,,,,false,"4",Central_London
+RICHPALL,"1496",Richmond at Pall Mall NB - #1496,,"42.992773","-81.251649",,,,,,false,"4",Central_London
+RICHQUEE,"1501",Richmond at Queens NB - #1501,,"42.985269","-81.25034",,,,,,false,"4",Central_London
+RICHSIM1,"1509",Richmond at Simcoe NB - #1509,,"42.977308","-81.246413",,,,,,false,"4",Central_London
+RIDOHORT,"1546",Ridout at Horton SB - #1546,,"42.977359","-81.251468",,,,,,false,"4",Central_London
+RIDOYORK,"1558",Ridout at York SB - #1558,,"42.980443","-81.253033",,,,,,false,"4",Central_London
+SOUTWATE,"1702",South at Waterloo St EB - #1702,,"42.976051","-81.23789",,,,,,false,"4",Central_London
+SOUTWEL3,"1705",South at Wellington St EB - #1705,,"42.975453","-81.24009",,,,,,false,"4",Central_London
+WELLDUFF,"1936",Wellington at  Dufferin St NB - #1936,,"42.987394","-81.246459",,,,,,false,"4",Central_London
+WELLDUN2,"1938",Wellington at Dundas SB - #1938,,"42.98539","-81.24573",,,,,,false,"4",Central_London
+WELLDUN3,"1939",Wellington at King Station NB - #1939,,"42.98437","-81.24483",,,,,,false,"4",Central_London
+WELLGRE1,"1944",Wellington at Grey St NB - #1944,,"42.978105","-81.241688",,,,,,false,"4",Central_London
+WELLGRE2,"1945",Wellington at Grey SB - #1945,,"42.977378","-81.241642",,,,,,false,"4",Central_London
+WELLHOR1,"1947",Wellington at Horton Station NB - #1947,,"42.98049","-81.242866",,,,,,false,"4",Central_London
+WELLHOR2,"1948",Wellington at Horton Station SB - #1948,,"42.979808","-81.242895",,,,,,false,"4",Central_London
+WELLSOU1,"1968",Wellington at  South St NB - #1968,,"42.975691","-81.240519",,,,,,false,"4",Central_London
+WELLSOU2,"1969",Wellington at South SB - #1969,,"42.975173","-81.240561",,,,,,false,"4",Central_London
+YORKCOL1,"2157",York at Colborne EB - #2157,,"42.984043","-81.238324",,,,,,false,"4",Central_London
+YORKCOL2,"2158",York at Colborne WB - #2158,,"42.98405","-81.23898",,,,,,false,"4",Central_London
+YORKMAI1,"2163",York at Maitland EB - #2163,,"42.9849","-81.23529",,,,,,false,"4",Central_London
+YORKMAI2,"2164",York at Maitland WB - #2164,,"42.98496","-81.23544",,,,,,false,"4",Central_London
+YORKTHA1,"2170",York at Thames EB - #2170,,"42.979448","-81.255056",,,,,,false,"4",Central_London
+YORKWAT1,"2172",York at Waterloo EB - #2172,,"42.983467","-81.240461",,,,,,false,"4",Central_London
+YORKWAT2,"2173",York at Waterloo WB - #2173,,"42.983498","-81.240776",,,,,,false,"4",Central_London
+YORKWIL1,"2175",York at William EB - #2175,,"42.985372","-81.233601",,,,,,false,"4",Central_London
+YORKWIL2,"2176",York at William WB - #2176,,"42.985708","-81.232685",,,,,,false,"4",Central_London
+DUFFWATS,"2218",Dufferin at Waterloo WB - #2218,,"42.98848","-81.24351",,,,,,false,"4",Central_London
+HORTCOL1,"2239",Horton at Colborne WB - #2239,,"42.981884","-81.236955",,,,,,false,"4",Central_London
+HORTCOL2,"2240",Horton at Colborne EB - #2240,,"42.981597","-81.237487",,,,,,false,"4",Central_London
+SOUTHOSP,"2276",South at Colborne EB - #2276,,"42.976705","-81.235546",,,,,,false,"4",Central_London
+HAMIWIL1,"2317",Hamilton at William EB - #2317,,"42.98227","-81.230895",,,,,,false,"4",Central_London
+HAMIWIL2,"2318",Hamilton at William WB - #2318,,"42.98248","-81.231086",,,,,,false,"4",Central_London
+ADELDUFR,"2690",Adelaide at Dufferin SB - #2690,,"42.991508","-81.23295",,,,,,false,"4",Central_London
+KINGTALB,"2736",King at Talbot Station EB - #2736,,"42.98183","-81.25145",,,,,,false,"4",Central_London
+QUEERIC1,"2737",Queens at Richmond 1 WB - #2737,,"42.98525","-81.24965",,,,,,false,"4",Central_London
+RICHKIN4,"2740",Richmond at King SB - #2740,,"42.982623","-81.249175",,,,,,false,"4",Central_London
+RICHQUE1,"2741",Richmond north of Queens SB - #2741,,"42.985098","-81.250438",,,,,,false,"4",Central_London
+RICHQUE2,"2742",Richmond south of Queens SB - #2742,,"42.984459","-81.250107",,,,,,false,"4",Central_London
+RIDOYOR2,"2743",Ridout at York NB - #2743,,"42.980336","-81.252865",,,,,,false,"4",Central_London
+WATEKINS,"2744",Waterloo & King St SB - #2744,,"42.98422","-81.24188",,,,,,false,"4",Central_London
+KINGWEL2,"2916",King at Wellington Station EB - #2916 ,,"42.983595","-81.244957",,,,,,false,"4",Central_London
+KINGADE1,"2962",King at Adelaide Station EB - #2962,,"42.9873","-81.23149",,,,,,false,"4",Central_London
+KINGADE2,"2963",King at Adelaide Station WB - #2963,,"42.98759","-81.23088",,,,,,false,"4",Central_London
+QUEERIC2,"2971",Queens at Richmond 2 WB - #2971,,"42.985467","-81.248881",,,,,,false,"4",Central_London
+YORKWEL1,"2976",York at Wellington WB - #2976,,"42.982713","-81.243891",,,,,,false,"4",Central_London
+KINGBUR3,"2977",King at Burwell Station EB - #2977,,"42.98554","-81.23795",,,,,,false,"4",Central_London
+KINGBUR4,"2978",King at Burwell Station WB - #2978,,"42.98558","-81.23827",,,,,,false,"4",Central_London
+ALDEARD1,"114",Aldersbrook at Ardsley NB - #114,,"43.001538","-81.314869",,,,,,false,"1",Northwest
+ALDEARD2,"115",Aldersbrook at Ardsley SB - #115,,"43.001494","-81.314973",,,,,,false,"1",Northwest
+ALDEAURO,"116",Aldersbrook at Aurora SB - #116,,"42.993378","-81.307808",,,,,,false,"1",Northwest
+ALDEBARR,"117",Aldersbrook at Barrydale SB - #117,,"42.993947","-81.311052",,,,,,false,"1",Northwest
+ALDEBLA2,"119",Aldersbrook at Blackacres SB - #119,,"43.011434","-81.321682",,,,,,false,"1",Northwest
+ALDEBLA3,"120",Aldersbrook north of Blackacres NB - #120,,"43.012055","-81.321538",,,,,,false,"1",Northwest
+ALDEBRAN,"121",Aldersbrook at Brandy Lane NB - #121,,"42.994024","-81.311112",,,,,,false,"1",Northwest
+ALDEBRU1,"122",Aldersbrook at Brunswick NB - #122,,"42.999184","-81.315359",,,,,,false,"1",Northwest
+ALDEBRU2,"123",Aldersbrook at Brunswick SB - #123,,"42.999267","-81.31545",,,,,,false,"1",Northwest
+ALDEGAI1,"126",Aldersbrook at Gainsborough NB - #126,,"43.003132","-81.315752",,,,,,false,"1",Northwest
+ALDEGAI2,"127",Aldersbrook at Gainsborough SB - #127,,"43.003719","-81.316164",,,,,,false,"1",Northwest
+ALDEHAW1,"128",Aldersbrook at Hawthorne NB - #128,,"43.006761","-81.318598",,,,,,false,"1",Northwest
+ALDEHAW2,"129",Aldersbrook at Hawthorne SB - #129,,"43.006554","-81.318479",,,,,,false,"1",Northwest
+ALDELAW1,"130",Aldersbrook at Lawson NB - #130,,"42.994294","-81.312784",,,,,,false,"1",Northwest
+ALDELAW2,"131",Aldersbrook at Lawson SB - #131,,"42.994256","-81.312906",,,,,,false,"1",Northwest
+ALDERAN1,"132",Aldersbrook at Ranchwood NB - #132,,"43.004819","-81.317311",,,,,,false,"1",Northwest
+ALDEREX1,"134",Aldersbrook at Rexway NB - #134,,"43.008857","-81.320511",,,,,,false,"1",Northwest
+ALDEREX2,"135",Aldersbrook at Rexway SB - #135,,"43.008817","-81.320612",,,,,,false,"1",Northwest
+ALDESOCT,"136",Aldersbrook at Southcott Crt WB - #136,,"42.99338","-81.307674",,,,,,false,"1",Northwest
+ALDESPR1,"137",Aldersbrook at Brandy Ln N Leg NB - #137,,"42.996819","-81.314796",,,,,,false,"1",Northwest
+ALDESPR2,"138",Aldersbrook at Brandy Ln SB - #138,,"42.996742","-81.314911",,,,,,false,"1",Northwest
+ALUMHAL1,"141",Alumni Hall EB - #141,,"43.006041","-81.274944",,,,,,false,"1",Northwest
+ALUMHAL2,"142",Alumni Hall WB - #142,,"43.006319","-81.275351",,,,,,false,"1",Northwest
+BEAVBLYT,"224",Beaverbrook at Blythwood WB - #224,,"42.989057","-81.298029",,,,,,false,"1",Northwest
+BEAVHORI,"225",Beaverbrook at Horizon WB - #225,,"42.990733","-81.292312",,,,,,false,"1",Northwest
+BEAVOXF1,"226",Beaverbrook at Oxford NB - #226,,"42.987086","-81.281034",,,,,,false,"1",Northwest
+BEAVOXF2,"227",Beaverbrook at Oxford SB - #227,,"42.986911","-81.281009",,,,,,false,"1",Northwest
+BEAVWOND,"228",Beaverbrook at Wonderland WB - #228,,"42.990017","-81.294785",,,,,,false,"1",Northwest
+BLACEDG2,"262",Blackacres at Edgehill Cres 1 WB - #262,,"43.0109","-81.31129",,,,,,false,"1",Northwest
+BLACEDG4,"263",Blackacres at Edgehill Cres WB - #263,,"43.012802","-81.315024",,,,,,false,"1",Northwest
+BLACHOM2,"265",Blackacres at Hawthorne NB - #265,,"43.009442","-81.310468",,,,,,false,"1",Northwest
+BLACWOND,"267",Blackacres at Wonderland WB - #267,,"43.009924","-81.306375",,,,,,false,"1",Northwest
+BLACWWA2,"269",Blackacres at Winding Way WB - #269,,"43.012349","-81.319429",,,,,,false,"1",Northwest
+CAPUBLSM,"321",Capulet Lane at Blacksmith SB - #321,,"42.987537","-81.299896",,,,,,false,"1",Northwest
+CAPUCAPW,"322",Capulet Lane at Capulet Walk SB - #322,,"42.985177","-81.298375",,,,,,false,"1",Northwest
+CHERCHBL,"371",Cherryhill at Cherryhill Blvd WB - #371,,"42.99116","-81.277868",,,,,,false,"1",Northwest
+CHERCHC1,"372",Cherryhill at Cherryhill Blvd NB - #372,,"42.990935","-81.277884",,,,,,false,"1",Northwest
+CHERCHC3,"374",Cherryhill east of Cherryhill Cir EB - #374,,"42.99177","-81.275942",,,,,,false,"1",Northwest
+CHERCHC4,"375",160 Cherryhill Place - #375,,"42.991975","-81.275413",,,,,,false,"1",Northwest
+CHEROXF1,"378",Cherryhill north of Oxford 1 NB - #378,,"42.989354","-81.276458",,,,,,false,"1",Northwest
+CHEROXF2,"379",Cherryhill at Oxford SB - #379,,"42.989064","-81.276488",,,,,,false,"1",Northwest
+CHERPLA1,"381",Cherryhill at Platts Lane EB - #381,,"42.99171","-81.273521",,,,,,false,"1",Northwest
+CHERPLA2,"382",Cherryhill at Platts Lane WB - #382,,"42.991829","-81.273316",,,,,,false,"1",Northwest
+DELAHAL2,"509",Delaware Hall SB - #509,,"43.008569","-81.269757",,,,,,false,"1",Northwest
+DELAHALL,"510",Delaware Hall NB - #510,,"43.008818","-81.26958",,,,,,false,"1",Northwest
+FARRPROU,"717",Farrah at Proudfoot EB - #717,,"42.986899","-81.289859",,,,,,false,"1",Northwest
+GAINWON1,"756",Sherwood Forest Mall EB - #756,,"43.006225","-81.306097",,,,,,false,"1",Northwest
+GAINWON2,"757",Sherwood Forest Mall WB - #757,,"43.006698","-81.304967",,,,,,false,"1",Northwest
+HYDEFIG1,"1026",Hyde Park at Fiddlers Green NB - #1026,,"42.971772","-81.316912",,,,,,false,"1",Northwest
+HYDEFIG2,"1027",Hyde Park at Fiddlers Green SB - #1027,,"42.971742","-81.317032",,,,,,false,"1",Northwest
+HYDEIVAN,"1028",Hyde Park at Ivanhill NB - #1028,,"42.981119","-81.323053",,,,,,false,"1",Northwest
+HYDEOXF1,"1029",Hyde Park south of Oxford NB - #1029,,"42.97504","-81.320034",,,,,,false,"1",Northwest
+HYDEOXF2,"1030",Hyde Park at Oxford SB - #1030,,"42.975361","-81.320346",,,,,,false,"1",Northwest
+HYDERIVE,"1031",Hyde Park at Riverside NB - #1031,,"42.965014","-81.315052",,,,,,false,"1",Northwest
+HYDEVALE,"1032",Hyde Park at Valetta NB - #1032,,"42.96904","-81.316032",,,,,,false,"1",Northwest
+KINGOAK1,"1084",Kingsway at Oakridge EB - #1084,,"42.977778","-81.294035",,,,,,false,"1",Northwest
+KINGOAK2,"1085",Kingsway at Oakridge WB - #1085,,"42.977689","-81.294624",,,,,,false,"1",Northwest
+KINGWON1,"1091",Kingsway at Wonderland EB - #1091,,"42.978802","-81.290458",,,,,,false,"1",Northwest
+KINGWON2,"1092",Kingsway at Wonderland WB - #1092,,"42.978844","-81.290607",,,,,,false,"1",Northwest
+LAMBMID1,"1104",Talbot College NB - #1104,,"43.007611","-81.269936",,,,,,false,"1",Northwest
+LAWSBAN1,"1107",Lawson at Banting EB - #1107,,"42.999543","-81.304563",,,,,,false,"1",Northwest
+LAWSBAN2,"1108",Lawson at Banting WB - #1108,,"42.999634","-81.304529",,,,,,false,"1",Northwest
+LAWSDENL,"1109",Lawson at Denlaw EB - #1109,,"42.997874","-81.306513",,,,,,false,"1",Northwest
+LAWSLIMB,"1110",Lawson at Limberlost WB - #1110,,"42.99789","-81.306596",,,,,,false,"1",Northwest
+LIMBARD1,"1118",Limberlost at Ardsley NB - #1118,,"43.00247","-81.309096",,,,,,false,"1",Northwest
+LIMBARD2,"1119",Limberlost north of Ardsley SB - #1119,,"43.002366","-81.309254",,,,,,false,"1",Northwest
+LIMBARD3,"1120",Limberlost between Lawson and Ardsley NB - #1120,,"42.999973","-81.308371",,,,,,false,"1",Northwest
+LIMBARD4,"1121",Limberlost south of Ardsley SB - #1121,,"42.999916","-81.308442",,,,,,false,"1",Northwest
+LIMBGAI1,"1124",Limberlost at Gainsborough NB - #1124,,"43.005037","-81.309399",,,,,,false,"1",Northwest
+LIMBGAI2,"1125",Limberlost at Gainsborough SB - #1125,,"43.004912","-81.309452",,,,,,false,"1",Northwest
+MIDDPERT,"1173",Talbot College - #1173,,"43.008224","-81.270543",,,,,,false,"1",Northwest
+NATSCI,"1222",Natural Science - #1222,,"43.010172","-81.273174",,,,,,false,"1",Northwest
+OXFOANDR,"1262",Oxford at St. Andrews EB - #1262,,"42.992511","-81.262967",,,,,,false,"1",Northwest
+OXFOBEA1,"1263",Oxford at Beaverbrook EB - #1263,,"42.987116","-81.281374",,,,,,false,"1",Northwest
+OXFOBEA2,"1264",Oxford west of Beaverbrook WB - #1264,,"42.986398","-81.284148",,,,,,false,"1",Northwest
+OXFOBEA4,"1265",Oxford east of Beaverbrook WB - #1265,,"42.987331","-81.280986",,,,,,false,"1",Northwest
+OXFOBRI1,"1266",Oxford at Britannia EB - #1266,,"42.989831","-81.272053",,,,,,false,"1",Northwest
+OXFOCAP1,"1268",Oxford at Capulet Lane EB - #1268,,"42.982657","-81.296316",,,,,,false,"1",Northwest
+OXFOCAP2,"1269",Oxford at Capulet Lane WB - #1269,,"42.983137","-81.295367",,,,,,false,"1",Northwest
+OXFOCHE1,"1270",Chelsey Park Retirement Home - #1270,,"42.988137","-81.277858",,,,,,false,"1",Northwest
+OXFOCHE2,"1271",Oxford at Cherryhill Blvd WB - #1271,,"42.988906","-81.275677",,,,,,false,"1",Northwest
+OXFOCHE3,"1272",Oxford at Cherryhill Blvd EB - #1272,,"42.988555","-81.276434",,,,,,false,"1",Northwest
+OXFOFERN,"1290",Oxford at Fernely WB - #1290,,"42.991842","-81.26563",,,,,,false,"1",Northwest
+OXFOFID1,"1291",Oxford at Fiddlers Green EB - #1291,,"42.976309","-81.318179",,,,,,false,"1",Northwest
+OXFOFID2,"1292",Oxford at Fiddlers Green WB - #1292,,"42.976606","-81.317731",,,,,,false,"1",Northwest
+OXFOFRE1,"1294",Oxford at Freele EB - #1294,,"42.978416","-81.310941",,,,,,false,"1",Northwest
+OXFOFRE2,"1295",Oxford at Freele WB - #1295,,"42.978637","-81.310731",,,,,,false,"1",Northwest
+OXFOGRAC,"1303",Oxford & Grace St WB - #1303,,"42.992617","-81.262911",,,,,,false,"1",Northwest
+OXFOGUI1,"1304",Oxford at Guildwood Gate EB - #1304,,"42.97745","-81.314125",,,,,,false,"1",Northwest
+OXFOGUI2,"1305",Oxford at Guildwood Blvd WB - #1305,,"42.980049","-81.305883",,,,,,false,"1",Northwest
+OXFOGUI3,"1306",Oxford at Guildwood Gate WB - #1306,,"42.977515","-81.314731",,,,,,false,"1",Northwest
+OXFOHYD1,"1311",Oxford at Hyde Park EB - #1311,,"42.975591","-81.320655",,,,,,false,"1",Northwest
+OXFOHYD2,"1312",Oxford at Hyde Park WB - #1312,,"42.975275","-81.322369",,,,,,false,"1",Northwest
+OXFOJUNI,"1316",Oxford at Juniper EB - #1316,,"42.979571","-81.30685",,,,,,false,"1",Northwest
+OXFOLAR1,"1317",Oxford at Laruel EB - #1317,,"42.98131","-81.300912",,,,,,false,"1",Northwest
+OXFOLAR2,"1318",Oxford at Laurel WB - #1318,,"42.981567","-81.30059",,,,,,false,"1",Northwest
+OXFOOLH1,"1324",Oxford at Old Hunt EB - #1324,,"42.972605","-81.331086",,,,,,false,"1",Northwest
+OXFOOLH2,"1325",Oxford at Old Hunt WB - #1325,,"42.972682","-81.331109",,,,,,false,"1",Northwest
+OXFOPLAT,"1326",Oxford at Platts Lane WB - #1326,,"42.989933","-81.272489",,,,,,false,"1",Northwest
+OXFOPRO1,"1327",Oxford at Proudfoot Lane EB - #1327,,"42.985262","-81.287429",,,,,,false,"1",Northwest
+OXFOPRO2,"1328",Oxford at Proudfoot WB - #1328,,"42.985491","-81.287381",,,,,,false,"1",Northwest
+OXFORAT1,"1331",Oxford at Rathowen EB - #1331,,"42.990925","-81.268407",,,,,,false,"1",Northwest
+OXFORAT2,"1332",Oxford at Rathowen WB - #1332,,"42.991005","-81.268365",,,,,,false,"1",Northwest
+OXFOROY1,"1337",Oxford at Royal York EB - #1337,,"42.974746","-81.323709",,,,,,false,"1",Northwest
+OXFOROY2,"1338",Oxford at Royal York WB - #1338,,"42.974646","-81.324364",,,,,,false,"1",Northwest
+OXFOROY3,"1339",St Aidens Church - #1339,,"42.973813","-81.326909",,,,,,false,"1",Northwest
+OXFOROY4,"1340",Marie Curie School - #1340,,"42.973802","-81.327313",,,,,,false,"1",Northwest
+OXFOSAN1,"1341",Oxford at Sanatorium EB - #1341,,"42.971955","-81.333339",,,,,,false,"1",Northwest
+OXFOWHA1,"1358",Oxford at Wharncliffe EB - #1358,,"42.992073","-81.264464",,,,,,false,"1",Northwest
+OXFOWHA2,"1359",Oxford at Wharncliffe WB - #1359,,"42.992133","-81.264637",,,,,,false,"1",Northwest
+OXFOWON1,"1363",Oxford at Wonderland EB - #1363,,"42.984173","-81.29128",,,,,,false,"1",Northwest
+OXFOWON2,"1364",Oxford at Wonderland WB - #1364,,"42.984031","-81.292317",,,,,,false,"1",Northwest
+PLATCHE1,"1389",Platts Lane at Cherryhill Place NB - #1389,,"42.99222","-81.27299",,,,,,false,"1",Northwest
+PLATCHE2,"1390",Platts Lane at Cherryhill Place SB - #1390,,"42.991966","-81.273038",,,,,,false,"1",Northwest
+PLATOXF1,"1391",Platts Lane at Oxford NB - #1391,,"42.990499","-81.272074",,,,,,false,"1",Northwest
+PLATOXF2,"1392",Platts Lane at Oxford SB - #1392,,"42.990316","-81.272041",,,,,,false,"1",Northwest
+PLATTRO1,"1393",Platts Lane at Trott NB - #1393,,"42.995535","-81.274696",,,,,,false,"1",Northwest
+PLATTRO2,"1394",Platts Lane at Trott SB - #1394,,"42.995009","-81.274594",,,,,,false,"1",Northwest
+PROUBEA1,"1423",Proudfoot at Beaverbrook EB - #1423,,"42.984089","-81.281458",,,,,,false,"1",Northwest
+PROUBEA2,"1424",Proudfoot at Beaverbrook WB - #1424,,"42.984185","-81.28149",,,,,,false,"1",Northwest
+PROUBEA3,"1425",Proudfoot at Beaverbrook SB - #1425,,"42.989486","-81.290155",,,,,,false,"1",Northwest
+PROUFAR1,"1427",Proudfoot north of Farrah NB - #1427,,"42.988837","-81.289729",,,,,,false,"1",Northwest
+PROUFAR2,"1428",Proudfoot at Farrah SB - #1428,,"42.98627","-81.288546",,,,,,false,"1",Northwest
+PROUFAR3,"1429",Proudfoot at Farrah NB - #1429,,"42.987136","-81.288882",,,,,,false,"1",Northwest
+PROUOXF1,"1430",Proudfoot north of Oxford NB - #1430,,"42.9861","-81.288366",,,,,,false,"1",Northwest
+PROUOXF2,"1431",Proudfoot at Oxford SB - #1431,,"42.984805","-81.287837",,,,,,false,"1",Northwest
+PROUOXF3,"1432",Proudfoot south of Oxford NB - #1432,,"42.984669","-81.28764",,,,,,false,"1",Northwest
+RIVEANT1,"1562",Riverside at St. Anthony EB - #1562,,"42.962403","-81.323363",,,,,,false,"1",Northwest
+RIVEANT2,"1563",Riverside at St. Anthony WB - #1563,,"42.962511","-81.323507",,,,,,false,"1",Northwest
+RIVEBEA1,"1564",Riverside at Beaverbrook EB - #1564,,"42.980089","-81.278145",,,,,,false,"1",Northwest
+RIVEBEA2,"1565",Riverside east of Beaverbrook WB - #1565,,"42.981044","-81.276047",,,,,,false,"1",Northwest
+RIVEBEA4,"1566",Riverside west of Beaverbrook WB - #1566,,"42.980225","-81.277985",,,,,,false,"1",Northwest
+RIVEBRE1,"1567",Riverside at Braemar EB - #1567,,"42.977428","-81.286644",,,,,,false,"1",Northwest
+RIVEBRE2,"1568",Riverside at Braemar WB - #1568,,"42.977418","-81.286814",,,,,,false,"1",Northwest
+RIVEBRIT,"1569",Riverside at Britannia WB - #1569,,"42.982751","-81.271188",,,,,,false,"1",Northwest
+RIVECAVE,"1570",Riverside at Cavendish EB - #1570,,"42.982955","-81.26652",,,,,,false,"1",Northwest
+RIVEHAR1,"1581",Riverside at Hartson east EB - #1581,,"42.962934","-81.318488",,,,,,false,"1",Northwest
+RIVEHAR2,"1582",Riverside at Hartson east WB - #1582,,"42.96313","-81.318102",,,,,,false,"1",Northwest
+RIVEHAR3,"1583",Riverside at Hartson west EB - #1583,,"42.962989","-81.326031",,,,,,false,"1",Northwest
+RIVEHAR4,"1584",Riverside at Hartson WB - #1584,,"42.963005","-81.32587",,,,,,false,"1",Northwest
+RIVEMTPL,"1587",Riverside at Mt. Pleasant  WB - #1587,,"42.983125","-81.26699",,,,,,false,"1",Northwest
+RIVEMURD,"1588",Riverside at Murdock EB - #1588,,"42.98263","-81.271756",,,,,,false,"1",Northwest
+RIVEORI1,"1589",Riverside at Old Riverside EB - #1589,,"42.978596","-81.283087",,,,,,false,"1",Northwest
+RIVEORI2,"1590",Riverside at Old Riverside WB - #1590,,"42.978628","-81.283336",,,,,,false,"1",Northwest
+RIVESAN1,"1592",Riverside at Sanatorium EB - #1592,,"42.963646","-81.329265",,,,,,false,"1",Northwest
+RIVESAN2,"1593",Riverside at Sanatorium WB - #1593,,"42.963806","-81.329802",,,,,,false,"1",Northwest
+RIVEWHA1,"1600",Riverside at Wharncliffe EB - #1600,,"42.982759","-81.26198",,,,,,false,"1",Northwest
+RIVEWHA4,"1601",Riverside West of Wharncliffe WB - #1601,,"42.983051","-81.263566",,,,,,false,"1",Northwest
+RIVEWIL1,"1602",Riverside at Wilson EB - #1602,,"42.982691","-81.25983",,,,,,false,"1",Northwest
+RIVEWIL2,"1603",Riverside at Wilson WB - #1603,,"42.982815","-81.259629",,,,,,false,"1",Northwest
+RIVEWON1,"1604",Riverside at Wonderland EB - #1604,,"42.976327","-81.289551",,,,,,false,"1",Northwest
+RIVEWOO1,"1606",Riverside at Woodward EB - #1606,,"42.982944","-81.268758",,,,,,false,"1",Northwest
+RIVEWOO2,"1607",Riverside at Woodward WB - #1607,,"42.983031","-81.269268",,,,,,false,"1",Northwest
+SANIRIV1,"1631",Sanatorium at Riverside NB - #1631,,"42.965445","-81.331142",,,,,,false,"1",Northwest
+SANIRIV2,"1632",Sanatorium at Riverside SB - #1632,,"42.965376","-81.331258",,,,,,false,"1",Northwest
+SANISUT1,"1633",Sanatorium at Sutton Place NB - #1633,,"42.968935","-81.332904",,,,,,false,"1",Northwest
+SANISUT2,"1634",St Thomas Aquanis Secondary School SB - #1634,,"42.969123","-81.333177",,,,,,false,"1",Northwest
+SARNALD1,"1635",Sarnia at Aldersbrook EB - #1635,,"42.993777","-81.304513",,,,,,false,"1",Northwest
+SARNALD2,"1636",Sarnia at Aldersbrook WB - #1636,,"42.993911","-81.30438",,,,,,false,"1",Northwest
+SARNBRES,"1637",Sarnia at Brescia Lane WB - #1637,,"43.000384","-81.282356",,,,,,false,"1",Northwest
+SARNCAS1,"1638",Sarnia at Wonderland EB - #1638,,"42.995637","-81.297882",,,,,,false,"1",Northwest
+SARNCAS3,"1639",Sarnia at Castlegrove Blvd  2 EB - #1639,,"42.998833","-81.287041",,,,,,false,"1",Northwest
+SARNCOOM,"1640",Sarnia at Coombs EB - #1640,,"43.000373","-81.281972",,,,,,false,"1",Northwest
+SARNLEYT,"1641",Sarnia at Leyton WB - #1641,,"42.997241","-81.293041",,,,,,false,"1",Northwest
+SARNRIPP,"1643",Sarnia at Rippleton Ave EB - #1643,,"42.997194","-81.292838",,,,,,false,"1",Northwest
+SARNSLEI,"1644",Sarnia at Sleightholme WB - #1644,,"42.998918","-81.287283",,,,,,false,"1",Northwest
+SARNTHIS,"1645",Sarnia at Thistledown Way WB - #1645,,"42.994976","-81.300882",,,,,,false,"1",Northwest
+SARNWES1,"1646",Sarnia at Western EB - #1646,,"43.001328","-81.278769",,,,,,false,"1",Northwest
+SARNWES2,"1647",Sarnia at Western  WB - #1647,,"43.001883","-81.277365",,,,,,false,"1",Northwest
+SARNWON1,"1648",Sarnia at Chapman EB - #1648,,"42.994776","-81.300912",,,,,,false,"1",Northwest
+SEAGHYPK,"1653",Seagull at Hyde Park WB - #1653,,"43.008661","-81.335843",,,,,,false,"1",Northwest
+STANFANS,"1757",Stanton at Fanshawe Park SB - #1757,,"43.010887","-81.333916",,,,,,false,"1",Northwest
+UNIVHOS1,"1816",University Hospital NB - #1816,,"43.013585","-81.274229",,,,,,false,"1",Northwest
+UNIVHOS2,"1817",Universtiy Hospital SB - #1817,,"43.012631","-81.273926",,,,,,false,"1",Northwest
+VALEADEV,"1832",Valetta at Adevon WB - #1832,,"42.975224","-81.301735",,,,,,false,"1",Northwest
+VALECAYL,"1833",Valetta at Cayley Dr WB - #1833,,"42.976208","-81.295904",,,,,,false,"1",Northwest
+VALECRAM,"1834",Valetta at Cramston Cres EB - #1834,,"42.97526","-81.30282",,,,,,false,"1",Northwest
+VALEDER2,"1835",Valetta east of Deerpark Cr WB - #1835,,"42.974878","-81.306085",,,,,,false,"1",Northwest
+VALEDER4,"1836",Valetta West of Deerpark WB - #1836,,"42.973494","-81.306776",,,,,,false,"1",Northwest
+VALEHIB1,"1837",Valetta at Hibicus EB - #1837,,"42.972508","-81.30825",,,,,,false,"1",Northwest
+VALEHIB2,"1838",Valetta at Hibicus  WB - #1838,,"42.972441","-81.308761",,,,,,false,"1",Northwest
+VALEHYP1,"1839",Valetta at Hyde Park EB - #1839,,"42.968761","-81.315413",,,,,,false,"1",Northwest
+VALEHYP2,"1840",Valetta at Hyde Park WB - #1840,,"42.968863","-81.315273",,,,,,false,"1",Northwest
+VALEOAKR,"1841",Valetta at Oakridge Dr EB - #1841,,"42.976409","-81.294914",,,,,,false,"1",Northwest
+VALEOPK2,"1843",Valetta at Oak Park EB - #1843,,"42.973202","-81.30679",,,,,,false,"1",Northwest
+VALEPLA1,"1844",Valetta at Plantation Rd EB - #1844,,"42.971157","-81.312919",,,,,,false,"1",Northwest
+VALEPLA2,"1845",Valetta at Plantation Rd WB - #1845,,"42.971028","-81.313638",,,,,,false,"1",Northwest
+VALESAL1,"1846",Valetta & Salway Place EB - #1846,,"42.972067","-81.309793",,,,,,false,"1",Northwest
+VALESHR1,"1847",Valetta at Shrene Terrace EB - #1847,,"42.975006","-81.299449",,,,,,false,"1",Northwest
+VALESHR2,"1848",Valetta at Shrene Terrace WB - #1848,,"42.975439","-81.29854",,,,,,false,"1",Northwest
+VALEWOO1,"1849",Valetta at Woodborough St EB - #1849,,"42.97011","-81.314576",,,,,,false,"1",Northwest
+VALEWOO2,"1850",Valetta at Woodborough St WB - #1850,,"42.970037","-81.314657",,,,,,false,"1",Northwest
+WESTELG1,"1988",Western at Elgin Dr NB - #1988,,"43.01092","-81.27721",,,,,,false,"1",Northwest
+WESTELG2,"1989",Huron College - #1989,,"43.008253","-81.277301",,,,,,false,"1",Northwest
+WESTESSE,"1991",Western at Essex St NB - #1991,,"42.995468","-81.266679",,,,,,false,"1",Northwest
+WESTHOL1,"1992",Western at Hollywood Cres NB - #1992,,"42.996215","-81.27057",,,,,,false,"1",Northwest
+WESTHOL2,"1993",Western at Hollywood Crt SB - #1993,,"42.996161","-81.27083",,,,,,false,"1",Northwest
+WESTLAM2,"1996",Western at Lambton  SB - #1996,,"43.005491","-81.276961",,,,,,false,"1",Northwest
+WESTPLA1,"2001",Western at Platts Lane NB - #2001,,"42.996613","-81.274624",,,,,,false,"1",Northwest
+WESTPLA2,"2002",Western at Platts Lane SB - #2002,,"42.996341","-81.274171",,,,,,false,"1",Northwest
+WESTSAR2,"2003",Western at Sarnia Rd SB - #2003,,"43.001194","-81.276529",,,,,,false,"1",Northwest
+WESTSAR4,"2004",Althouse College - #2004,,"42.999141","-81.276379",,,,,,false,"1",Northwest
+WHAREMPR,"2035",Wharncliffe at Blackfriars NB - #2035,,"42.989011","-81.263182",,,,,,false,"1",Northwest
+WHARLEXI,"2041",Wharncliffe at Lexington  SB - #2041,,"42.986463","-81.263031",,,,,,false,"1",Northwest
+WHARMCDO,"2042",Western at Essex SB - #2042,,"42.995329","-81.266835",,,,,,false,"1",Northwest
+WHARMOIR,"2043",Wharncliffe at Moir NB - #2043,,"42.986267","-81.262822",,,,,,false,"1",Northwest
+WHARMPL1,"2044",Wharncliffe at Mount Pleasant NB - #2044,,"42.984451","-81.262743",,,,,,false,"1",Northwest
+WHARMPL2,"2045",Wharncliffe at Mt. Pleasant Ave SB - #2045,,"42.984249","-81.262931",,,,,,false,"1",Northwest
+WHAROXF1,"2046",Wharncliffe at Oxford NB - #2046,,"42.992239","-81.264852",,,,,,false,"1",Northwest
+WHAROXF2,"2047",Wharncliffe at Oxford SB - #2047,,"42.992144","-81.265068",,,,,,false,"1",Northwest
+WHARPAUL,"2049",Wharncliffe at Paul SB - #2049,,"42.98908","-81.263431",,,,,,false,"1",Northwest
+WHARWYAT,"2057",Wharncliffe at Wyatt SB - #2057,,"42.982171","-81.26279",,,,,,false,"1",Northwest
+WONDALDE,"2095",Wonderland at Aldersbrook Rd SB - #2095,,"43.01591","-81.30911",,,,,,false,"1",Northwest
+WONDATTA,"2096",Wonderland at Attawandaron Gt. SB - #2096,,"43.01425","-81.30819",,,,,,false,"1",Northwest
+WONDBEA1,"2097",Wonderland at Beaverbrook NB - #2097,,"42.99006","-81.295692",,,,,,false,"1",Northwest
+WONDBEA2,"2098",Wonderland at Beaverbrook Ave SB - #2098,,"42.989438","-81.295648",,,,,,false,"1",Northwest
+WONDBLAC,"2099",Wonderland at Blackacres Blvd SB - #2099,,"43.00967","-81.30574",,,,,,false,"1",Northwest
+WONDFAR1,"2103",Wonderland North of Farrah Stop 1 NB - #2103,,"42.986003","-81.293578",,,,,,false,"1",Northwest
+WONDFAR2,"2104",Wonderland North of Farrah SB - #2104,,"42.985811","-81.293766",,,,,,false,"1",Northwest
+WONDFAR3,"2105",Wonderland North of Farrah Stop 2 NB - #2105,,"42.987627","-81.294437",,,,,,false,"1",Northwest
+WONDFAR4,"2106",Wonderland North of Farrah Rd SB - #2106,,"42.987043","-81.294428",,,,,,false,"1",Northwest
+WONDGAIN,"2107",Wonderland at Gainsborough NB - #2107,,"43.007368","-81.304338",,,,,,false,"1",Northwest
+WONDKIW1,"2108",Wonderland at Kingsway  NB - #2108,,"42.97895","-81.29008",,,,,,false,"1",Northwest
+WONDKIW2,"2109",Wonderland at Kingsway Ave SB - #2109,,"42.979114","-81.290392",,,,,,false,"1",Northwest
+WONDOXF1,"2115",Wonderland North of Oxford  NB - #2115,,"42.98418","-81.292694",,,,,,false,"1",Northwest
+WONDOXF2,"2116",Wonderland North of Oxford SB - #2116,,"42.984199","-81.292946",,,,,,false,"1",Northwest
+WONDOXF3,"2117",Wonderland at Oxford St NB - #2117,,"42.982517","-81.29182",,,,,,false,"1",Northwest
+WONDOXF4,"2118",Wonderland South of Oxford SB - #2118,,"42.981865","-81.29174",,,,,,false,"1",Northwest
+WONDRIV1,"2122",Wonderland at Riverside NB - #2122,,"42.976791","-81.289775",,,,,,false,"1",Northwest
+WONDRIV2,"2123",Wonderland at Riverside Dr SB - #2123,,"42.976033","-81.290474",,,,,,false,"1",Northwest
+WOODCAM1,"2140",Woodward at Cambridge NB - #2140,,"42.988255","-81.270527",,,,,,false,"1",Northwest
+WOODCAM2,"2141",Woodward at Cambridge SB - #2141,,"42.988327","-81.270649",,,,,,false,"1",Northwest
+WOODEDI1,"2142",Woodward at Edinburgh  NB - #2142,,"42.98687","-81.26976",,,,,,false,"1",Northwest
+WOODEDI2,"2143",Woodward at Edinburgh SB - #2143,,"42.98647","-81.26986",,,,,,false,"1",Northwest
+WOODRIVE,"2144",Woodward at Riverside  NB - #2144,,"42.983507","-81.269484",,,,,,false,"1",Northwest
+WOODTOZ2,"2146",Woodward at Tozer Ave SB - #2146,,"42.984804","-81.269627",,,,,,false,"1",Northwest
+ALDEALD2,"2188",Aldersbrook Gt at Aldersbrook Rd SB - #2188,,"43.014303","-81.321415",,,,,,false,"1",Northwest
+LAWSBLF1,"2248",Lawson at Blue Forest EB - #2248,,"43.000417","-81.301891",,,,,,false,"1",Northwest
+LAWSBLF2,"2249",Lawson at Blue Forest WB - #2249,,"43.000438","-81.302044",,,,,,false,"1",Northwest
+WESTPHA1,"2290",Western South of Phillip Aziz NB - #2290,,"43.00025","-81.276229",,,,,,false,"1",Northwest
+WESTPHA3,"2291",Western North of Phillip Aziz  NB - #2291,,"43.002615","-81.276459",,,,,,false,"1",Northwest
+WONDSAR2,"2322",Wonderland South of Sarnia  SB - #2322,,"42.994507","-81.298298",,,,,,false,"1",Northwest
+RIVEWHA2,"2336",Riverside east of Wharncliffe WB - #2336,,"42.982985","-81.262124",,,,,,false,"1",Northwest
+FOREHIL1,"2341",Proudfoot at Forest Hills EB - #2341,,"42.983223","-81.284753",,,,,,false,"1",Northwest
+FOREHIL2,"2342",Proudfoot at Forest Hills WB - #2342,,"42.983285","-81.28431",,,,,,false,"1",Northwest
+GAINWON4,"2343",Gainsborough between Wonderland & Limberlost WB - #2343,,"43.005918","-81.307592",,,,,,false,"1",Northwest
+BEAVOAKC,"2385",Beaverbrook at Oakcrossing east WB - #2385,,"42.986876","-81.3057",,,,,,false,"1",Northwest
+BEAVSARN,"2387",Sarnia at Beaverbrook EB - #2387,,"42.990416","-81.316309",,,,,,false,"1",Northwest
+BEAVWILR,"2388",Beaverbrook at Wild Rose WB - #2388,,"42.988177","-81.31509",,,,,,false,"1",Northwest
+BEAVWON1,"2389",Beaverbrook at Wonderland EB - #2389,,"42.989248","-81.29701",,,,,,false,"1",Northwest
+CAPUOXFO,"2390",Capulet Lane at Oxford SB - #2390,,"42.983768","-81.296612",,,,,,false,"1",Northwest
+HYDEFITZ,"2396",Hyde Park at Fitzwilliam SB - #2396,,"42.983117","-81.324218",,,,,,false,"1",Northwest
+HYDEGAI1,"2397",Hyde Park at Gainsborough NB - #2397,,"42.999555","-81.332379",,,,,,false,"1",Northwest
+HYDEGAI2,"2398",Hyde Park at Gainsborough SB - #2398,,"42.998502","-81.3322",,,,,,false,"1",Northwest
+HYDEIVA2,"2399",Hyde Park at Ivanhill SB - #2399,,"42.980882","-81.323069",,,,,,false,"1",Northwest
+HYDEOXF3,"2400",Hyde Park north of Oxford NB - #2400,,"42.976599","-81.320755",,,,,,false,"1",Northwest
+HYDEPRIP,"2401",Hyde Park at Prince Phillip NB - #2401,,"42.983037","-81.324041",,,,,,false,"1",Northwest
+HYDEROY1,"2402",Hyde Park at Royal York NB - #2402,,"42.978095","-81.321505",,,,,,false,"1",Northwest
+HYDEROY2,"2403",Hyde Park at Royal York SB - #2403,,"42.977781","-81.321509",,,,,,false,"1",Northwest
+HYDESCA1,"2404",Hyde Park at South Carriage NB - #2404,,"42.995536","-81.330459",,,,,,false,"1",Northwest
+HYDESCA2,"2405",Hyde Park at South Carriage SB - #2405,,"42.995037","-81.330379",,,,,,false,"1",Northwest
+OAKCMAP1,"2407",Oakcrossing at Mapleridge north - #2407,,"42.99122","-81.30749",,,,,,false,"1",Northwest
+OAKCMAP2,"2408",Oakcrossing at Mapleridge south - #2408,,"42.98871","-81.30543",,,,,,false,"1",Northwest
+OAKCOAKC,"2409",Oakcrossing Gate at Oakcrossing Rd SB - #2409,,"42.990728","-81.311621",,,,,,false,"1",Northwest
+BEAVCAP1,"2415",Beaverbrook at Capulet WB - #2415,,"42.988455","-81.299991",,,,,,false,"1",Northwest
+BEAVCAP2,"2416",Beaverbrook at Capulet EB - #2416,,"42.988147","-81.300551",,,,,,false,"1",Northwest
+BEAVHOR2,"2417",Beaverbrook at Horizon EB - #2417,,"42.990257","-81.293584",,,,,,false,"1",Northwest
+BEAVPROU,"2418",Beaverbrook at Proudfoot EB - #2418,,"42.990798","-81.29173",,,,,,false,"1",Northwest
+SEAGHYP1,"2419",Seagull at Hyde Park EB - #2419,,"43.008561","-81.335487",,,,,,false,"1",Northwest
+STANFAN1,"2421",Stanton at Fanshawe Park Rd NB - #2421,,"43.010842","-81.333697",,,,,,false,"1",Northwest
+VALEDER1,"2458",Valetta at Deer Park EB - #2458,,"42.975214","-81.305469",,,,,,false,"1",Northwest
+HYDESAR1,"2493",Hyde Park at Sarnia NB - #2493,,"42.9884","-81.32676",,,,,,false,"1",Northwest
+HYDESAR2,"2494",Hyde Park at Sarnia SB - #2494,,"42.989282","-81.32754",,,,,,false,"1",Northwest
+517FANSH,"2505",517 Fanshawe Park Road - #2505,,"43.019831","-81.306159",,,,,,false,"1",Northwest
+FANSALD1,"2510",Fanshawe at Aldersbrook EB - #2510,,"43.01512","-81.321545",,,,,,false,"1",Northwest
+FANSALD2,"2511",Fanshawe at Aldersbrook WB - #2511,,"43.015051","-81.322581",,,,,,false,"1",Northwest
+FANSFOXW,"2513",Fanshawe at Foxwood WB - #2513,,"43.016618","-81.317236",,,,,,false,"1",Northwest
+FANSPINN,"2515",Fanshawe at Pinnacle WB - #2515,,"43.021573","-81.300172",,,,,,false,"1",Northwest
+FANSWON1,"2516",Fanshawe at Wonderland EB - #2516,,"43.018567","-81.309713",,,,,,false,"1",Northwest
+FANSWON2,"2517",Fanshawe at Wonderland WB - #2517,,"43.0189","-81.309473",,,,,,false,"1",Northwest
+BEAVOAK2,"2575",Beaverbrook at Oakcrossing west WB - #2575,,"42.987393","-81.311797",,,,,,false,"1",Northwest
+FANSDAL2,"2614",Fanshawe at Dalmagarry EB - #2614,,"43.012144","-81.331911",,,,,,false,"1",Northwest
+FANSDALM,"2615",Fanshawe at Dalmagarry WB - #2615,,"43.012741","-81.330544",,,,,,false,"1",Northwest
+HYDEHAZE,"2663",Hyde Park at Hazelden SB - #2663,,"42.968815","-81.316153",,,,,,false,"1",Northwest
+HYDERIV1,"2664",Hyde Park at Riverside SB - #2664,,"42.964655","-81.314941",,,,,,false,"1",Northwest
+HYDENRN1,"2685",Hyde Park at North Routledge Park NB - #2685,,"43.003185","-81.334084",,,,,,false,"1",Northwest
+HYDENRN2,"2686",Hyde Park at North Routledge Park 1 SB - #2686,,"43.003538","-81.334617",,,,,,false,"1",Northwest
+HYDENRSL,"2687",Hyde Park at North Routledge Park 2 SB - #2687,,"43.000982","-81.333294",,,,,,false,"1",Northwest
+BEAVWHET,"2701",Beaverbrook at Whetherfield EB - #2701,,"42.987011","-81.304547",,,,,,false,"1",Northwest
+WONDFAR5,"2730",Wonderland south of Farrah NB - #2730,,"42.985342","-81.293364",,,,,,false,"1",Northwest
+FANSDAL3,"2753",Fanshawe at Dalmagarry FS1 EB - #2753,,"43.01347","-81.327632",,,,,,false,"1",Northwest
+FANSDAL4,"2754",1055 Fanshawe Park Rd WB - #2754,,"43.013903","-81.326357",,,,,,false,"1",Northwest
+FANSFOX1,"2755",Fanshawe at Foxwood EB - #2755,,"43.016456","-81.317319",,,,,,false,"1",Northwest
+FANSWON3,"2756",Fanshawe west of Wonderland WB - #2756,,"43.017394","-81.314351",,,,,,false,"1",Northwest
+1985RIC1,"2773",Opp 1985 Richmond NB - #2773,,"43.035214","-81.286993",,,,,,false,"1",Northwest
+1985RICH,"2774",1985 Richmond SB - #2774,,"43.035062","-81.287222",,,,,,false,"1",Northwest
+AZIZWEST,"2785",Philip Aziz at Western NB - #2785,,"43.002102","-81.27609",,,,,,false,"1",Northwest
+FANSWOND,"2835",Fanshawe at Wonderland NS EB - #2835,,"43.0181","-81.31125",,,,,,false,"1",Northwest
+HUROLAMB,"2849",Huron at Lambton NB - #2849,,"43.006084","-81.271791",,,,,,false,"1",Northwest
+MEADQUA1,"2853",Meadowlands at Quarrier SB - #2853,,"43.032365","-81.294308",,,,,,false,"1",Northwest
+MEADQUAR,"2854",Meadowlands at Quarrier NB - #2854,,"43.032528","-81.294123",,,,,,false,"1",Northwest
+MEADSUN1,"2855",Meadowlands at Sunningdale SB - #2855,,"43.03513","-81.29555",,,,,,false,"1",Northwest
+MEADSUNN,"2856",Meadowlands at Sunningdale NB - #2856,,"43.036043","-81.295833",,,,,,false,"1",Northwest
+PINNERIV,"2857",Pinnacle at East Rivertrace Walk NS NB - #2857,,"43.023625","-81.30063",,,,,,false,"1",Northwest
+PINNMCGA,"2859",Pinnacle at McGarrell NS SB - #2859,,"43.023319","-81.300635",,,,,,false,"1",Northwest
+PINNPLN1,"2860",Pinnacle at Plane Tree SB - #2860,,"43.025572","-81.301863",,,,,,false,"1",Northwest
+PINNPLNE,"2861",Pinnacle at Plane Tree NS NB - #2861,,"43.02576","-81.301789",,,,,,false,"1",Northwest
+QUARCALL,"2865",Quarrier at Callingham FS NB - #2865,,"43.031424","-81.296052",,,,,,false,"1",Northwest
+QUARPLN1,"2866",Quarrier at Plane Tree SB - #2866,,"43.028609","-81.295467",,,,,,false,"1",Northwest
+QUARPLNE,"2867",Quarrier at Plane Tree NB - #2867,,"43.028742","-81.295371",,,,,,false,"1",Northwest
+RICHPLN1,"2873",Richmond at Plane Tree NB - #2873,,"43.0325","-81.285569",,,,,,false,"1",Northwest
+SUNNRIC1,"2880",Sunningdale at Richmond FS WB - #2880,,"43.03824","-81.289365",,,,,,false,"1",Northwest
+SUNNRICH,"2881",Sunningdale at Richmond NS EB - #2881,,"43.038217","-81.28903",,,,,,false,"1",Northwest
+SUNNVIL1,"2882",Sunningdale at Village Walk FS WB - #2882,,"43.037112","-81.29324",,,,,,false,"1",Northwest
+SUNNVILW,"2883",Sunningdale at Village Walk NS EB - #2883,,"43.037003","-81.292949",,,,,,false,"1",Northwest
+WESTELG3,"2889",Western at Elgin SB - #2889,,"43.010028","-81.277456",,,,,,false,"1",Northwest
+WHARRIV1,"2896",Wharncliffe at Riverside NB - #2896,,"42.98255","-81.26254",,,,,,false,"1",Northwest
+WESTLAM1,"2912",Western at Lambton Dr NB - #2912,,"43.00658","-81.27683",,,,,,false,"1",Northwest
+517FANS1,"2979",Opp 517 Fanshawe Park Rd EB - #2979,,"43.01955","-81.30639",,,,,,false,"1",Northwest
+WONDALD1,"2980",Wonderland at Aldersbrook NB - #2980,,"43.01646","-81.3091",,,,,,false,"1",Northwest
+WONDANN1,"2981",Wonderland at Annadale NB - #2981,,"43.00425","-81.30287",,,,,,false,"1",Northwest
+WONDATT1,"2982",Wonderland at Attawandaron NB - #2982,,"43.01345","-81.30752",,,,,,false,"1",Northwest
+WONDFAN2,"2983",Wonderland at Fanshawe Park Rd SB - #2983,,"43.01787","-81.31021",,,,,,false,"1",Northwest
+WONDLAW1,"2985",Wonderland at Lawson NB - #2985,,"43.00094","-81.30132",,,,,,false,"1",Northwest
+WONDLAW2,"2986",Wonderland at Lawson SB - #2986,,"43.00033","-81.30129",,,,,,false,"1",Northwest
+WONDSAR5,"2987",Wonderland North of Sarnia NB - #2987,,"42.99609","-81.2989",,,,,,false,"1",Northwest
+WONDSER2,"2988",Sherwood Forest Mall SB - #2988,,"43.00518","-81.30357",,,,,,false,"1",Northwest
+WONDWHI1,"2989",Wonderland at Whiteacres NB - #2989,,"43.0104","-81.30584",,,,,,false,"1",Northwest
+ADELFAN2,"32",Adelaide at Fanshawe Pk Rd SB - #32,,"43.034328","-81.254625",,,,,,false,"2",Northeast
+ADELGLEN,"33",Adelaide at Glenora NB - #33,,"43.029017","-81.251604",,,,,,false,"2",Northeast
+ADELMAPL,"55",Adelaide at Mapledale SB - #55,,"43.031429","-81.253063",,,,,,false,"2",Northeast
+ADELTENN,"80",Adelaide at Tennant NB - #80,,"43.030845","-81.252483",,,,,,false,"2",Northeast
+ADELWIN1,"89",Adelaide at Windermere NB - #89,,"43.023541","-81.248807",,,,,,false,"2",Northeast
+ADELWIN2,"90",Adelaide at Windermere SB - #90,,"43.023444","-81.249048",,,,,,false,"2",Northeast
+AMBLGRA2,"145",Ambleside at Grasmere Cres WB - #145,,"43.016358","-81.285108",,,,,,false,"2",Northeast
+AMBLHILL,"147",Ambleside at Hillside WB - #147,,"43.017645","-81.280695",,,,,,false,"2",Northeast
+AMBLWHI1,"149",Ambleside at Whitehaven WB - #149,,"43.019798","-81.292995",,,,,,false,"2",Northeast
+AMBLWHI2,"150",286 Ambleside - #150,,"43.021005","-81.294306",,,,,,false,"2",Northeast
+BKWTADE1,"255",Blackwater east of Adelaide EB - #255,,"43.043968","-81.258899",,,,,,false,"2",Northeast
+BLUESUN2,"274",Bluebell  at Sunningdale SB - #274,,"43.042123","-81.272748",,,,,,false,"2",Northeast
+CHAMSAND,"341",Chambers at Sandybrook NB - #341,,"43.039748","-81.270162",,,,,,false,"2",Northeast
+CHAMSKYL,"342",Chambers at Skyline NB - #342,,"43.041719","-81.271282",,,,,,false,"2",Northeast
+CHAMWHIS,"343",Chambers at Whisker SB - #343,,"43.038329","-81.270524",,,,,,false,"2",Northeast
+DOONANGU,"519",Doon at Angus EB - #519,,"43.022231","-81.263841",,,,,,false,"2",Northeast
+DOONCAIT,"520",Doon at Caithness Ct EB - #520,,"43.02174","-81.265561",,,,,,false,"2",Northeast
+DOONMUS1,"521",Doon at Muskoka Cres NB - #521,,"43.022192","-81.259676",,,,,,false,"2",Northeast
+DOONMUS2,"522",Doon at Muskoka Cres SB - #522,,"43.022768","-81.260646",,,,,,false,"2",Northeast
+DOONRAV2,"523",Doon at Ravine Ridge Way WB - #523,,"43.020554","-81.267587",,,,,,false,"2",Northeast
+DOONRAV4,"524",Doon at Ravine Ridge Cres WB - #524,,"43.021353","-81.266953",,,,,,false,"2",Northeast
+DOONSUNY,"525",Doon at Sunnyside WB - #525,,"43.022169","-81.264278",,,,,,false,"2",Northeast
+DOONWIN1,"526",Doon at Windermere NB - #526,,"43.01838","-81.266234",,,,,,false,"2",Northeast
+DOONWIN2,"527",Doon at Windermere SB - #527,,"43.018348","-81.266341",,,,,,false,"2",Northeast
+FANSADE1,"682",Fanshawe at Adelaide EB - #682,,"43.035026","-81.254038",,,,,,false,"2",Northeast
+FANSADE4,"684",Fanshawe west of Adelaide WB - #684,,"43.034771","-81.255542",,,,,,false,"2",Northeast
+FANSFRE1,"688",Fanshawe east of Freemont EB - #688,,"43.036537","-81.24922",,,,,,false,"2",Northeast
+FANSGLE1,"692",Fanshawe at Glengarry EB - #692,,"43.03735","-81.24623",,,,,,false,"2",Northeast
+FANSGLEN,"694",Fanshawe & Glenora Dr. WB - #694,,"43.03961","-81.23939",,,,,,false,"2",Northeast
+FANSHAS1,"695",Fanshawe at Hastings East EB - #695,,"43.031099","-81.267184",,,,,,false,"2",Northeast
+FANSHAS2,"696",Fanshawe at Hastings WB - #696,,"43.030992","-81.268125",,,,,,false,"2",Northeast
+FANSHAS3,"697",Fanshawe at Hastings West EB - #697,,"43.030109","-81.2705",,,,,,false,"2",Northeast
+FANSHIGH,"698",Fanshawe at Highbury EB - #698,,"43.042919","-81.227496",,,,,,false,"2",Northeast
+FANSJEN2,"699",Fanshawe at Jennifer 1 WB - #699,,"43.030043","-81.271423",,,,,,false,"2",Northeast
+FANSJEN4,"700",Fanshawe at Jennifer 2 WB - #700,,"43.029285","-81.273907",,,,,,false,"2",Northeast
+FANSLOU1,"701",Fanshawe at Louise EB - #701,,"43.024436","-81.289879",,,,,,false,"2",Northeast
+FANSLOU2,"702",Fanshawe at Louise WB - #702,,"43.024713","-81.289437",,,,,,false,"2",Northeast
+FANSMCLE,"703",Fanshawe at McLean WB - #703,,"43.041634","-81.232485",,,,,,false,"2",Northeast
+FANSNCR1,"704",Fanshawe west of North Centre EB - #704,,"43.028057","-81.277532",,,,,,false,"2",Northeast
+FANSNCR2,"705",Fanshawe west of North Centre WB - #705,,"43.028239","-81.277573",,,,,,false,"2",Northeast
+FANSNCR3,"706",Fanshawe east of North Centre EB - #706,,"43.028932","-81.274472",,,,,,false,"2",Northeast
+FANSNCR4,"707",Fanshawe east of North Centre WB - #707,,"43.026276","-81.284527",,,,,,false,"2",Northeast
+FANSPHIL,"708",Fanshawe at Phillbrook WB - #708,,"43.032115","-81.264402",,,,,,false,"2",Northeast
+FANSRIC1,"709",Fanshawe east of Richmond EB - #709,,"43.027429","-81.27953",,,,,,false,"2",Northeast
+FANSSTO1,"711",Fanshawe at Stoneybrook East EB - #711,,"43.033409","-81.25933",,,,,,false,"2",Northeast
+FANSSTO2,"712",Fanshawe at Stoneybrook East WB - #712,,"43.033749","-81.258955",,,,,,false,"2",Northeast
+FANSSTO3,"713",Fanshawe at Stoneybrook West EB - #713,,"43.032203","-81.263454",,,,,,false,"2",Northeast
+GRENADEL,"800",Grenfell at Adelaide WB - #800,,"43.038129","-81.256174",,,,,,false,"2",Northeast
+GRENGREN,"801",Grenfell at Grenfell Cr WB - #801,,"43.03882","-81.251795",,,,,,false,"2",Northeast
+GRENMIDA,"803",Grenfell at Midale WB - #803,,"43.040496","-81.248311",,,,,,false,"2",Northeast
+HASTCHA1,"889",Hastings at Chambers NB - #889,,"43.037134","-81.270738",,,,,,false,"2",Northeast
+HASTCHA2,"890",Hastings at Chambers SB - #890,,"43.037031","-81.270715",,,,,,false,"2",Northeast
+HASTDONY,"891",Hastings at Donnybrook NB - #891,,"43.032086","-81.268232",,,,,,false,"2",Northeast
+HASTVIR1,"892",Hastings at Virginia NB - #892,,"43.034071","-81.269268",,,,,,false,"2",Northeast
+HIGBKIAR,"914",Highbury at Killarney SB - #914,,"43.039184","-81.225139",,,,,,false,"2",Northeast
+MASOSTO1,"1140",Masonville Place Stop #1 - #1140,,"43.025446","-81.281591",,,,,,false,"2",Northeast
+MASOSTO2,"1141",Masonville Place Stop #2 - #1141,,"43.025666","-81.281723",,,,,,false,"2",Northeast
+MASOSTO3,"1142",Masonville Place Stop #3 - #1142,,"43.02586","-81.281823",,,,,,false,"2",Northeast
+MASOSTO4,"1143",Masonville Place Stop #4 - #1143,,"43.025883","-81.28161",,,,,,false,"2",Northeast
+MASOSTO5,"1144",Masonville Place Stop #5 - #1144,,"43.02566","-81.2815",,,,,,false,"2",Northeast
+MASOSTO6,"1145",Masonville Place Stop #6 - #1145,,"43.025437","-81.281381",,,,,,false,"2",Northeast
+PHILPHIL,"1383",Phillbrook at Phillbrook - #1383,,"43.037281","-81.263101",,,,,,false,"2",Northeast
+PHILSILV,"1385",Phillbrook at Silverbrook WB - #1385,,"43.038474","-81.258745",,,,,,false,"2",Northeast
+RICHCANT,"1460",Richmond at Canterbury NB - #1460,,"43.019282","-81.277079",,,,,,false,"2",Northeast
+RICHJACK,"1485",Richmond at Jacksway SB - #1485,,"43.023201","-81.28093",,,,,,false,"2",Northeast
+RICHSHAV,"1508",Richmond at Shavian SB - #1508,,"43.021409","-81.279995",,,,,,false,"2",Northeast
+RICHSUNN,"1511",Richmond at Sunnyside NB - #1511,,"43.02172","-81.279942",,,,,,false,"2",Northeast
+RICHWEC1,"1516",Richmond at Westchester NB - #1516,,"43.018073","-81.274989",,,,,,false,"2",Northeast
+RICHWES2,"1518",Richmond at Western SB - #1518,,"43.019685","-81.278143",,,,,,false,"2",Northeast
+RICHWES4,"1519",1548 Richmond - #1519,,"43.018984","-81.276938",,,,,,false,"2",Northeast
+RICHWIN1,"1520",Richmond north of Windermere NB - #1520,,"43.016808","-81.272741",,,,,,false,"2",Northeast
+RICHWIN2,"1521",Richmond at Windermere SB - #1521,,"43.015204","-81.270279",,,,,,false,"2",Northeast
+RICHWYND,"1523",Richmond at Wyndham Gate SB - #1523,,"43.017966","-81.275139",,,,,,false,"2",Northeast
+SKYLCHAM,"1662",Skyline at Chambers EB - #1662,,"43.041714","-81.27174",,,,,,false,"2",Northeast
+SOWEFADA,"1723",South Wenige at Father Dalton Ave WB - #1723,,"43.046634","-81.24536",,,,,,false,"2",Northeast
+SOWEMARI,"1724",South Wenige at Marigold St NB - #1724,,"43.046064","-81.251868",,,,,,false,"2",Northeast
+SOWESAV1,"1725",South Wenige at Savannah Dr SB - #1725,,"43.051188","-81.243668",,,,,,false,"2",Northeast
+SOWESAV2,"1726",South Wenige Between Savannah & Nicole WB - #1726,,"43.048447","-81.243185",,,,,,false,"2",Northeast
+SOWESUNN,"1727",South Wenige at Sunningdale NB - #1727,,"43.048287","-81.25293",,,,,,false,"2",Northeast
+THISBKW1,"1773",Thistlewood at Blackwater EB - #1773,,"43.044314","-81.25747",,,,,,false,"2",Northeast
+WESTAMB1,"1983",Western at Ambleside Dr NB - #1983,,"43.01718","-81.27753",,,,,,false,"2",Northeast
+WESTAMB2,"1984",Western at Ambleside Dr SB - #1984,,"43.018039","-81.278181",,,,,,false,"2",Northeast
+WINDADE1,"2076",703 Windermere EB - #2076,,"43.022076","-81.252742",,,,,,false,"2",Northeast
+WINDADE2,"2077",Windermere at Adelaide WB - #2077,,"43.022906","-81.250098",,,,,,false,"2",Northeast
+WINDDOO2,"2080",Windermere at Doon Dr  2 WB - #2080,,"43.020433","-81.258534",,,,,,false,"2",Northeast
+WINDDOO3,"2081",655 - 665 Windermere EB - #2081,,"43.021409","-81.254996",,,,,,false,"2",Northeast
+WINDDOO4,"2082",Windermere at Doon Dr 1 WB - #2082,,"43.02117","-81.25609",,,,,,false,"2",Northeast
+WINDRIC1,"2083",Windermere at Richmond EB - #2083,,"43.016099","-81.272653",,,,,,false,"2",Northeast
+WINDRIC2,"2084",Windermere at Richmond  WB - #2084,,"43.016058","-81.273063",,,,,,false,"2",Northeast
+WINDTAL1,"2085",Windermere at Tallwood EB - #2085,,"43.017334","-81.269007",,,,,,false,"2",Northeast
+WINDTAL2,"2086",Windermere at Tallwood WB - #2086,,"43.017494","-81.268651",,,,,,false,"2",Northeast
+ADELWILL,"2186",Adelaide at Willowdale SB - #2186,,"43.02927","-81.251929",,,,,,false,"2",Northeast
+AMBLGRN2,"2190",Ambleside at Grangeover WB - #2190,,"43.016439","-81.290811",,,,,,false,"2",Northeast
+FANSDER1,"2227",Fanshawe at Derwent EB - #2227,,"43.02276","-81.29546",,,,,,false,"2",Northeast
+HASTVIR2,"2233",Hastings at Virginia SB - #2233,,"43.034144","-81.269371",,,,,,false,"2",Northeast
+PINNFAN1,"2259",Pinnacle Parkway at Fanshawe NB - #2259,,"43.021158","-81.299333",,,,,,false,"2",Northeast
+WINDDOO1,"2304",Windermere at Doon  EB - #2304,,"43.020432","-81.258271",,,,,,false,"2",Northeast
+BLUESUN1,"2309",Bluebell at Sunningdale NB - #2309,,"43.042783","-81.273013",,,,,,false,"2",Northeast
+PHILBILL,"2352",Phillbrook at Billybrook - #2352,,"43.035213","-81.26481",,,,,,false,"2",Northeast
+SOWEMCCA,"2433",South Wenige at McCallum WB - #2433,,"43.044845","-81.249525",,,,,,false,"2",Northeast
+SUNNGOUG,"2434",Sunningdale at Gough EB - #2434,,"43.050511","-81.247662",,,,,,false,"2",Northeast
+THISSWEN,"2435",Thistlewood at South Wenige EB - #2435,,"43.046989","-81.253405",,,,,,false,"2",Northeast
+FANSGLE3,"2469",Fanshawe at Glenora EB - #2469,,"43.039771","-81.2382",,,,,,false,"2",Northeast
+FANSMCL3,"2470",Fanshawe at Stackhouse EB - #2470,,"43.040448","-81.235822",,,,,,false,"2",Northeast
+GLENGLE2,"2472",Glenora at Glengarry WB - #2472,,"43.031788","-81.243471",,,,,,false,"2",Northeast
+GLENGLV2,"2473",Glenora at Glenview WB - #2473,,"43.030324","-81.247323",,,,,,false,"2",Northeast
+GLENMCG1,"2474",Glenora at McGill WB - #2474,,"43.03344","-81.23894",,,,,,false,"2",Northeast
+GLENRID2,"2475",Glenora at Rideau WB - #2475,,"43.035027","-81.236915",,,,,,false,"2",Northeast
+FANSDERW,"2512",Fanshawe at Derwent WB - #2512,,"43.023108","-81.294879",,,,,,false,"2",Northeast
+DOONMUS3,"2549",Doon north of Muskoka NB - #2549,,"43.022923","-81.260715",,,,,,false,"2",Northeast
+ADELBLAC,"2693",Adelaide at Blackwater SB - #2693,,"43.044659","-81.259913",,,,,,false,"2",Northeast
+SUNNADE2,"2697",Sunningdale at Adelaide WB - #2697,,"43.046477","-81.26173",,,,,,false,"2",Northeast
+SUNNBLAC,"2699",Sunningdale at Blackwater EB - #2699,,"43.045234","-81.26551",,,,,,false,"2",Northeast
+SUNNYMCA,"2700",Sunningdale at YMCA WB - #2700,,"43.047611","-81.257938",,,,,,false,"2",Northeast
+FANSHIG2,"2704",Fanshawe at Highbury WB - #2704,,"43.04272","-81.22893",,,,,,false,"2",Northeast
+GENGRE2,"2705",Grenfell at Grenfell Cres NB - #2705,,"43.038941","-81.249265",,,,,,false,"2",Northeast
+GRENADE2,"2706",Grenfell at Adelaide EB - #2706,,"43.03817","-81.255708",,,,,,false,"2",Northeast
+GRENLAI2,"2707",Grenfell at Laing EB - #2707,,"43.03879","-81.252709",,,,,,false,"2",Northeast
+GRENMID1,"2708",Grenfell at Midale NB - #2708,,"43.040411","-81.248328",,,,,,false,"2",Northeast
+GRENTRO1,"2709",Grenfell at Trossacks EB - #2709,,"43.042841","-81.24634",,,,,,false,"2",Northeast
+HIGHKIL2,"2711",Highbury at Killarney NB - #2711,,"43.039406","-81.224896",,,,,,false,"2",Northeast
+PHILBIL2,"2713",Phillbrook at Billybrook NB 1 - #2713,,"43.035063","-81.26471",,,,,,false,"2",Northeast
+PHILBIL3,"2714",Phillbrook at Billybrook NB 2 - #2714,,"43.037259","-81.263054",,,,,,false,"2",Northeast
+PHILDON2,"2715",Phillbrook at Donnybrook NB - #2715,,"43.033056","-81.26439",,,,,,false,"2",Northeast
+PHILPEN2,"2716",Phillbrook at Pennybrook EB - #2716,,"43.038484","-81.259974",,,,,,false,"2",Northeast
+FANSMCL1,"2732",Fanshawe at McLean EB - #2732,,"43.041596","-81.231737",,,,,,false,"2",Northeast
+FANSSTAC,"2734",Fanshawe at Stackhouse WB - #2734,,"43.04059","-81.236044",,,,,,false,"2",Northeast
+SUNNCANV,"2750",Sunningdale at Canvas Way WB - #2750,,"43.043604","-81.271192",,,,,,false,"2",Northeast
+ADELGLE1,"2779",Adelaide at Glenora SB - #2779,,"43.028772","-81.251725",,,,,,false,"2",Northeast
+AMBECORL,"2780",Ambleside at Corley FS SB - #2780,,"43.016003","-81.285717",,,,,,false,"2",Northeast
+AMBEGRAN,"2781",Ambleside at Grangeover Cres NS SB - #2781,,"43.016308","-81.290829",,,,,,false,"2",Northeast
+AMBEHESK,"2782",Ambleside at Hesketh NS SB - #2782,,"43.019092","-81.292747",,,,,,false,"2",Northeast
+AMBEHILL,"2783",Ambleside at Hillside NS SB - #2783,,"43.017327","-81.281341",,,,,,false,"2",Northeast
+AMBEWTHA,"2784",Ambleside at Whitehaven NS SB - #2784,,"43.020914","-81.294322",,,,,,false,"2",Northeast
+FANSFREE,"2830",Fanshawe at Freemont WB - #2830,,"43.036392","-81.250153",,,,,,false,"2",Northeast
+FANSRIC4,"2831",Fanshawe at Richmond EB - #2831,,"43.026756","-81.282094",,,,,,false,"2",Northeast
+FANSRIC5,"2832",Fanshawe at Richmond WB - #2832,,"43.02702","-81.282138",,,,,,false,"2",Northeast
+FANSTRO3,"2833",Fanshawe at Trossacks FS EB - #2833,,"43.038004","-81.243949",,,,,,false,"2",Northeast
+FANSTRO4,"2834",Fanshawe at Trossacks FS WB - #2834,,"43.038011","-81.24474",,,,,,false,"2",Northeast
+GLENFANS,"2839",Glenora at Fanshawe SB - #2839,,"43.039197","-81.238956",,,,,,false,"2",Northeast
+GLENGLE4,"2840",Glenora at Glengarry EB - #2840,,"43.031786","-81.243307",,,,,,false,"2",Northeast
+GLENMCL1,"2841",Glenora at McLean NB - #2841,,"43.036837","-81.236716",,,,,,false,"2",Northeast
+GLENMCL2,"2842",Glenora at McLean SB - #2842,,"43.037156","-81.237099",,,,,,false,"2",Northeast
+GLENRID1,"2843",Glenora at Rideau EB - #2843,,"43.034064","-81.237431",,,,,,false,"2",Northeast
+GRENDEV1,"2844",Grenfell at Devos EB - #2844,,"43.043682","-81.243259",,,,,,false,"2",Northeast
+GRENDEVO,"2845",Grenfell at Devos WB - #2845,,"43.043804","-81.243271",,,,,,false,"2",Northeast
+GRENSTA1,"2846",Grenfell at Stackhouse WB - #2846,,"43.044562","-81.23994",,,,,,false,"2",Northeast
+GRENSTAC,"2847",Grenfell at Stackhouse EB - #2847,,"43.044568","-81.239735",,,,,,false,"2",Northeast
+GRENTROS,"2848",Grenfell at Trossacks WB - #2848,,"43.043026","-81.245849",,,,,,false,"2",Northeast
+PINNFANS,"2858",Pinnacle at Fanshawe FS SB - #2858,,"43.021126","-81.299463",,,,,,false,"2",Northeast
+RICHNCR1,"2871",Richmond at North Centre FS NB - #2871,,"43.029675","-81.284077",,,,,,false,"2",Northeast
+RICHNCRE,"2872",Richmond at North Centre FS SB - #2872,,"43.028753","-81.28395",,,,,,false,"2",Northeast
+RICHPLNE,"2874",Richmond at Plane Tree FS SB - #2874,,"43.032019","-81.285629",,,,,,false,"2",Northeast
+RICHWES3,"2876",Richmond at Western 2 SB - #2876,,"43.020209","-81.279239",,,,,,false,"2",Northeast
+RICHWEST,"2877",Richmond at Western NB - #2877,,"43.02064","-81.27922",,,,,,false,"2",Northeast
+STACFAN1,"2879",Stackhouse at Fanshawe SB - #2879,,"43.041031","-81.23494",,,,,,false,"2",Northeast
+STACFANS,"2910",STACKHOUSE at  FANSHAWE NB - #2910,,"43.041173","-81.234836",,,,,,false,"2",Northeast
+ADELCHE1,"24",Adelaide at Cheapside NB - #24,,"43.00647","-81.240181",,,,,,false,"3",Inner_City_North
+ADELCHE2,"25",Adelaide at Cheapside SB - #25,,"43.005866","-81.240088",,,,,,false,"3",Inner_City_North
+ADELGRO1,"34",Adelaide at Grosvenor NB - #34,,"43.004337","-81.239172",,,,,,false,"3",Inner_City_North
+ADELGRO2,"35",Adelaide at Grosvenor SB - #35,,"43.004249","-81.239265",,,,,,false,"3",Inner_City_North
+ADELHUR1,"39",Adelaide at Huron  NB - #39,,"43.012606","-81.243443",,,,,,false,"3",Inner_City_North
+ADELHUR2,"40",Adelaide at Huron SB - #40,,"43.011146","-81.24272",,,,,,false,"3",Inner_City_North
+ADELHUR5,"42",Opposite 1145 Adelaide NB - #42,,"43.015827","-81.245032",,,,,,false,"3",Inner_City_North
+ADELKIP1,"43",Adelaide north of Kipps Lane  NB - #43,,"43.018099","-81.246148",,,,,,false,"3",Inner_City_North
+ADELKIP2,"44",Adelaide north of Kipps Lane SB - #44,,"43.01775","-81.24618",,,,,,false,"3",Inner_City_North
+ADELKIP6,"47",Adelaide south of Kipps Lane 2 SB - #47,,"43.014658","-81.244642",,,,,,false,"3",Inner_City_North
+ADELOXF1,"67",Adelaide at Oxford  NB - #67,,"43.00054","-81.23728",,,,,,false,"3",Inner_City_North
+ADELOXF2,"68",Adelaide at Oxford SB - #68,,"43.000449","-81.237393",,,,,,false,"3",Inner_City_North
+ADELREG1,"74",Adelaide at Regent NB - #74,,"43.010802","-81.242321",,,,,,false,"3",Inner_City_North
+ADELSJA1,"78",Adelaide at St. James NB - #78,,"43.002071","-81.238032",,,,,,false,"3",Inner_City_North
+ADELSJA2,"79",Adelaide at St. James SB - #79,,"43.002171","-81.238249",,,,,,false,"3",Inner_City_North
+ADELVIC1,"87",Adelaide at Victoria NB - #87,,"43.008164","-81.241064",,,,,,false,"3",Inner_City_North
+ADELVIC2,"88",Adelaide at Victoria SB - #88,,"43.008394","-81.241297",,,,,,false,"3",Inner_City_North
+BARKHURO,"176",Barker at Huron SB - #176,,"43.016179","-81.232",,,,,,false,"3",Inner_City_North
+BRIAHURO,"300",Briarhill at Huron SB - #300,,"43.016976","-81.226235",,,,,,false,"3",Inner_City_North
+BRIAMEL2,"302",Briarhill north of Melsandra SB - #302,,"43.02038","-81.227859",,,,,,false,"3",Inner_City_North
+BRYDHIG2,"308",Brydges at Highbury WB - #308,,"42.989103","-81.199763",,,,,,false,"3",Inner_City_North
+BRYDHIG3,"309",Brydges at Highbury  EB - #309,,"42.989035","-81.19957",,,,,,false,"3",Inner_City_North
+CHEAADE1,"344",Cheapside at Adelaide EB - #344,,"43.006237","-81.239049",,,,,,false,"3",Inner_City_North
+CHEAADE2,"345",Cheapside west of Adelaide WB - #345,,"43.006102","-81.240697",,,,,,false,"3",Inner_City_North
+CHEAADE4,"346",Cheapside east of Adelaide WB - #346,,"43.006567","-81.23826",,,,,,false,"3",Inner_City_North
+CHEABARK,"348",Cheapside at Barker EB - #348,,"43.009427","-81.22825",,,,,,false,"3",Inner_City_North
+CHEABOU1,"349",Cheapside at Boullee EB - #349,,"43.010127","-81.225877",,,,,,false,"3",Inner_City_North
+CHEABOU2,"350",Cheapside at Boullee WB - #350,,"43.010344","-81.225389",,,,,,false,"3",Inner_City_North
+CHEABRA1,"351",Cheapside at Brampton EB - #351,,"43.007764","-81.233993",,,,,,false,"3",Inner_City_North
+CHEACOL2,"353",Cheapside at Colborne WB - #353,,"43.003974","-81.248369",,,,,,false,"3",Inner_City_North
+CHEAGAM1,"354",Cheapside at Gammage EB - #354,,"43.008605","-81.231088",,,,,,false,"3",Inner_City_North
+CHEAGAM2,"355",Cheapside at Gammage WB - #355,,"43.008478","-81.23179",,,,,,false,"3",Inner_City_North
+CHEAMAI1,"357",Cheapside at Maitland EB - #357,,"43.004728","-81.24527",,,,,,false,"3",Inner_City_North
+CHEAMAI2,"358",Cheapside at Maitland WB - #358,,"43.004599","-81.246139",,,,,,false,"3",Inner_City_North
+CHEAMCNA,"359",Cheapside at McNay EB - #359,,"43.011324","-81.221707",,,,,,false,"3",Inner_City_North
+CHEARICH,"360",Cheapside at Richmond WB - #360,,"43.001983","-81.255573",,,,,,false,"3",Inner_City_North
+CHEASTER,"361",Cheapside at Sterling WB - #361,,"43.009301","-81.228968",,,,,,false,"3",Inner_City_North
+CHEAWAT1,"364",Cheapside at Waterloo EB - #364,,"43.002959","-81.251627",,,,,,false,"3",Inner_City_North
+CHEAWAT2,"365",Cheapside at Waterloo WB - #365,,"43.003196","-81.251129",,,,,,false,"3",Inner_City_North
+CHEAWIL1,"368",Cheapside at William EB - #368,,"43.005516","-81.24244",,,,,,false,"3",Inner_City_North
+CHEAWIL2,"369",Cheapside at William WB - #369,,"43.005588","-81.242502",,,,,,false,"3",Inner_City_North
+COLBOXFD,"438",Colborne at Oxford SB - #438,,"42.99796","-81.24567",,,,,,false,"3",Inner_City_North
+DUNDASH1,"540",Dundas at Ashland EB - #540,,"42.995436","-81.208452",,,,,,false,"3",Inner_City_North
+DUNDASH4,"542",Dundas east of Ashland WB - #542,,"42.995535","-81.208574",,,,,,false,"3",Inner_City_North
+DUNDDORI,"554",Dundas at Burbrook Station WB - #554,,"42.993712","-81.21503",,,,,,false,"3",Inner_City_North
+DUNDEGE1,"560",Dundas at Egerton EB - #560,,"42.992935","-81.217246",,,,,,false,"3",Inner_City_North
+DUNDEGE2,"561",Dundas at Egerton WB - #561,,"42.993006","-81.217444",,,,,,false,"3",Inner_City_North
+DUNDELE1,"562",Dundas at Eleanor EB - #562,,"42.994507","-81.211776",,,,,,false,"3",Inner_City_North
+DUNDELIZ,"564",Dundas at Elizabeth WB - #564,,"42.98953","-81.22946",,,,,,false,"3",Inner_City_North
+DUNDENGL,"565",Dundas at English WB - #565,,"42.990231","-81.226943",,,,,,false,"3",Inner_City_North
+DUNDHEWI,"576",Dundas at Hewitt EB - #576,,"42.99042","-81.22604",,,,,,false,"3",Inner_City_North
+DUNDHIG1,"577",Dundas at Highbury  EB - #577,,"42.996596","-81.204339",,,,,,false,"3",Inner_City_North
+DUNDHIG2,"578",Dundas at Highbury WB - #578,,"42.996795","-81.20435",,,,,,false,"3",Inner_City_North
+DUNDKELL,"583",Dundas at Kellogg Station EB - #583,,"42.993607","-81.214769",,,,,,false,"3",Inner_City_North
+DUNDLYLE,"584",Dundas at Lyle EB - #584,,"42.9897","-81.22851",,,,,,false,"3",Inner_City_North
+DUNDONT1,"592",Dundas at Ontario EB - #592,,"42.99146","-81.2223",,,,,,false,"3",Inner_City_North
+DUNDONT2,"593",Dundas at Ontario WB - #593,,"42.99179","-81.22165",,,,,,false,"3",Inner_City_North
+DUNDQUE1,"594",Dundas at Quebec EB - #594,,"42.992387","-81.219149",,,,,,false,"3",Inner_City_North
+DUNDQUE2,"595",Dundas at Quebec WB - #595,,"42.9924","-81.219503",,,,,,false,"3",Inner_City_North
+DUNDREC2,"597",Dundas at Rectory WB - #597,,"42.990957","-81.22441",,,,,,false,"3",Inner_City_North
+FLORASH1,"733",Florence at Ashland EB - #733,,"42.992132","-81.20756",,,,,,false,"3",Inner_City_North
+FLORASH2,"734",Florence at Ashland WB - #734,,"42.992391","-81.207153",,,,,,false,"3",Inner_City_North
+FLOREGE1,"736",Florence at Egerton EB - #736,,"42.989745","-81.21583",,,,,,false,"3",Inner_City_North
+FLOREGE2,"737",Florence at Egerton WB - #737,,"42.989892","-81.21581",,,,,,false,"3",Inner_City_North
+FLORELE1,"738",Florence at Eleanor EB - #738,,"42.991399","-81.210202",,,,,,false,"3",Inner_City_North
+FLORELE2,"739",Florence at Eleanor WB - #739,,"42.991506","-81.210279",,,,,,false,"3",Inner_City_North
+FLORFAI1,"740",Florence at Fairgrounds south Gate EB - #740,,"42.988583","-81.218615",,,,,,false,"3",Inner_City_North
+FLORFAI2,"741",Florence at Fairgrounds south Gate WB - #741,,"42.988638","-81.218949",,,,,,false,"3",Inner_City_North
+FLORHIG2,"743",Florence at Highbury WB - #743,,"42.994128","-81.203191",,,,,,false,"3",Inner_City_North
+FLORKEL1,"744",Florence at Kellogg Lane EB - #744,,"42.990512","-81.213309",,,,,,false,"3",Inner_City_North
+FLORKEL2,"745",Florence at Kellogg Lane WB - #745,,"42.990585","-81.213424",,,,,,false,"3",Inner_City_North
+FULLREGA,"750",Fuller at Regal WB - #750,,"43.022343","-81.225107",,,,,,false,"3",Inner_City_North
+FULLVES2,"752",Fuller at Vesta WB - #752,,"43.023228","-81.222149",,,,,,false,"3",Inner_City_North
+GLASMORN,"768",Glasgow at Mornington NB - #768,,"43.001114","-81.221698",,,,,,false,"3",Inner_City_North
+HAMIEAST,"850",Hamilton at East WB - #850,,"42.97858","-81.200065",,,,,,false,"3",Inner_City_North
+HAMIEGE1,"851",Hamilton at Egerton EB - #851,,"42.980238","-81.21243",,,,,,false,"3",Inner_City_North
+HAMIEGE2,"852",Hamilton at Egerton WB - #852,,"42.980285","-81.211777",,,,,,false,"3",Inner_City_North
+HAMIELM,"854",Hamilton at Elm WB - #854,,"42.97973","-81.20825",,,,,,false,"3",Inner_City_North
+HAMIGIL1,"855",Hamilton at Giles EB - #855,,"42.977873","-81.195945",,,,,,false,"3",Inner_City_North
+HAMIGIL2,"856",Hamilton at Giles WB - #856,,"42.977934","-81.195434",,,,,,false,"3",Inner_City_North
+HAMIHIG1,"860",Hamilton at Highbury EB - #860,,"42.977498","-81.193215",,,,,,false,"3",Inner_City_North
+HAMIHIG2,"861",Hamilton at Highbury WB - #861,,"42.977777","-81.194291",,,,,,false,"3",Inner_City_North
+HAMILTGR,"863",Hamilton at Little Grey WB - #863,,"42.981338","-81.224253",,,,,,false,"3",Inner_City_North
+HAMIMAME,"865",Hamilton at Mamelon EB - #865,,"42.981302","-81.224568",,,,,,false,"3",Inner_City_North
+HAMIPILA,"871",Hamilton at Pine Lawn EB - #871,,"42.97849","-81.20048",,,,,,false,"3",Inner_City_North
+HAMIREC1,"874",Hamilton at Rectory EB - #874,,"42.98062","-81.22053",,,,,,false,"3",Inner_City_North
+HAMIREC2,"875",Hamilton at Rectory WB - #875,,"42.980659","-81.220012",,,,,,false,"3",Inner_City_North
+HAMISAC1,"879",Hamilton at Sackville EB - #879,,"42.980326","-81.215376",,,,,,false,"3",Inner_City_North
+HAMISAC2,"880",Hamilton at Sackville WB - #880,,"42.980438","-81.215361",,,,,,false,"3",Inner_City_North
+HAMISJU1,"883",Hamilton at St. Julien EB - #883,,"42.97908","-81.204402",,,,,,false,"3",Inner_City_North
+HAMISJU2,"884",Hamilton at St. Julien WB - #884,,"42.979134","-81.204082",,,,,,false,"3",Inner_City_North
+HAMITENN,"885",Hamilton at Tennyson EB - #885,,"42.97947","-81.207224",,,,,,false,"3",Inner_City_North
+HIGBBEA1,"893",Highbury at Beattie NB - #893,,"42.99317","-81.202",,,,,,false,"3",Inner_City_North
+HIGBBEA2,"894",Highbury at Beattie SB - #894,,"42.993309","-81.20224",,,,,,false,"3",Inner_City_North
+HIGBBRY1,"895",London Transit Office - #895,,"42.98814","-81.199636",,,,,,false,"3",Inner_City_North
+HIGBBRY2,"896",Highbury at Brydges SB - #896,,"42.987717","-81.199767",,,,,,false,"3",Inner_City_North
+HIGBCALV,"897",Highbury at Calvin SB - #897,,"42.979733","-81.195733",,,,,,false,"3",Inner_City_North
+HIGBCHE1,"898",Highbury at Cheapside NB - #898,,"43.014531","-81.212459",,,,,,false,"3",Inner_City_North
+HIGBCHE2,"899",Highbury at Cheapside SB - #899,,"43.013549","-81.212226",,,,,,false,"3",Inner_City_North
+HIGBDUN1,"900",Highbury at Dundas NB - #900,,"42.997192","-81.203795",,,,,,false,"3",Inner_City_North
+HIGBDUN2,"901",Highbury at Dundas SB - #901,,"42.996432","-81.203754",,,,,,false,"3",Inner_City_North
+HIGBEDVA,"903",Highbury at Edgevalley SB - #903,,"43.035601","-81.223379",,,,,,false,"3",Inner_City_North
+HIGBFUL1,"905",Montcalm Seconday School - #905,,"43.023826","-81.217326",,,,,,false,"3",Inner_City_North
+HIGBFUL2,"906",Highbury at Fuller SB - #906,,"43.02419","-81.217828",,,,,,false,"3",Inner_City_North
+HIGBGOD1,"907",Highbury at Godfrey NB - #907,,"43.016829","-81.213651",,,,,,false,"3",Inner_City_North
+HIGBGOD2,"908",Highbury at Godfrey SB - #908,,"43.016125","-81.213557",,,,,,false,"3",Inner_City_North
+HIGBHAM1,"909",Highbury at Hamilton NB - #909,,"42.978142","-81.19467",,,,,,false,"3",Inner_City_North
+HIGBHAM2,"910",Highbury at Hamilton SB - #910,,"42.978272","-81.195015",,,,,,false,"3",Inner_City_North
+HIGBHIC1,"911",Highbury at Hillcrest NB - #911,,"43.02208","-81.216527",,,,,,false,"3",Inner_City_North
+HIGBHIC2,"912",Highbury at Hillcrest SB - #912,,"43.0218","-81.21664",,,,,,false,"3",Inner_City_North
+HIGBHURO,"913",Highbury at Huron NB - #913,,"43.019576","-81.215148",,,,,,false,"3",Inner_City_North
+HIGBKIL2,"915",Highbury at Kilally SB - #915,,"43.031662","-81.221536",,,,,,false,"3",Inner_City_North
+HIGBLAN1,"916",Robarts School - #916,,"43.012418","-81.211375",,,,,,false,"3",Inner_City_North
+HIGBLAN2,"917",Highbury at Landor SB - #917,,"43.012378","-81.211623",,,,,,false,"3",Inner_City_North
+HIGBLPH1,"919",Highbury at Corrine NB - #919,,"43.003245","-81.206768",,,,,,false,"3",Inner_City_North
+HIGBLPH2,"920",Highbury at Corrine SB - #920,,"43.002418","-81.206675",,,,,,false,"3",Inner_City_North
+HIGBMAGE,"921",Highbury at Magee NB - #921,,"42.979895","-81.195647",,,,,,false,"3",Inner_City_North
+HIGBOXF1,"922",Highbury south of Oxford NB - #922,,"43.007636","-81.20895",,,,,,false,"3",Inner_City_North
+HIGBOXF2,"923",953 Highbury - #923,,"43.005934","-81.208378",,,,,,false,"3",Inner_City_North
+HIGBOXF3,"924",John Paul Seconday School NB - #924,,"43.009316","-81.209776",,,,,,false,"3",Inner_City_North
+HIGBOXF4,"925",Oxbury Centre SB - #925,,"43.007703","-81.209314",,,,,,false,"3",Inner_City_North
+HIGBTRA1,"926",Highbury at Trafalgar NB - #926,,"42.983542","-81.197502",,,,,,false,"3",Inner_City_North
+HIGBTRA2,"927",Highbury at Trafalgar SB - #927,,"42.983478","-81.197678",,,,,,false,"3",Inner_City_North
+HIGBWIL1,"928",Highbury at Wilton NB - #928,,"42.990666","-81.200884",,,,,,false,"3",Inner_City_North
+HIGBWIL2,"929",Highbury at Wilton SB - #929,,"42.990734","-81.200996",,,,,,false,"3",Inner_City_North
+HUROADE4,"997",Huron west of Adelaide WB - #997,,"43.011737","-81.243615",,,,,,false,"3",Inner_City_North
+HUROADE6,"998",648 Huron - #998,,"43.012632","-81.240522",,,,,,false,"3",Inner_City_North
+HUROBARK,"999",Huron at Barker WB - #999,,"43.01518","-81.232182",,,,,,false,"3",Inner_City_North
+HUROBRI1,"1002",Huron at Briarhill EB - #1002,,"43.016689","-81.22618",,,,,,false,"3",Inner_City_North
+HUROBRI2,"1003",Huron at Briarhill WB - #1003,,"43.016375","-81.227748",,,,,,false,"3",Inner_City_North
+HUROCOLB,"1005",Huron at Colborne EB - #1005,,"43.009233","-81.25175",,,,,,false,"3",Inner_City_North
+HUROFRAS,"1006",Huron at Fraser WB - #1006,,"43.009652","-81.250539",,,,,,false,"3",Inner_City_North
+HUROHIG2,"1008",Huron east of Highbury WB - #1008,,"43.020129","-81.215049",,,,,,false,"3",Inner_City_North
+HUROHIG4,"1010",Huron west of Highbury WB - #1010,,"43.019826","-81.21617",,,,,,false,"3",Inner_City_North
+HUROMCN1,"1011",Huron at McNay EB - #1011,,"43.017581","-81.223094",,,,,,false,"3",Inner_City_North
+HUROMCN2,"1012",Huron at McNay WB - #1012,,"43.017229","-81.224919",,,,,,false,"3",Inner_City_North
+HURORIC1,"1013",Huron at Richmond EB - #1013,,"43.007251","-81.258524",,,,,,false,"3",Inner_City_North
+HURORIC2,"1014",Huron at Richmond WB - #1014,,"43.007234","-81.258655",,,,,,false,"3",Inner_City_North
+HUROVES1,"1017",Huron at Vesta EB - #1017,,"43.018366","-81.22044",,,,,,false,"3",Inner_City_North
+HUROVES2,"1018",Huron at Vesta WB - #1018,,"43.018876","-81.219421",,,,,,false,"3",Inner_City_North
+HUROWAT1,"1019",Huron at Waterloo EB - #1019,,"43.008409","-81.254524",,,,,,false,"3",Inner_City_North
+HUROWAT2,"1020",Huron at Waterloo WB - #1020,,"43.00868","-81.253797",,,,,,false,"3",Inner_City_North
+HUROWEDG,"1024",Huron at Wedgewood WB - #1024,,"43.013786","-81.236594",,,,,,false,"3",Inner_City_North
+KIPPADEL,"1093",Kipps at Adelaide EB - #1093,,"43.01807","-81.244059",,,,,,false,"3",Inner_City_North
+KIPPARBO,"1094",Kipps at Arbour Glen EB - #1094,,"43.021146","-81.233784",,,,,,false,"3",Inner_City_North
+KIPPBARK,"1095",Kipps at Barker EB - #1095,,"43.020271","-81.236561",,,,,,false,"3",Inner_City_North
+KIPPBELF,"1096",Kipps at Belfield EB - #1096,,"43.018918","-81.241149",,,,,,false,"3",Inner_City_North
+KIPPBRIA,"1097",Kipps at Briarhill EB - #1097,,"43.022453","-81.229344",,,,,,false,"3",Inner_City_North
+MAITREGE,"1132",Maitland at Regent SB - #1132,,"43.00902","-81.248152",,,,,,false,"3",Inner_City_North
+MCNACHEA,"1155",McNay at Cheapside SB - #1155,,"43.011816","-81.221157",,,,,,false,"3",Inner_City_North
+MCNAHUR1,"1156",McNay at Huron NB - #1156,,"43.016992","-81.223656",,,,,,false,"3",Inner_City_North
+MCNAHUR2,"1157",McNay at Huron SB - #1157,,"43.01692","-81.223727",,,,,,false,"3",Inner_City_North
+MCNAMEL2,"1159",McNay at Melsandra SB - #1159,,"43.020562","-81.226064",,,,,,false,"3",Inner_City_North
+MCNAROC2,"1161",McNay at Rock SB - #1161,,"43.015513","-81.222983",,,,,,false,"3",Inner_City_North
+MCNAVIC1,"1162",McNay north of Victoria NB - #1162,,"43.014689","-81.222497",,,,,,false,"3",Inner_City_North
+MCNAVIC2,"1163",McNay at Victoria SB - #1163,,"43.013474","-81.221978",,,,,,false,"3",Inner_City_North
+MCNAVIC3,"1164",McNay south of Victoria NB - #1164,,"43.013697","-81.222006",,,,,,false,"3",Inner_City_North
+MELSBRIA,"1170",Melsandra at Briarhill WB - #1170,,"43.019908","-81.228117",,,,,,false,"3",Inner_City_North
+MELSSUSS,"1171",Melsandra at Sussex WB - #1171,,"43.018891","-81.231867",,,,,,false,"3",Inner_City_North
+MORNCON1,"1207",Mornington at Connaught EB - #1207,,"43.003582","-81.211879",,,,,,false,"3",Inner_City_North
+MORNCON2,"1208",Mornington east of Connaught WB - #1208,,"43.003289","-81.212212",,,,,,false,"3",Inner_City_North
+MORNCURR,"1209",Mornington at Curry WB - #1209,,"43.002531","-81.217507",,,,,,false,"3",Inner_City_North
+MORNGLAS,"1210",Mornington at Glasgow WB - #1210,,"43.00138","-81.221542",,,,,,false,"3",Inner_City_North
+MORNOXF2,"1214",632 Mornington - #1214,,"43.00644","-81.212786",,,,,,false,"3",Inner_City_North
+MORNOXF4,"1216",600 Mornington SB - #1216,,"43.005277","-81.212194",,,,,,false,"3",Inner_City_North
+MORNSAL1,"1217",Mornington at Salisbury EB - #1217,,"43.002589","-81.214663",,,,,,false,"3",Inner_City_North
+MORNSAL2,"1218",Mornington at Salisbury WB - #1218,,"43.002796","-81.215322",,,,,,false,"3",Inner_City_North
+MORNSTRA,"1219",Mornington at Strand EB - #1219,,"43.001751","-81.219938",,,,,,false,"3",Inner_City_North
+OXFOADE1,"1260",Oxford at Adelaide EB - #1260,,"42.99992","-81.237831",,,,,,false,"3",Inner_City_North
+OXFOADE2,"1261",Oxford at Adelaide WB - #1261,,"43.000109","-81.237837",,,,,,false,"3",Inner_City_North
+OXFOCLE1,"1278",Oxford at Clemens EB - #1278,,"43.006137","-81.216628",,,,,,false,"3",Inner_City_North
+OXFOCLE2,"1279",Oxford at Clemens WB - #1279,,"43.006156","-81.216871",,,,,,false,"3",Inner_City_North
+OXFOCOL1,"1280",Oxford at Colborne EB - #1280,,"42.997644","-81.245728",,,,,,false,"3",Inner_City_North
+OXFOCOL2,"1281",Oxford at Colborne WB - #1281,,"42.997886","-81.245338",,,,,,false,"3",Inner_City_North
+OXFOELI1,"1285",Oxford at Elizabeth EB - #1285,,"43.000833","-81.234811",,,,,,false,"3",Inner_City_North
+OXFOELI2,"1286",Oxford at Elizabeth WB - #1286,,"43.00104","-81.234328",,,,,,false,"3",Inner_City_North
+OXFOELL1,"1287",Oxford at Elliott EB - #1287,,"43.001599","-81.2321",,,,,,false,"3",Inner_City_North
+OXFOELL2,"1288",Oxford at Elliott WB - #1288,,"43.001825","-81.231662",,,,,,false,"3",Inner_City_North
+OXFOEMPI,"1289",Oxford at Empire EB - #1289,,"43.006964","-81.213768",,,,,,false,"3",Inner_City_North
+OXFOGAM1,"1296",Oxford at Gammage EB - #1296,,"43.002591","-81.228723",,,,,,false,"3",Inner_City_North
+OXFOGAM2,"1297",Oxford at Gammage WB - #1297,,"43.002899","-81.228015",,,,,,false,"3",Inner_City_North
+OXFOGEO1,"1298",Oxford at St. George EB - #1298,,"42.994743","-81.255576",,,,,,false,"3",Inner_City_North
+OXFOGEO2,"1299",Oxford at St. George WB - #1299,,"42.994758","-81.255944",,,,,,false,"3",Inner_City_North
+OXFOHIG1,"1307",Oxbury Centre EB - #1307,,"43.007889","-81.210425",,,,,,false,"3",Inner_City_North
+OXFOHIG2,"1308",Oxford at Highbury WB - #1308,,"43.008071","-81.210439",,,,,,false,"3",Inner_City_North
+OXFOLYMA,"1319",Oxford at Lyman WB - #1319,,"43.005299","-81.219749",,,,,,false,"3",Inner_City_North
+OXFOMAI1,"1320",Oxford at Maitland EB - #1320,,"42.998642","-81.242401",,,,,,false,"3",Inner_City_North
+OXFOMAI2,"1321",Oxford at Maitland WB - #1321,,"42.998552","-81.243088",,,,,,false,"3",Inner_City_North
+OXFOMORN,"1322",Oxford at Mornington EB - #1322,,"43.00738","-81.212057",,,,,,false,"3",Inner_City_North
+OXFOOAKS,"1323",Oxford at Oakside WB - #1323,,"43.007013","-81.213901",,,,,,false,"3",Inner_City_North
+OXFOQUE1,"1329",Oxford at Quebec EB - #1329,,"43.003786","-81.224718",,,,,,false,"3",Inner_City_North
+OXFOQUE2,"1330",Oxford at Quebec WB - #1330,,"43.003936","-81.22446",,,,,,false,"3",Inner_City_North
+OXFORIC1,"1333",Oxford at Richmond EB - #1333,,"42.995586","-81.252763",,,,,,false,"3",Inner_City_North
+OXFORIC2,"1334",Oxford at Richmond WB - #1334,,"42.995433","-81.253762",,,,,,false,"3",Inner_City_North
+OXFOSPIT,"1345",Oxford at Spittal EB - #1345,,"43.005337","-81.219336",,,,,,false,"3",Inner_City_North
+OXFOSTE1,"1346",Oxford at Sterling EB - #1346,,"43.003347","-81.226199",,,,,,false,"3",Inner_City_North
+OXFOSTE2,"1347",Oxford at Sterling WB - #1347,,"43.003349","-81.226471",,,,,,false,"3",Inner_City_North
+OXFOSTRA,"1348",Oxford at Strand EB - #1348,,"43.004494","-81.222268",,,,,,false,"3",Inner_City_North
+OXFOSTUA,"1349",Oxford at Stuart WB - #1349,,"43.004707","-81.221764",,,,,,false,"3",Inner_City_North
+OXFOTAL2,"1351",Oxford at Talbot WB - #1351,,"42.994224","-81.257846",,,,,,false,"3",Inner_City_North
+OXFOWAT1,"1354",Oxford at Waterloo EB - #1354,,"42.996846","-81.248395",,,,,,false,"3",Inner_City_North
+OXFOWAT2,"1355",Oxford at Waterloo WB - #1355,,"42.997142","-81.247865",,,,,,false,"3",Inner_City_North
+OXFOWEL1,"1356",Oxford at Wellington EB - #1356,,"42.996041","-81.251186",,,,,,false,"3",Inner_City_North
+OXFOWEL2,"1357",Oxford at Wellington WB - #1357,,"42.996245","-81.250872",,,,,,false,"3",Inner_City_North
+OXFOWIL1,"1360",Oxford at William EB - #1360,,"42.9993","-81.240156",,,,,,false,"3",Inner_City_North
+OXFOWIL2,"1361",Oxford at William WB - #1361,,"42.999381","-81.240321",,,,,,false,"3",Inner_City_North
+OXFOWIST,"1362",Oxford at Wistow WB - #1362,,"43.007612","-81.211855",,,,,,false,"3",Inner_City_North
+QUEBDUFF,"1434",Quebec at Dufferin SB - #1434,,"42.99448","-81.219981",,,,,,false,"3",Inner_City_North
+QUEBDUND,"1435",Quebec at Dundas NB - #1435,,"42.992891","-81.219093",,,,,,false,"3",Inner_City_North
+QUEBELI1,"1436",Quebec at Elias NB - #1436,,"42.997177","-81.221188",,,,,,false,"3",Inner_City_North
+QUEBELI2,"1437",Quebec at Elias SB - #1437,,"42.996906","-81.221212",,,,,,false,"3",Inner_City_North
+QUEBLOR1,"1438",Quebec at Lorne NB - #1438,,"42.995928","-81.220581",,,,,,false,"3",Inner_City_North
+QUEBLOR2,"1439",Quebec at Lorne SB - #1439,,"42.995327","-81.220397",,,,,,false,"3",Inner_City_North
+QUEBMORN,"1440",Quebec at Mornington SB - #1440,,"43.000372","-81.222939",,,,,,false,"3",Inner_City_North
+QUEBQUEE,"1441",Quebec at Queens NB - #1441,,"42.993921","-81.219616",,,,,,false,"3",Inner_City_North
+REGEMAIT,"1455",Regent at Maitland WB - #1455,,"43.008797","-81.247692",,,,,,false,"3",Inner_City_North
+REGEWILL,"1456",Regent at William EB - #1456,,"43.009425","-81.245384",,,,,,false,"3",Inner_City_North
+RICHCHE1,"1464",Richmond at Cheapside NB - #1464,,"43.001527","-81.256205",,,,,,false,"3",Inner_City_North
+RICHCHE2,"1465",Richmond at Cheapside SB - #1465,,"43.001785","-81.25651",,,,,,false,"3",Inner_City_North
+RICHGRO1,"1476",Richmond at Grosvenor NB - #1476,,"43.000039","-81.255383",,,,,,false,"3",Inner_City_North
+RICHGRO2,"1477",Richmond at Grosvenor SB - #1477,,"42.999325","-81.255246",,,,,,false,"3",Inner_City_North
+RICHHUR1,"1481",Richmond at Huron NB - #1481,,"43.007342","-81.259406",,,,,,false,"3",Inner_City_North
+RICHHUR2,"1482",Richmond at Huron SB - #1482,,"43.007167","-81.259424",,,,,,false,"3",Inner_City_North
+RICHJAM1,"1486",Richmond at St. James NB - #1486,,"42.997499","-81.254137",,,,,,false,"3",Inner_City_North
+RICHJAM2,"1487",Richmond at St. James SB - #1487,,"42.997724","-81.254361",,,,,,false,"3",Inner_City_North
+RICHOXF1,"1494",Richmond at Oxford NB - #1494,,"42.995977","-81.253301",,,,,,false,"3",Inner_City_North
+RICHPAR2,"1497",Richmond at Parkdale Ave SB - #1497,,"43.011195","-81.263629",,,,,,false,"3",Inner_City_North
+RICHRAY1,"1502",Richmond north of Raymond NB - #1502,,"43.013188","-81.265588",,,,,,false,"3",Inner_City_North
+RICHRAY2,"1503",Richmond at Raymond SB - #1503,,"43.01212","-81.26462",,,,,,false,"3",Inner_City_North
+RICHREG1,"1506",Richmond at Regent NB - #1506,,"43.005693","-81.25836",,,,,,false,"3",Inner_City_North
+RICHUNI1,"1512",Richmond at University NB - #1512,,"43.008865","-81.261028",,,,,,false,"3",Inner_City_North
+RICHUNI2,"1513",Richmond at University SB - #1513,,"43.009232","-81.261626",,,,,,false,"3",Inner_City_North
+RICHVIC1,"1514",Richmond at Victoria NB - #1514,,"43.003609","-81.257279",,,,,,false,"3",Inner_City_North
+RICHVIC2,"1515",Richmond at Victoria SB - #1515,,"43.003846","-81.257557",,,,,,false,"3",Inner_City_North
+SALIQUEB,"1617",Salisbury at Quebec EB - #1617,,"42.999937","-81.222027",,,,,,false,"3",Inner_City_North
+UNIVRIC1,"1818",University Main Gates EB - #1818,,"43.008938","-81.261536",,,,,,false,"3",Inner_City_North
+UNIVSUN1,"1820",University Dr at Sunset EB - #1820,,"43.007727","-81.26561",,,,,,false,"3",Inner_City_North
+UNIVSUN2,"1821",Elgin Hall WB - #1821,,"43.007963","-81.265357",,,,,,false,"3",Inner_City_North
+WILLREGE,"2071",William at Regent SB - #2071,,"43.009705","-81.245297",,,,,,false,"3",Inner_City_North
+YORKLYL1,"2161",York at Lyle EB - #2161,,"42.987086","-81.227262",,,,,,false,"3",Inner_City_North
+YORKLYL2,"2162",York at Lyle WB - #2162,,"42.986971","-81.228111",,,,,,false,"3",Inner_City_North
+YORKREC1,"2165",York at Rectory EB - #2165,,"42.987526","-81.222993",,,,,,false,"3",Inner_City_North
+YORKREC2,"2166",York at Rectory WB - #2166,,"42.987914","-81.22394",,,,,,false,"3",Inner_City_North
+CHEABRA2,"2209",Cheapside at Elliott WB - #2209,,"43.007531","-81.235149",,,,,,false,"3",Inner_City_North
+DUNDMCOR,"2219",Dundas at McCormick Blvd WB - #2219,,"42.994537","-81.2121",,,,,,false,"3",Inner_City_North
+HIGBKIL1,"2234",Highbury at Kilally NB - #2234,,"43.030903","-81.220945",,,,,,false,"3",Inner_City_North
+HIGBTOWN,"2235",Highbury at Townsend SB - #2235,,"43.028693","-81.220077",,,,,,false,"3",Inner_City_North
+HUROHIG1,"2241",Huron west of Highbury EB - #2241,,"43.019489","-81.2165",,,,,,false,"3",Inner_City_North
+MORNCON3,"2251",590 Mornington EB - #2251,,"43.00473","-81.211838",,,,,,false,"3",Inner_City_North
+MORNMOR4,"2252",Mornington west of Connaught WB - #2252,,"43.002639","-81.213763",,,,,,false,"3",Inner_City_North
+HUROBRI3,"2306",945 Huron - #2306,,"43.016243","-81.227928",,,,,,false,"3",Inner_City_North
+HIGBREMB,"2447",Highbury at Rembrandt Valley SB - #2447,,"43.033142","-81.222247",,,,,,false,"3",Inner_City_North
+BRIAMEL3,"2601",Briarhill south of Melsandra 2 SB - #2601,,"43.0185","-81.22698",,,,,,false,"3",Inner_City_North
+HIGH1550,"2710",1550 Highbury NB - #2710,,"43.033585","-81.222315",,,,,,false,"3",Inner_City_North
+HIGHTOW1,"2712",Highbury at Townsend NB - #2712,,"43.028165","-81.219642",,,,,,false,"3",Inner_City_North
+BARKHUR1,"2786",Barker at Huron NB - #2786,,"43.015762","-81.231649",,,,,,false,"3",Inner_City_North
+BARKKIPP,"2787",Barker at Kipps NS NB - #2787,,"43.020269","-81.236254",,,,,,false,"3",Inner_City_North
+BARKMEL1,"2788",Barker at Melsandra FS NB - #2788,,"43.018783","-81.232522",,,,,,false,"3",Inner_City_North
+BARKMELS,"2789",Barker at Melsandra NS SB - #2789,,"43.018618","-81.232488",,,,,,false,"3",Inner_City_North
+CHEACOLB,"2795",Cheapside at Colborne EB - #2795,,"43.003856","-81.248275",,,,,,false,"3",Inner_City_North
+COLBCHEA,"2796",Colborne at Cheapside SB - #2796,,"43.003593","-81.248574",,,,,,false,"3",Inner_City_North
+COLBGRO1,"2797",Colborne at Grosvenor SB - #2797,,"43.001941","-81.247725",,,,,,false,"3",Inner_City_North
+COLBGRO2,"2798",Colborne at Grosvenor NB - #2798,,"43.001633","-81.24739",,,,,,false,"3",Inner_City_North
+COLBOXFO,"2799",Colborne at Oxford NB - #2799,,"42.998104","-81.245584",,,,,,false,"3",Inner_City_North
+COLBSJM1,"2800",Colborne at St. James NB - #2800,,"42.999516","-81.246304",,,,,,false,"3",Inner_City_North
+COLBSJM2,"2801",Colborne at St. James SB - #2801,,"42.999882","-81.246661",,,,,,false,"3",Inner_City_North
+KIPPADE1,"2850",Kipps at Adelaide WB - #2850,,"43.018164","-81.24418",,,,,,false,"3",Inner_City_North
+KIPPBEL1,"2852",Kipps at Belfield NS WB - #2852,,"43.019159","-81.240758",,,,,,false,"3",Inner_City_North
+RICHBERN,"2870",Richmond at Bernard NB - #2870,,"43.011232","-81.263469",,,,,,false,"3",Inner_City_North
+HIGBEDG1,"2969",Highbury at Edgevalley NB - #2969 ,,"43.03612","-81.22332",,,,,,false,"3",Inner_City_North
+ONTAKIN1,"2972",Ontario at King Station NB - #2972,,"42.990784","-81.221696",,,,,,false,"3",Inner_City_North
+ONTAKIN2,"2973",Ontario at King Station SB - #2973,,"42.99046","-81.221794",,,,,,false,"3",Inner_City_North
+ADMIBON1,"93",Admiral at Bonaventure EB - #93,,"43.003065","-81.154082",,,,,,false,"5",East
+ADMIBON2,"94",Admiral at Bonaventure WB - #94,,"43.003092","-81.154332",,,,,,false,"5",East
+ADMICAR1,"95",Admiral at Carlyle EB - #95,,"43.001932","-81.158102",,,,,,false,"5",East
+ADMICAR2,"96",Admiral at Carlyle WB - #96,,"43.00203","-81.158034",,,,,,false,"5",East
+ADMIKIP1,"97",319 Admiral - #97,,"42.999776","-81.161407",,,,,,false,"5",East
+ADMIKIP3,"99",Admiral at Kipling EB - #99,,"42.99674","-81.16321",,,,,,false,"5",East
+ADMISOVE,"100",Admiral at Sovereign WB - #100,,"43.004599","-81.148364",,,,,,false,"5",East
+ADMIVAU1,"101",Admiral at Vaubois EB - #101,,"43.002464","-81.156352",,,,,,false,"5",East
+ADMIVAU3,"102",Admiral at Vaubois WB - #102,,"43.002581","-81.15622",,,,,,false,"5",East
+ADMIVMP2,"104",Admiral at Veterans Memorial Pkwy WB - #104,,"43.003977","-81.150998",,,,,,false,"5",East
+ARGYMAL1,"166",Argyle Mall SB - Stop 1 - #166,,"43.002596","-81.17356",,,,,,false,"5",East
+ARGYMAL2,"167",Argyle Mall NB - Stop 2 - #167,,"43.002643","-81.173369",,,,,,false,"5",East
+BECKLANC,"229",Beckworth at Lancaster EB - #229,,"43.02153","-81.199744",,,,,,false,"5",East
+BECKLANG,"230",Beckworth at Langton EB - #230,,"43.022025","-81.197964",,,,,,false,"5",East
+BECKSORR,"231",Beckworth at Sorrel EB - #231,,"43.021237","-81.193988",,,,,,false,"5",East
+BECKTOUK,"232",Beckworth at Toukay EB - #232,,"43.02084","-81.202245",,,,,,false,"5",East
+BECKTUDO,"233",Beckworth at Tudor EB - #233,,"43.02187","-81.196218",,,,,,false,"5",East
+BONADUND,"281",Bonaventure at Dundas SB - #281,,"43.008767","-81.158322",,,,,,false,"5",East
+BONAMORE,"283",Bonaventure at Moreau Cr  SB - #283,,"43.004695","-81.154708",,,,,,false,"5",East
+BONANAPO,"284",Bonaventure at Napoleon Cr SB - #284,,"43.000429","-81.154082",,,,,,false,"5",East
+BONASIMP,"285",Bonaventure at Simpson Cr SB - #285,,"43.007415","-81.156086",,,,,,false,"5",East
+BONATRA2,"287",Bonaventure at Trafalgar SB - #287,,"42.997744","-81.153783",,,,,,false,"5",East
+BOWBANC,"290",Bow at Bancroft EB - #290,,"42.991759","-81.16023",,,,,,false,"5",East
+BRYDHAL1,"305",Brydges at Hale EB - #305,,"42.990508","-81.195478",,,,,,false,"5",East
+BRYDHAL2,"306",Brydges at Hale WB - #306,,"42.990779","-81.194754",,,,,,false,"5",East
+CARLCAPR,"327",Carlyle at Caprice Cres NB - #327,,"43.003383","-81.1596",,,,,,false,"5",East
+CARLSPE1,"328",Carlyle at Speight Cres North NB - #328,,"43.006153","-81.161129",,,,,,false,"5",East
+CARLSPE3,"329",Carlyle at Speight Cres South NB - #329,,"43.005159","-81.16109",,,,,,false,"5",East
+CARLTIFF,"330",Carlyle at Tiffany  NB - #330,,"43.007857","-81.161588",,,,,,false,"5",East
+CHIPAPP2,"391",Chippewa Elementary School - #391,,"43.028257","-81.197729",,,,,,false,"5",East
+CHIPAPP4,"392",Chippewa at Appache WB - #392,,"43.026565","-81.202334",,,,,,false,"5",East
+CHIPTREV,"393",Chippewa at Trevor WB - #393,,"43.02762","-81.199787",,,,,,false,"5",East
+CLARAVA1,"394",Clarke at Avalon NB - #394,,"43.006881","-81.176782",,,,,,false,"5",East
+CLARCHA1,"395",Clarke at Charterhouse NB - #395,,"42.99043","-81.168805",,,,,,false,"5",East
+CLARCHA2,"396",Clarke at Charterhouse SB - #396,,"42.988142","-81.167747",,,,,,false,"5",East
+CLARCHA3,"397",Marconi Club NB - #397,,"42.987716","-81.16735",,,,,,false,"5",East
+CLARCHU1,"398",Clarke at Churchill NB - #398,,"43.00102","-81.173848",,,,,,false,"5",East
+CLARCHU2,"399",Clarke at Churchill  SB - #399,,"43.000697","-81.173868",,,,,,false,"5",East
+CLARCULV,"400",Clarke south of Culver SB - #400,,"43.011313","-81.179156",,,,,,false,"5",East
+CLARDUN1,"402",Clarke at Dundas NB - #402,,"43.005365","-81.176055",,,,,,false,"5",East
+CLARDUN2,"403",Clarke at Dundas SB - #403,,"43.004938","-81.176017",,,,,,false,"5",East
+CLARFIS1,"404",Clarke at Firestone NB - #404,,"42.983111","-81.164911",,,,,,false,"5",East
+CLARFIS2,"405",Clarke at Firestone SB - #405,,"42.98371","-81.165357",,,,,,false,"5",East
+CLARGORE,"406",Clarke at Gore NB - #406,,"42.981642","-81.164152",,,,,,false,"5",East
+CLARPACI,"409",Clarke at Pacific NB - #409,,"43.011092","-81.178909",,,,,,false,"5",East
+CLARPKH1,"410",Clarke at Parkhurst NB - #410,,"43.008731","-81.177735",,,,,,false,"5",East
+CLARPKH2,"411",Clarke at Parkhurst SB - #411,,"43.009135","-81.178086",,,,,,false,"5",East
+CLARROY1,"412",Clarke at Royal South NB - #412,,"42.996122","-81.171725",,,,,,false,"5",East
+CLARROY2,"413",Clarke at Royal SB - #413,,"42.996934","-81.172318",,,,,,false,"5",East
+CLARROY3,"414",Clarke at Royal North NB - #414,,"42.997734","-81.172518",,,,,,false,"5",East
+CLARSUD2,"416",Clarke at Sudbury SB - #416,,"42.994076","-81.17083",,,,,,false,"5",East
+CLARTRA1,"417",Clarke north of Trafalgar NB - #417,,"42.993016","-81.170087",,,,,,false,"5",East
+CLARTRA2,"418",Clarke north of Trafalgar SB - #418,,"42.993134","-81.170342",,,,,,false,"5",East
+CLARTRA4,"419",Clarke south of Trafalgar SB - #419,,"42.990993","-81.16926",,,,,,false,"5",East
+CLARWAV1,"420",Clarke Road Secondary School - #420,,"42.999051","-81.172879",,,,,,false,"5",East
+CLARWAV2,"421",Clarke at Wavell SB - #421,,"42.998256","-81.172885",,,,,,false,"5",East
+CRUMPAGE,"490",Crumlin at Page NB - #490,,"43.018673","-81.150931",,,,,,false,"5",East
+CULVCLA1,"492",Clarke at Culver SB - #492,,"43.01373","-81.18041",,,,,,false,"5",East
+CULVCLA2,"493",1826 Culver WB - #493,,"43.012837","-81.183469",,,,,,false,"5",East
+CULVCLA4,"494",Culver at Clarke WB - #494,,"43.013992","-81.180842",,,,,,false,"5",East
+CULVCUL1,"495",Culver at Culver Cres EB - #495,,"43.00989","-81.184268",,,,,,false,"5",East
+CULVCUL3,"496",Culver east of Culver Place EB - #496,,"43.010716","-81.182482",,,,,,false,"5",East
+CULVCUL4,"497",Culver at Culver Cres. WB - #497,,"43.010385","-81.182804",,,,,,false,"5",East
+CULVCUL5,"498",Culver north of Culver Place EB - #498,,"43.013036","-81.183242",,,,,,false,"5",East
+CULVTHR1,"499",Culver at Third EB - #499,,"43.008725","-81.187154",,,,,,false,"5",East
+CULVTHR2,"500",Culver at Third WB - #500,,"43.008742","-81.187181",,,,,,false,"5",East
+DUNDARVI,"539",Dundas at Arvilla WB - #539,,"43.006433","-81.1702",,,,,,false,"5",East
+DUNDBEA1,"543",Dundas at Beatrice EB - #543,,"43.003464","-81.180178",,,,,,false,"5",East
+DUNDBEA2,"544",Dundas at Beatrice WB - #544,,"43.003435","-81.180831",,,,,,false,"5",East
+DUNDBUR2,"546",Dundas at Second WB - #546,,"43.000759","-81.190277",,,,,,false,"5",East
+DUNDCARL,"547",Dundas at Carlyle EB - #547,,"43.008743","-81.161078",,,,,,false,"5",East
+DUNDCLK1,"550",Dundas at Clarke EB - #550,,"43.00455","-81.176374",,,,,,false,"5",East
+DUNDCLK4,"551",Dundas at Clarke WB - #551,,"43.004671","-81.176482",,,,,,false,"5",East
+DUNDEAS2,"556",Dundas at Eastwood WB - #556,,"43.005664","-81.172855",,,,,,false,"5",East
+DUNDEAS3,"557",Dundas east of Eastwood EB - #557,,"43.005338","-81.173386",,,,,,false,"5",East
+DUNDFIR1,"566",Dundas at First EB - #566,,"42.999356","-81.194651",,,,,,false,"5",East
+DUNDFIR2,"567",Dundas east of First WB - #567,,"42.999659","-81.194212",,,,,,false,"5",East
+DUNDFOR1,"569",Dundas at Forest Lawn EB - #569,,"43.007235","-81.166554",,,,,,false,"5",East
+DUNDFOR2,"570",Dundas at Forest Lawn WB - #570,,"43.007187","-81.167455",,,,,,false,"5",East
+DUNDHAL2,"572",Dundas east of Hale WB - #572,,"42.998415","-81.19858",,,,,,false,"5",East
+DUNDHAL3,"573",Dundas west of Hale EB - #573,,"42.998058","-81.199337",,,,,,false,"5",East
+DUNDHAL4,"574",Dundas west of Hale WB - #574,,"42.99752","-81.2019",,,,,,false,"5",East
+DUNDINDU,"581",Dundas at Industrial WB - #581,,"43.009168","-81.160049",,,,,,false,"5",East
+DUNDMANI,"587",Dundas at Calgary EB - #587,,"43.002151","-81.18474",,,,,,false,"5",East
+DUNDSASK,"602",Dundas at Saskatoon EB - #602,,"43.000664","-81.190041",,,,,,false,"5",East
+DUNDSPE1,"605",Dundas at Speight EB - #605,,"43.007731","-81.164719",,,,,,false,"5",East
+DUNDSPE2,"606",Dundas east of Speight WB - #606,,"43.008122","-81.163976",,,,,,false,"5",East
+DUNDSPE4,"607",Dundas west of Speight WB - #607,,"43.007614","-81.165815",,,,,,false,"5",East
+DUNDTHR,"612",Dundas at Third WB - #612,,"43.001981","-81.186037",,,,,,false,"5",East
+DUNDWAV1,"617",Dundas east of Wavell EB - #617,,"43.006422","-81.169406",,,,,,false,"5",East
+GOREBRAE,"783",Gore at Braeside WB - #783,,"42.978433","-81.172081",,,,,,false,"5",East
+GOREFIRE,"785",Gore at Firestone WB - #785,,"42.979208","-81.169434",,,,,,false,"5",East
+HALEBEAT,"828",Hale at Beattie SB - #828,,"42.994478","-81.197049",,,,,,false,"5",East
+HALEBRY1,"829",Hale at Brydges NB - #829,,"42.99049","-81.195112",,,,,,false,"5",East
+HALEBRY2,"830",Hale at Brydges SB - #830,,"42.990805","-81.195321",,,,,,false,"5",East
+HALEDOU1,"831",Hale at Doulton NB - #831,,"42.996102","-81.197705",,,,,,false,"5",East
+HALEDOU2,"832",Hale at Burslem SB - #832,,"42.99656","-81.19806",,,,,,false,"5",East
+HALEDUND,"833",Hale at Dundas NB - #833,,"42.997836","-81.19854",,,,,,false,"5",East
+HALEEAST,"834",Hale at Eastman NB - #834,,"42.994041","-81.196761",,,,,,false,"5",East
+HALEELLS,"835",Hale at Ellsworth SB - #835,,"42.979462","-81.19096",,,,,,false,"5",East
+HALEGRAY,"836",Hale at Graydon NB - #836,,"42.992419","-81.196006",,,,,,false,"5",East
+HALEMAGE,"837",Hale at Magee SB - #837,,"42.981498","-81.191082",,,,,,false,"5",East
+HALEMONT,"838",Hale at Montague Place SB - #838,,"42.992916","-81.196312",,,,,,false,"5",East
+HALESTE1,"839",Hale at Stevenson NB - #839,,"42.988161","-81.194023",,,,,,false,"5",East
+HALESTE2,"840",Hale at Stevenson SB - #840,,"42.988203","-81.194167",,,,,,false,"5",East
+HALETRA2,"842",Hale at Trafalgar SB - #842,,"42.986756","-81.193479",,,,,,false,"5",East
+HAMIBRA1,"847",Hamilton east of Braesyde EB - #847,,"42.974058","-81.171792",,,,,,false,"5",East
+HAMIBRA3,"848",Hamilton west of Braesyde EB - #848,,"42.974851","-81.174527",,,,,,false,"5",East
+HAMIGORE,"858",Hamilton at Gore EB - #858,,"42.97548","-81.178124",,,,,,false,"5",East
+HAMIHALE,"859",Hamilton at Hale WB - #859,,"42.977431","-81.191874",,,,,,false,"5",East
+HAMIMEA1,"866",Hamilton west of Meadowlilly EB - #866,,"42.976754","-81.187744",,,,,,false,"5",East
+HAMIMEA3,"867",Hamilton east of Meadowlilly EB - #867,,"42.976569","-81.186135",,,,,,false,"5",East
+HAMINORL,"868",Hamilton at Norlan EB - #868,,"42.97729","-81.191664",,,,,,false,"5",East
+HAMIRIRU,"878",Hamilton at River Run Terrace EB - #878,,"42.973015","-81.168216",,,,,,false,"5",East
+HAMIWATM,"887",Hamilton at Watmar EB - #887,,"42.976094","-81.182582",,,,,,false,"5",East
+HUDSBAFF,"990",Hudson at Baffin Place EB - #990,,"42.991818","-81.15844",,,,,,false,"5",East
+HUDSFROB,"991",Hudson at Frobisher EB - #991,,"42.991822","-81.156712",,,,,,false,"5",East
+HUDSJOLI,"992",Hudson at Joliet NB - #992,,"42.994047","-81.155125",,,,,,false,"5",East
+HUDSTRAF,"993",Hudson at Trafalgar NB - #993,,"42.995616","-81.15591",,,,,,false,"5",East
+HUROHIG3,"1009",Huron east of Highbury EB - #1009,,"43.020169","-81.214119",,,,,,false,"5",East
+HUROSAN1,"1015",Huron at Sandford EB - #1015,,"43.022767","-81.205444",,,,,,false,"5",East
+HUROSAN2,"1016",Huron at Sandford WB - #1016,,"43.022613","-81.206383",,,,,,false,"5",East
+HUROWEB1,"1021",Huron at Webster Stop 1 EB - #1021,,"43.021481","-81.209843",,,,,,false,"5",East
+HUROWEB2,"1022",Huron at Webster WB - #1022,,"43.021579","-81.209919",,,,,,false,"5",East
+INDUOXFO,"1034",Industrial at Oxford NB - #1034,,"43.02051","-81.164333",,,,,,false,"5",East
+INDUPAG1,"1035",Industrial north of Page 1 NB - #1035,,"43.015832","-81.162017",,,,,,false,"5",East
+INDUPAG3,"1036",Industrial north of Page 2 NB - #1036,,"43.017475","-81.162831",,,,,,false,"5",East
+MANITWEE,"1133",Manitoulin at Tweedsmuir NB - #1133,,"42.982666","-81.181256",,,,,,false,"5",East
+MARCNOEL,"1137",Marconi at Noel SB - #1137,,"42.990376","-81.164965",,,,,,false,"5",East
+MARCRAI2,"1138",Marconi at Railton WB - #1138,,"42.986971","-81.152882",,,,,,false,"5",East
+MARCTRAF,"1139",Marconi at Trafalgar SB - #1139,,"42.992638","-81.167302",,,,,,false,"5",East
+MONTFUND,"1199",Montabello at Fundy NB - #1199,,"42.978533","-81.178654",,,,,,false,"5",East
+MONTGORE,"1200",Montabello at Gore NB - #1200,,"42.977249","-81.178022",,,,,,false,"5",East
+MONTMANI,"1201",Montabello at Manitoulin NB - #1201,,"42.980502","-81.180853",,,,,,false,"5",East
+MONTTWEE,"1206",Montabello at Tweedsmuir NB - #1206,,"42.979914","-81.179396",,,,,,false,"5",East
+NEPT342N,"1225",342 Neptune - #1225,,"42.993231","-81.13926",,,,,,false,"5",East
+NEPTSOV1,"1226",Neptune at Sovereign NB - #1226,,"42.989943","-81.137503",,,,,,false,"5",East
+NEPTSOV3,"1227",396 Neptune NB - #1227,,"42.995874","-81.140651",,,,,,false,"5",East
+NOELBOW,"1238",Noel at Bow EB - #1238,,"42.990022","-81.161463",,,,,,false,"5",East
+OAKVCHIP,"1244",Oakville at Chippewa NB - #1244,,"43.029372","-81.19657",,,,,,false,"5",East
+OAKVHURO,"1245",Oakville at Huron NB - #1245,,"43.027589","-81.192298",,,,,,false,"5",East
+OAKVTILI,"1246",Oakville at Tilipe NB - #1246,,"43.028653","-81.193699",,,,,,false,"5",East
+OXFOCLA1,"1273",Oxford east of Clarke EB - #1273,,"43.016547","-81.180449",,,,,,false,"5",East
+OXFOCLA2,"1274",General Dynamics Gate 1 WB - #1274,,"43.01769","-81.176831",,,,,,false,"5",East
+OXFOCLA3,"1275",General Dynamics Gate 1 EB - #1275,,"43.017621","-81.176624",,,,,,false,"5",East
+OXFOCLA5,"1276",Oxford west of Clarke EB - #1276,,"43.015144","-81.185375",,,,,,false,"5",East
+OXFOCLA6,"1277",Oxford at 3M WB - #1277,,"43.015335","-81.185152",,,,,,false,"5",East
+OXFOGM1,"1300",General Dynamics Gate 4 - #1300,,"43.01888","-81.172206",,,,,,false,"5",East
+OXFOGM2,"1301",Oxford at General Dynamics Main Gate - #1301,,"43.019425","-81.170703",,,,,,false,"5",East
+OXFOGM3,"1302",2035 Oxford - #1302,,"43.019868","-81.16872",,,,,,false,"5",East
+OXFOHIG3,"1309",Oxford at Highbury EB - #1309,,"43.008468","-81.208349",,,,,,false,"5",East
+OXFOHIG4,"1310",John Paul Secondary School WB - #1310,,"43.008983","-81.2073",,,,,,false,"5",East
+OXFOIND1,"1313",Oxford east of Industrial EB - #1313,,"43.021161","-81.164167",,,,,,false,"5",East
+OXFOIND2,"1314",Oxford at Industrial WB - #1314,,"43.020498","-81.166915",,,,,,false,"5",East
+OXFOIND3,"1315",Oxford west of Industrial EB - #1315,,"43.020401","-81.16688",,,,,,false,"5",East
+OXFOROE2,"1336",Oxford at Roehampton WB - #1336,,"43.010051","-81.203514",,,,,,false,"5",East
+OXFOSEC1,"1343",Oxford at Second EB - #1343,,"43.012141","-81.19586",,,,,,false,"5",East
+OXFOSEC2,"1344",Oxford at Fanshawe College Blvd WB - #1344,,"43.012511","-81.195051",,,,,,false,"5",East
+OXFOTHI1,"1352",Oxford at Third EB - #1352,,"43.013429","-81.191453",,,,,,false,"5",East
+OXFOTHI2,"1353",Oxford at Third WB - #1353,,"43.013802","-81.190523",,,,,,false,"5",East
+PAGEVMPW,"1371",Page at Vetrans WB - #1371,,"43.016019","-81.15896",,,,,,false,"5",East
+RAILKENN,"1445",Railton at Kennedy Place SB - #1445,,"42.994444","-81.152093",,,,,,false,"5",East
+RAILPORT,"1446",Railton at Portsmouth SB - #1446,,"42.988241","-81.150232",,,,,,false,"5",East
+RAILSADD,"1447",Railton at Saddy SB - #1447,,"42.990818","-81.151272",,,,,,false,"5",East
+ROYACAS1,"1609",Royal at Castle EB - #1609,,"42.998691","-81.169127",,,,,,false,"5",East
+ROYACAS2,"1610",Royal at Castle WB - #1610,,"42.998722","-81.169297",,,,,,false,"5",East
+SANDBEC1,"1618",Sandford at Beckworth NB - #1618,,"43.020779","-81.203558",,,,,,false,"5",East
+SANDBEC2,"1619",Sandford at Beckworth SB - #1619,,"43.021116","-81.203822",,,,,,false,"5",East
+SANDBENT,"1620",Sandford at Bentley SB - #1620,,"43.026168","-81.2047",,,,,,false,"5",East
+SANDHUR1,"1623",Sandford at Huron NB - #1623,,"43.022057","-81.204205",,,,,,false,"5",East
+SANDHUR2,"1624",Sandford North of Huron SB - #1624,,"43.023794","-81.205155",,,,,,false,"5",East
+SORRHURO,"1663",Sorrel at Huron NB - #1663,,"43.026155","-81.192299",,,,,,false,"5",East
+SORRPERT,"1665",Sorrel at Perth Ave NB - #1665,,"43.024095","-81.192746",,,,,,false,"5",East
+SOVEBEL1,"1716",Sovereign at Belleisle Crt NB - #1716,,"43.002839","-81.146751",,,,,,false,"5",East
+SOVEBEL2,"1717",Sovereign at Belleisle Crt SB - #1717,,"43.002321","-81.146558",,,,,,false,"5",East
+SOVENEP2,"1718",Sovereign at Neptune 1 SB - #1718,,"42.99691","-81.14365",,,,,,false,"5",East
+SOVENEP4,"1719",Sovereign at  Neptune Cres 2 SB - #1719,,"42.991413","-81.140522",,,,,,false,"5",East
+SOVETART,"1720",Sovereign at Tartan SB - #1720,,"42.994375","-81.1422",,,,,,false,"5",East
+SOVETRA1,"1721",Sovereign at Trafalgar NB - #1721,,"42.999174","-81.144828",,,,,,false,"5",East
+SOVETRA2,"1722",Sovereign at Trafalgar SB - #1722,,"42.998875","-81.144742",,,,,,false,"5",East
+THIRCUL1,"1769",Third at Culver Dr NB - #1769,,"43.01032","-81.1892",,,,,,false,"5",East
+THIROXF1,"1771",Third at Oxford NB - #1771,,"43.013179","-81.19059",,,,,,false,"5",East
+THIROXF2,"1772",Third at Oxford  SB - #1772,,"43.011824","-81.190053",,,,,,false,"5",East
+TRAFATK2,"1788",Trafalgar at Atkinson WB - #1788,,"42.990542","-81.1767",,,,,,false,"5",East
+TRAFBALF,"1789",Trafalgar at Balfour Place EB - #1789,,"42.989742","-81.179139",,,,,,false,"5",East
+TRAFBANC,"1790",Trafalgar at Bancroft  WB - #1790,,"42.994791","-81.1617",,,,,,false,"5",East
+TRAFCLA1,"1791",Trafalgar at Clarke Rd EB - #1791,,"42.992012","-81.171074",,,,,,false,"5",East
+TRAFCLA2,"1792",Trafalgar at Clarke Rd WB - #1792,,"42.992585","-81.169541",,,,,,false,"5",East
+TRAFCLA4,"1793",Trafalgar West of Clarke Rd WB - #1793,,"42.992076","-81.171269",,,,,,false,"5",East
+TRAFDAWN,"1794",Trafalgar at Dawn WB - #1794,,"42.989922","-81.178952",,,,,,false,"5",East
+TRAFHUD2,"1796",Trafalgar at Hudson  WB - #1796,,"42.99612","-81.157048",,,,,,false,"5",East
+TRAFHUD4,"1797",Trafalgar Between Hudson and Admiral WB - #1797,,"42.995507","-81.159215",,,,,,false,"5",East
+TRAFMARC,"1798",Trafalgar at Marconi Blvd  WB - #1798,,"42.993244","-81.167201",,,,,,false,"5",East
+TRAFSTE1,"1799",Trafalgar at Stevenson Ave EB - #1799,,"42.986995","-81.189037",,,,,,false,"5",East
+TRAFSTE2,"1800",Trafalgar at Stevenson Ave WB - #1800,,"42.986732","-81.190088",,,,,,false,"5",East
+TRAFTHO1,"1801",Trafalgar at Thorne Ave EB - #1801,,"42.987655","-81.18663",,,,,,false,"5",East
+TRAFTHO2,"1802",Trafalgar at Thorne WB - #1802,,"42.987559","-81.18716",,,,,,false,"5",East
+TRAFVAN1,"1803",Trafalgar at Vancouver  EB - #1803,,"42.989143","-81.181387",,,,,,false,"5",East
+TRAFVAN2,"1804",Trafalgar at Vancouver  WB - #1804,,"42.989093","-81.181802",,,,,,false,"5",East
+TWEECOU2,"1810",Tweedsmuir at Court Lane East WB - #1810,,"42.982252","-81.183322",,,,,,false,"5",East
+TWEECOU4,"1811",Tweedsmuir at Court Lane West WB - #1811,,"42.982365","-81.185867",,,,,,false,"5",East
+TWEEELLE,"1812",Tweedsmuir at Ellesworth WB - #1812,,"42.983016","-81.187912",,,,,,false,"5",East
+TWEEHALE,"1813",Tweedsmuir at Hale  WB - #1813,,"42.982862","-81.191508",,,,,,false,"5",East
+WAVECAS1,"1896",Wavell at Castle Dr EB - #1896,,"42.999161","-81.170685",,,,,,false,"5",East
+WAVECAS2,"1897",Wavell at Castle Dr WB - #1897,,"42.999564","-81.169557",,,,,,false,"5",East
+WAVECLA1,"1898",Wavell East of Clarke Rd EB - #1898,,"42.998854","-81.171841",,,,,,false,"5",East
+WAVECLA2,"1899",Wavell at Clarke WB - #1899,,"42.998523","-81.173288",,,,,,false,"5",East
+WAVEDUN2,"1903",2040 Wavell SB - #1903,,"43.004325","-81.168777",,,,,,false,"5",East
+WAVEDUN4,"1905",1990 Wavell SB - #1905,,"43.002382","-81.167767",,,,,,false,"5",East
+WAVEDUN6,"1906",Wavell at Dundas SB - #1906,,"43.00596","-81.169634",,,,,,false,"5",East
+WAVEEDM1,"1907",Wavell at Edmonton St EB - #1907,,"42.99618","-81.18115",,,,,,false,"5",East
+WAVEEDM2,"1908",Wavell at Edmonton St WB - #1908,,"42.996438","-81.180556",,,,,,false,"5",East
+WAVEKIW1,"1910",Wavell at Kiwanis Park Dr EB - #1910,,"42.993332","-81.189834",,,,,,false,"5",East
+WAVEKIW2,"1911",Wavell at Kiwanis Park Dr WB - #1911,,"42.993712","-81.189514",,,,,,false,"5",East
+WAVEMER1,"1912",Wavell East of Merlin Cr EB - #1912,,"42.997589","-81.176181",,,,,,false,"5",East
+WAVEMER2,"1913",Wavell at Merlin Cr WB - #1913,,"42.99757","-81.176573",,,,,,false,"5",East
+WAVESASK,"1915",Wavell at Saskatoon St WB - #1915,,"42.994743","-81.186617",,,,,,false,"5",East
+WAVEVANC,"1916",Wavell at Vancouver St. EB - #1916,,"42.994928","-81.185574",,,,,,false,"5",East
+WAVEWIN2,"1918",Wavell at Winnipeg Blvd WB - #1918,,"42.99567","-81.183263",,,,,,false,"5",East
+WEXFADMI,"2009",Wexford at Admiral Dr. SB - #2009,,"42.996197","-81.164915",,,,,,false,"5",East
+WEXFROY1,"2010",Wexford at Royal Cr NB - #2010,,"42.997986","-81.165923",,,,,,false,"5",East
+WEXFROY2,"2011",Wexford at Royal Cr SB - #2011,,"42.997897","-81.165965",,,,,,false,"5",East
+YXUTERM,"2179",London Airport - #2179,,"43.027719","-81.148702",,,,,,false,"5",East
+BRYDCORN,"2207",Brydges at Cornish EB - #2207,,"42.991416","-81.192435",,,,,,false,"5",East
+BRYDGRAY,"2208",Brydges at Graydon WB - #2208,,"42.992032","-81.191809",,,,,,false,"5",East
+CLARWHI2,"2212",Clarke at Whitney SB - #2212,,"43.002719","-81.174882",,,,,,false,"5",East
+FCBLCHE1,"2228",Fanshawe College Blvd at Cheapside NB - #2228,,"43.016753","-81.201572",,,,,,false,"5",East
+FCBLCHE2,"2229",Fanshawe College Blvd at Cheapside SB - #2229,,"43.016776","-81.201699",,,,,,false,"5",East
+FCBLFLE1,"2230",Fanshawe College Blvd at Fleming NB - #2230,,"43.015534","-81.198241",,,,,,false,"5",East
+FCBLFLE2,"2231",Fanshawe College Blvd at Fleming SB - #2231,,"43.015489","-81.198462",,,,,,false,"5",East
+OXFOCLA4,"2257",Oxford east of Clarke WB - #2257,,"43.016714","-81.180353",,,,,,false,"5",East
+RAILDAYB,"2267",Railton at Daybreak SB - #2267,,"42.996169","-81.153002",,,,,,false,"5",East
+TRAFFAL2,"2279",Trafalgar at Falcon  EB - #2279,,"42.990638","-81.175968",,,,,,false,"5",East
+CULVCUL2,"2313",Culver at Culver Court WB - #2313,,"43.009832","-81.184816",,,,,,false,"5",East
+DUNDVMP1,"2314",Dundas at VMP EB - #2314,,"43.009974","-81.156251",,,,,,false,"5",East
+DUNDVMP2,"2315",Dundas at VMP WB - #2315,,"43.01013","-81.156588",,,,,,false,"5",East
+CLARAVA2,"2329",Clarke at Avalon SB - #2329,,"43.006869","-81.176986",,,,,,false,"5",East
+CRUMOXFO,"2393",Crumlin at Oxford NB - #2393,,"43.023581","-81.153353",,,,,,false,"5",East
+CUDDARTI,"2394",Cuddy at Artisans SB - #2394,,"43.021531","-81.155978",,,,,,false,"5",East
+CUDDPAGE,"2395",Cuddy at Page SB - #2395,,"43.018061","-81.154256",,,,,,false,"5",East
+OXFOVMPW,"2410",Oxford at Veterans EB - #2410,,"43.022426","-81.159591",,,,,,false,"5",East
+PAGECUDD,"2411",Page at Cuddy EB - #2411,,"43.017674","-81.152605",,,,,,false,"5",East
+SOVEADM1,"2412",Sovereign at Admiral NB - #2412,,"43.00452","-81.150482",,,,,,false,"5",East
+SOVEADM3,"2413",Sovereign North of Admiral SB - #2413,,"43.005617","-81.147772",,,,,,false,"5",East
+SOVESOVE,"2414",669 Sovereign NB - #2414,,"43.00778","-81.151293",,,,,,false,"5",East
+THIROFO2,"2600",Third South of Oxford SB - #2600,,"43.01016","-81.18933",,,,,,false,"5",East
+ADMITRA2,"2635",Admiral at Trafalgar NB - #2635,,"42.994339","-81.165684",,,,,,false,"5",East
+CLARBAY2,"2636",Clarke & Bayview NS NB - #2636,,"42.978243","-81.162381",,,,,,false,"5",East
+CLARBAY1,"2637",Clarke & Bayview NS SB - #2637,,"42.9787","-81.16278",,,,,,false,"5",East
+CLARGOR2,"2638",Clarke & Gore NS SB - #2638,,"42.980898","-81.163876",,,,,,false,"5",East
+CLARPEN1,"2639",Clarke & Pension SB - #2639,,"42.97535","-81.161051",,,,,,false,"5",East
+CLARPEN2,"2640",Clarke & Pension NB - #2640,,"42.975383","-81.160947",,,,,,false,"5",East
+GOREBRA2,"2646",Gore at Braesyde EB - #2646,,"42.978112","-81.172935",,,,,,false,"5",East
+GOREFIR2,"2647",Gore at Firestone EB - #2647,,"42.979066","-81.169465",,,,,,false,"5",East
+GOREVAL2,"2648",Gore at Montebello EB - #2648,,"42.976956","-81.177237",,,,,,false,"5",East
+HALEHAM2,"2650",Hale at Hamilton NB - #2650,,"42.977769","-81.191056",,,,,,false,"5",East
+HALEMAG2,"2651",Hale at Magee NB - #2651,,"42.981756","-81.191144",,,,,,false,"5",East
+HAMIBRA2,"2652",Hamilton at Braesyde WB - #2652,,"42.974125","-81.171728",,,,,,false,"5",East
+HAMICLA1,"2653",Clarke at Hamilton NB - #2653,,"42.970898","-81.158681",,,,,,false,"5",East
+HAMICRI1,"2654",Hamilton at Crimson WB - #2654,,"42.971267","-81.163125",,,,,,false,"5",East
+HAMICRI2,"2655",Hamilton at Crimson EB - #2655,,"42.971194","-81.163131",,,,,,false,"5",East
+HAMIFAI1,"2656",Hamilton at Fairmont WB - #2656,,"42.97713","-81.189507",,,,,,false,"5",East
+HAMIGOR1,"2657",Hamilton at Clarke WB - #2657,,"42.97066","-81.159213",,,,,,false,"5",East
+HAMIOAKL,"2658",Hamilton west of Braeside WB - #2658,,"42.974825","-81.174103",,,,,,false,"5",East
+HAMIRIV2,"2659",Hamilton at River Run WB - #2659,,"42.972893","-81.167624",,,,,,false,"5",East
+HAMIVALL,"2660",Hamilton at Gore WB - #2660,,"42.975412","-81.177125",,,,,,false,"5",East
+HAMIWAT2,"2661",Hamilton at Watmar WB - #2661,,"42.976184","-81.182626",,,,,,false,"5",East
+HAMIYMCA,"2662",Hamilton east of Meadowlily WB - #2662,,"42.976602","-81.185674",,,,,,false,"5",East
+MANITWE2,"2665",Manitoulin at Tweedsmuir SB - #2665,,"42.982431","-81.181183",,,,,,false,"5",East
+MARCEXMO,"2666",Marconi at Exmouth WB - #2666,,"42.98719","-81.156276",,,,,,false,"5",East
+MARCJULI,"2667",Marconi at Julia NB - #2667,,"42.987999","-81.163007",,,,,,false,"5",East
+MARCNOE2,"2668",Marconi at Noel NB - #2668,,"42.989722","-81.164239",,,,,,false,"5",East
+MARCTRA2,"2670",Marconi at Trafalgar NB - #2670,,"42.99274","-81.167273",,,,,,false,"5",East
+MARCWOOD,"2671",Marconi at Woodview WB - #2671,,"42.986551","-81.160893",,,,,,false,"5",East
+MONTELD2,"2672",Montabello at Eldorado SB - #2672,,"42.977398","-81.178169",,,,,,false,"5",East
+MONTTWE2,"2673",Montabello at Tweedsmuir SB - #2673,,"42.980081","-81.17982",,,,,,false,"5",East
+TWEEBER2,"2674",Tweedsmuir & Court Lane W Leg EB - #2674,,"42.982168","-81.185297",,,,,,false,"5",East
+TWEEFAI2,"2675",Tweedsmuir at Fairway EB - #2675,,"42.982974","-81.190822",,,,,,false,"5",East
+TWEEMAN2,"2676",Tweedsmuir & Manitoulin EB - #2676,,"42.982669","-81.187178",,,,,,false,"5",East
+WEXFADM2,"2677",Wexford & Admiral NB - #2677,,"42.996373","-81.164955",,,,,,false,"5",East
+OXFOVMP1,"2745",Oxford at Veteran's Memorial Parkway WB - #2745,,"43.0228","-81.15906",,,,,,false,"5",East
+FANSCOLL,"2914",Fanshawe College - #2914,,"43.01173","-81.19887",,,,,,false,"5",East
+1030CLAR,"2929",1030 Clarke Road NB - #2929,,"43.02479","-81.18573",,,,,,false,"5",East
+15701ROB,"2930",15701 Robins Hill WB - #2930,,"43.02812","-81.16494",,,,,,false,"5",East
+15835ROB,"2931",15835 Robins Hill WB - #2931,,"43.03034","-81.1688",,,,,,false,"5",East
+1901CRUM,"2932",1901 Crumlin SB - #2932,,"43.02708","-81.15523",,,,,,false,"5",East
+1980CRUM,"2933",1980 Crumlin NB - #2933,,"43.02713","-81.15513",,,,,,false,"5",East
+CLARCHE,"2934",Clarke at Cheapside NB - #2934,,"43.02131","-81.18399",,,,,,false,"5",East
+CLARKOXF,"2935",Clarke at Oxford NB - #2935,,"43.01786","-81.18229",,,,,,false,"5",East
+CLARSTR,"2936",Clarke at Stronach Crescent SB - #2936,,"43.02662","-81.18683",,,,,,false,"5",East
+HUROCLA1,"2937",Huron at Clarke EB - #2937,,"43.02813","-81.1867",,,,,,false,"5",East
+HUROCLA2,"2938",Huron at Clarke WB - #2938,,"43.0286","-81.18543",,,,,,false,"5",East
+HUROVET,"2939",Huron at Veterans EB - #2939 ,,"43.03049","-81.17827",,,,,,false,"5",East
+HUROVET1,"2940",Huron at Veterans WB - #2940,,"43.0304","-81.17911",,,,,,false,"5",East
+ROBHILEB,"2941",15700 Robins Hill Road EB - #2941,,"43.02797","-81.16479",,,,,,false,"5",East
+ROBHILSB,"2942",15902 Robins Hill Road SB - #2942,,"43.03012","-81.16886",,,,,,false,"5",East
+ROBHURO,"2943",Robins Hill at Huron SB - #2943,,"43.0324","-81.17",,,,,,false,"5",East
+ROBICRU1,"2944",Robins Hill at Crumlin WB - #2944,,"43.02978","-81.15746",,,,,,false,"5",East
+ROBICRUM,"2945",Robins Hill at Crumlin EB - #2945,,"43.0298","-81.15699",,,,,,false,"5",East
+ROBIHUR1,"2946",Robins Hill South of Huron NB - #2946,,"43.03201","-81.16962",,,,,,false,"5",East
+CLARCHE3,"2947",Clarke at Cheapside SB - #2947 ,,"43.02229","-81.1847",,,,,,false,"5",East
+CLAROXF4,"2948",Clarke at Oxford SB - #2948 ,,"43.01722","-81.18218",,,,,,false,"5",East
+HAMWILD1,"2957",Hamilton at Wildgoose WB - #2957 ,,"42.970441","-81.155181",,,,,,false,"5",East
+HAMWILD2,"2958",Hamilton at Wildgoose EB - #2958 ,,"42.970243","-81.154678",,,,,,false,"5",East
+ANDOCOM1,"154",Andover at Commissioners NB - #154,,"42.955725","-81.275336",,,,,,false,"6",West
+ANDOCOM2,"155",Andover at Commissioners SB - #155,,"42.955721","-81.275497",,,,,,false,"6",West
+ANDOELMG,"156",Andover at Elmgrove Cr SB - #156,,"42.951688","-81.275511",,,,,,false,"6",West
+ANDONOVE,"158",Andover at Novello NB - #158,,"42.952839","-81.275472",,,,,,false,"6",West
+ANDOVIG1,"160",Andover at Village Green NB - #160,,"42.953684","-81.275744",,,,,,false,"6",West
+ANDOVIG2,"161",Andover at Village Green SB - #161,,"42.95356","-81.275802",,,,,,false,"6",West
+ANDOVIS2,"163",Andover at Viscount SB - #163,,"42.948172","-81.275288",,,,,,false,"6",West
+ANDOVIS3,"164",Andover north of Viscount  NB - #164,,"42.948217","-81.275205",,,,,,false,"6",West
+BASEMGR1,"196",Base Line at McGregor EB - #196,,"42.959013","-81.264059",,,,,,false,"6",West
+BASEWES1,"211",Base Line east of West St  EB - #211,,"42.958703","-81.267666",,,,,,false,"6",West
+BASEWES2,"212",30 Base Line WB - #212,,"42.959042","-81.264016",,,,,,false,"6",West
+BASEWES3,"213",Base Line west of West St  EB - #213,,"42.958329","-81.271553",,,,,,false,"6",West
+BASEWES4,"214",90 Base Line WB - #214,,"42.958764","-81.267069",,,,,,false,"6",West
+BASEWHA2,"216",Base Line at Wharncliffe WB - #216,,"42.959398","-81.260128",,,,,,false,"6",West
+BEACBAS1,"222",Beachwood at Base Line NB - #222,,"42.957793","-81.275356",,,,,,false,"6",West
+BEACBAS2,"223",Beachwood at Base Line SB - #223,,"42.957706","-81.275411",,,,,,false,"6",West
+BELMHILL,"234",Belmont at Hillsborough EB - #234,,"42.947155","-81.261834",,,,,,false,"6",West
+BELMNODA,"235",Belmont at Notre Dame EB - #235,,"42.946298","-81.26779",,,,,,false,"6",West
+BELMSLAW,"236",Belmont at St Lawrence EB - #236,,"42.946828","-81.264574",,,,,,false,"6",West
+BELMWHAR,"237",Belmont at Wharncliffe EB - #237,,"42.947323","-81.259069",,,,,,false,"6",West
+BERKGAR1,"240",Berkshire at Gardenwood NB - #240,,"42.962686","-81.285332",,,,,,false,"6",West
+BERKGAR4,"241",Berkshire north of Gardenwood SB - #241,,"42.962481","-81.286307",,,,,,false,"6",West
+BERKROB1,"242",Berkshire at Robin NB - #242,,"42.960797","-81.282859",,,,,,false,"6",West
+BERKROB2,"243",Berkshire at Robin SB - #243,,"42.961183","-81.283003",,,,,,false,"6",West
+BERKSPR1,"244",Berkshire at Springbank NB - #244,,"42.964044","-81.290657",,,,,,false,"6",West
+BERKSPR2,"245",Berkshire at Springbank SB - #245,,"42.963902","-81.290635",,,,,,false,"6",West
+BERKTOP1,"246",Berkshire at Topping Lane NB - #246,,"42.959633","-81.283813",,,,,,false,"6",West
+BERKTOP2,"247",Berkshire at Topping Lane SB - #247,,"42.959659","-81.283837",,,,,,false,"6",West
+BOLEBASE,"275",Boler at Byron Baseline NB - #275,,"42.953654","-81.331251",,,,,,false,"6",West
+BOLECOM1,"276",Boler south of Commissioners NB - #276,,"42.958331","-81.332375",,,,,,false,"6",West
+BOLECOM3,"277",Boler north of Commissioners NB - #277,,"42.960072","-81.332683",,,,,,false,"6",West
+BOLEGLEN,"278",Boler at Glenrose NB - #278,,"42.956735","-81.332025",,,,,,false,"6",West
+BOLEGRIF,"279",Boler at Griffith NB - #279,,"42.945802","-81.329332",,,,,,false,"6",West
+BOLEWAYN,"280",Boler at Wayne Road NB - #280,,"42.949368","-81.330188",,,,,,false,"6",West
+BYBABELV,"314",Byron Baseline at Belvedere EB - #314,,"42.952538","-81.33747",,,,,,false,"6",West
+BYBABYRO,"316",Byron Baseline at Byron Blvd EB - #316,,"42.952929","-81.333022",,,,,,false,"6",West
+BYBAGRIF,"318",Byron Baseline at Griffith EB - #318,,"42.952315","-81.339778",,,,,,false,"6",West
+COMMBOL2,"448",Commissioners at Boler WB - #448,,"42.959479","-81.331786",,,,,,false,"6",West
+COMMGRD1,"456",Commissioners at Gordon EB - #456,,"42.956583","-81.264504",,,,,,false,"6",West
+COMMGRD2,"457",Commissioners at Gordon WB - #457,,"42.956814","-81.263811",,,,,,false,"6",West
+COMMHAM2,"458",Commissioners east of Halls Mills WB - #458,,"42.960372","-81.334565",,,,,,false,"6",West
+COMMHUXL,"461",Commissioners at Huxley WB - #461,,"42.95665","-81.267432",,,,,,false,"6",West
+COMMLYN4,"468",Opposite St George's Parish - #468,,"42.958091","-81.326569",,,,,,false,"6",West
+COMMNASH,"470",Commissioners at Nashua EB - #470,,"42.95727","-81.324072",,,,,,false,"6",West
+COMMNOR1,"471",Commissioners at North EB - #471,,"42.956376","-81.321049",,,,,,false,"6",West
+COMMNOR2,"472",Commissioners at North WB - #472,,"42.95665","-81.32147",,,,,,false,"6",West
+COMMNOT1,"473",Commissioners west of Nottinghill EB - #473,,"42.952527","-81.299502",,,,,,false,"6",West
+COMMNOT3,"474",Commissioners east of Nottinghill EB - #474,,"42.95305","-81.296777",,,,,,false,"6",West
+COMMSPR1,"479",Commissioners at Springbank Park EB - #479,,"42.958444","-81.328319",,,,,,false,"6",West
+COMMSPR2,"480",Commissioners & Springbank Dr WB - #480,,"42.955838","-81.318653",,,,,,false,"6",West
+COMMSPR4,"481",Commissioners at Springbank Park WB - #481,,"42.958611","-81.328577",,,,,,false,"6",West
+COMMSTEP,"482",Commissioners at Stephen WB - #482,,"42.962034","-81.339632",,,,,,false,"6",West
+COMMVISC,"483",Commissioners at Viscount EB - #483,,"42.95637","-81.26871",,,,,,false,"6",West
+CRANCOMM,"487",Cranbrook at Commissioners NB - #487,,"42.951921","-81.302897",,,,,,false,"6",West
+CRANHIMO,"488",Cranbrook at Hillsmount NB - #488,,"42.947556","-81.303783",,,,,,false,"6",West
+EMERHIW1,"644",Emery at Highwood EB - #644,,"42.963584","-81.270317",,,,,,false,"6",West
+EMERHIW2,"645",Emery at Highwood WB - #645,,"42.963681","-81.270068",,,,,,false,"6",West
+EMERPADD,"646",Emery at Paddington EB - #646,,"42.963561","-81.263574",,,,,,false,"6",West
+EMERPHY1,"647",Emery at Phyllis EB - #647,,"42.963473","-81.273514",,,,,,false,"6",West
+EMERPHY2,"648",Emery at Phyllis WB - #648,,"42.963571","-81.272846",,,,,,false,"6",West
+EMERWIN1,"649",Emery west of Winston EB - #649,,"42.963719","-81.266921",,,,,,false,"6",West
+EMERWIN2,"650",Emery at Winston WB - #650,,"42.963768","-81.26765",,,,,,false,"6",West
+GARDBER1,"759",Gardenwood at Berkshire NB - #759,,"42.962908","-81.284862",,,,,,false,"6",West
+GARDRID1,"762",Gardenwood at Ridgewood EB - #762,,"42.966547","-81.283639",,,,,,false,"6",West
+GARDRID2,"763",Gardenwood east of Ridgewood WB - #763,,"42.967144","-81.282587",,,,,,false,"6",West
+GARDSOU2,"766",Gardenwood at Southcrest SB - #766,,"42.964872","-81.285158",,,,,,false,"6",West
+GARDSOU3,"767",57 Gardenwood NB - #767,,"42.964982","-81.285133",,,,,,false,"6",West
+GRIFBBA2,"808",Griffith at Byron Baseline SB - #808,,"42.951835","-81.340118",,,,,,false,"6",West
+GRIFBOLE,"810",Griffith at Boler EB - #810,,"42.944079","-81.329386",,,,,,false,"6",West
+GRIFCOMM,"811",Griffith at Commissioners SB - #811,,"42.962581","-81.342749",,,,,,false,"6",West
+GRIFDEA2,"812",Boler Mountain SB - #812,,"42.946162","-81.33628",,,,,,false,"6",West
+GRIFFAIR,"814",Griffith at Fairlane SB - #814,,"42.949289","-81.338973",,,,,,false,"6",West
+GRIFHEMO,"816",Griffith at Helena Montague SB - #816,,"42.959851","-81.34213",,,,,,false,"6",West
+GRIFNORM,"817",Griffith at Norman SB - #817,,"42.956299","-81.34119",,,,,,false,"6",West
+GRIFROBW,"818",Griffith at Robinwood EB - #818,,"42.942271","-81.333418",,,,,,false,"6",West
+GRIFWIDD,"822",Griffith at Widdicomb SB - #822,,"42.944539","-81.33588",,,,,,false,"6",West
+HALLCOMM,"843",Halls Mills at Commissioners SB - #843,,"42.960701","-81.334838",,,,,,false,"6",West
+HIGVWHA1,"949",Highview at Wharncliffe EB - #949,,"42.953793","-81.259268",,,,,,false,"6",West
+HIGVWHA4,"951",Highview at Wharncliffe WB - #951,,"42.953883","-81.258879",,,,,,false,"6",West
+HORTWHA2,"980",Horton west of Wharncliffe WB - #980,,"42.976819","-81.263014",,,,,,false,"6",West
+HORTWHA3,"981",Horton west of Wharncliffe EB - #981,,"42.976569","-81.264939",,,,,,false,"6",West
+HORTWHA4,"982",Horton west of Wharncliffe 2 WB - #982,,"42.97667","-81.265273",,,,,,false,"6",West
+LANGHOLB,"1105",Langarth at Holborn WB - #1105,,"42.96491","-81.2622",,,,,,false,"6",West
+MACKEMER,"1131",MacKay at Emery SB - #1131,,"42.963916","-81.264329",,,,,,false,"6",West
+MCMAWON2,"1154",McMaster at Wonderland WB - #1154,,"42.942934","-81.287573",,,,,,false,"6",West
+NOTRVISC,"1240",Notre Dame at Viscount SB - #1240,,"42.94825","-81.270439",,,,,,false,"6",West
+SOUTBEA1,"1670",Southcrest at Beachwood EB - #1670,,"42.964424","-81.276425",,,,,,false,"6",West
+SPRIBER1,"1728",Springbank at Berkshire Dr FS 1 EB - #1728,,"42.964565","-81.290752",,,,,,false,"6",West
+SPRIBER3,"1729",492 Springbank EB - #1729,,"42.966105","-81.28766",,,,,,false,"6",West
+SPRIBER4,"1730",Springbank at Berkshire WB - #1730,,"42.964413","-81.291526",,,,,,false,"6",West
+SPRICHEL,"1732",Springbank at Chelsea WB - #1732,,"42.971031","-81.27803",,,,,,false,"6",West
+SPRICOM1,"1733",Springbank at Commissioners W EB - #1733,,"42.954695","-81.3155",,,,,,false,"6",West
+SPRICOM2,"1734",Springbank at Commissioners WB - #1734,,"42.954791","-81.315584",,,,,,false,"6",West
+SPRIGRE1,"1735",Springbank at Greenside EB - #1735,,"42.973233","-81.273206",,,,,,false,"6",West
+SPRIGRE2,"1736",Springbank at Greenside WB - #1736,,"42.97379","-81.272368",,,,,,false,"6",West
+SPRIGROW,"1737",Springbank at Greenwood EB - #1737,,"42.971006","-81.277714",,,,,,false,"6",West
+SPRIHIC1,"1738",Springbank at Hillcrest Dr EB - #1738,,"42.958905","-81.303107",,,,,,false,"6",West
+SPRIHIC2,"1739",Springbank at Hillcrest Dr WB - #1739,,"42.959062","-81.302965",,,,,,false,"6",West
+SPRIJAR1,"1740",Springbank at Jarvis St EB - #1740,,"42.960397","-81.299607",,,,,,false,"6",West
+SPRIJAR2,"1741",Springbank at Jarvis St WB - #1741,,"42.960018","-81.300721",,,,,,false,"6",West
+SPRIKER1,"1742",Springbank at Kernohan Parkway EB - #1742,,"42.969358","-81.281031",,,,,,false,"6",West
+SPRIKER2,"1743",Springbank at Kernohan Pkwy WB - #1743,,"42.969429","-81.281274",,,,,,false,"6",West
+SPRIMAR1,"1744",Springbank at Mary Ave EB - #1744,,"42.967616","-81.284642",,,,,,false,"6",West
+SPRIMAR2,"1745",Springbank at Mary Ave WB - #1745,,"42.968086","-81.283962",,,,,,false,"6",West
+SPRIQUI1,"1746",Springbank at Quinella EB - #1746,,"42.961586","-81.2971",,,,,,false,"6",West
+SPRIQUI2,"1747",Springbank at Quinella WB - #1747,,"42.961707","-81.297108",,,,,,false,"6",West
+SPRISPRI,"1748",Springbank at Springbank EB - #1748,,"42.975016","-81.270079",,,,,,false,"6",West
+SPRITROW,"1749",Springbank at Trowbridge WB - #1749,,"42.967187","-81.285715",,,,,,false,"6",West
+SPRIWES1,"1750",928 Springbank EB - #1750,,"42.956079","-81.312829",,,,,,false,"6",West
+SPRIWES3,"1752",Springbank at Westmount EB - #1752,,"42.956933","-81.3085",,,,,,false,"6",West
+SPRIWES4,"1753",Springbank West of Westmount WB - #1753,,"42.956117","-81.312954",,,,,,false,"6",West
+SPRIWON1,"1754",Springbank at Wonderland  EB - #1754,,"42.96374","-81.292535",,,,,,false,"6",West
+SPRIWON2,"1755",Springbank at Wonderland  WB - #1755,,"42.96345","-81.293513",,,,,,false,"6",West
+STANWHAR,"1759",Stanley at Wharncliffe EB - #1759,,"42.977719","-81.261462",,,,,,false,"6",West
+VISCCOM2,"1872",Viscount AT Commissioners SB - #1872,,"42.955816","-81.269168",,,,,,false,"6",West
+VISCCRAN,"1873",Viscount at Cranbrook WB - #1873,,"42.944409","-81.302864",,,,,,false,"6",West
+VISCFARN,"1874",Viscount at Farnham Rd WB - #1874,,"42.945708","-81.295842",,,,,,false,"6",West
+VISCFOXM,"1875",Viscount at Foxmill Cr WB - #1875,,"42.947583","-81.284005",,,,,,false,"6",West
+VISCGAL1,"1876",Viscount at Galloway Cr FS NB - #1876,,"42.95146","-81.268015",,,,,,false,"6",West
+VISCGAL2,"1877",Viscount South of Galloway Cr SB - #1877,,"42.950234","-81.268816",,,,,,false,"6",West
+VISCGAL3,"1878",Viscount at Galloway Cr NS NB - #1878,,"42.949847","-81.269034",,,,,,false,"6",West
+VISCGARD,"1879",Viscount at Gardenvale WB - #1879,,"42.947631","-81.280906",,,,,,false,"6",West
+VISCPIVA,"1883",Viscount at Pine Valley Dr EB - #1883,,"42.947553","-81.280877",,,,,,false,"6",West
+VISCSTEE,"1884",Viscount at Steeplechase EB - #1884,,"42.947528","-81.283968",,,,,,false,"6",West
+VISCTAV1,"1885",Viscount at Tavistock Rd NB - #1885,,"42.953716","-81.268278",,,,,,false,"6",West
+VISCTAV2,"1886",Viscount at Tavistock Rd 1 SB - #1886,,"42.95324","-81.268281",,,,,,false,"6",West
+VISCVIGR,"1888",Viscount at Village Green WB - #1888,,"42.944876","-81.299283",,,,,,false,"6",West
+VISCWON1,"1889",Saunders Secondary School EB - #1889,,"42.946666","-81.291751",,,,,,false,"6",West
+VISCWON2,"1890",Viscount East of Wonderland WB - #1890,,"42.947195","-81.288537",,,,,,false,"6",West
+VISCWON3,"1891",Viscount East of Wonderland EB - #1891,,"42.947173","-81.288021",,,,,,false,"6",West
+VISCWON5,"1893",Viscount West of Wonderland EB - #1893,,"42.946911","-81.289895",,,,,,false,"6",West
+WESTMAL1,"1997",Westmount Mall at Stop 1 - #1997,,"42.947415","-81.29255",,,,,,false,"6",West
+WESTMAL2,"1998",Westmount Mall at Stop 2 - #1998,,"42.947407","-81.292334",,,,,,false,"6",West
+WESTMAL3,"1999",Westmount Mall at Stop 3 - #1999,,"42.947484","-81.292059",,,,,,false,"6",West
+WHARBAS1,"2015",Wharncliffe & Base Line FS NB - #2015,,"42.959796","-81.261022",,,,,,false,"6",West
+WHARBAS2,"2016",Wharncliffe at BaseLine NS SB - #2016,,"42.959545","-81.261148",,,,,,false,"6",West
+WHARBYR1,"2022",Wharncliffe at Byron NB - #2022,,"42.973704","-81.262004",,,,,,false,"6",West
+WHARBYR2,"2023",Wharncliffe at Byron  SB - #2023,,"42.974058","-81.262197",,,,,,false,"6",West
+WHARCENT,"2024",Wharncliffe at Center SB - #2024,,"42.961302","-81.261271",,,,,,false,"6",West
+WHARCOM1,"2026",Wharncliffe at Commissioners NB - #2026,,"42.957951","-81.260699",,,,,,false,"6",West
+WHARCOM2,"2027",Wharncliffe at Commissioners SB - #2027,,"42.957599","-81.260802",,,,,,false,"6",West
+WHARDEVO,"2029",Wharncliffe at Devonshire  NB - #2029,,"42.962375","-81.2612",,,,,,false,"6",West
+WHARELM1,"2031",Wharncliffe at Elmwood NB - #2031,,"42.969997","-81.261765",,,,,,false,"6",West
+WHARELM2,"2032",Wharncliffe at Elmwood SB - #2032,,"42.970327","-81.261912",,,,,,false,"6",West
+WHAREME1,"2033",Wharncliffe at Emery NB - #2033,,"42.964157","-81.261322",,,,,,false,"6",West
+WHAREME2,"2034",Wharncliffe at Emery SB - #2034,,"42.963383","-81.261459",,,,,,false,"6",West
+WHAREUCL,"2037",Wharncliffe at Euclid NB - #2037,,"42.97506","-81.262093",,,,,,false,"6",West
+WHARRIG1,"2050",Wharncliffe at The Ridgeway NB - #2050,,"42.979274","-81.262382",,,,,,false,"6",West
+WHARRIG2,"2051",Wharncliffe at The Ridgeway SB - #2051,,"42.979557","-81.262542",,,,,,false,"6",West
+WHARTEC1,"2054",Wharncliffe at Tecumseh NB - #2054,,"42.967274","-81.261544",,,,,,false,"6",West
+WHARTEC2,"2055",Wharncliffe at Tecumseh SB - #2055,,"42.967059","-81.261704",,,,,,false,"6",West
+WHARWDAL,"2056",Wharncliffe at Westdale SB - #2056,,"42.944526","-81.257707",,,,,,false,"6",West
+WONDCOM1,"2100",Wonderland South of Commissioners NB - #2100,,"42.95344","-81.290359",,,,,,false,"6",West
+WONDCOM2,"2101",Wonderland at Commissioners SB - #2101,,"42.953736","-81.290681",,,,,,false,"6",West
+WONDCOM3,"2102",Wonderland North of Commissioners NB - #2102,,"42.955837","-81.290977",,,,,,false,"6",West
+WONDMMA1,"2111",Wonderland North of McMaster NB - #2111,,"42.943955","-81.287721",,,,,,false,"6",West
+WONDMMA2,"2112",Wonderland South of McMaster SB - #2112,,"42.942987","-81.2865",,,,,,false,"6",West
+WONDMMA3,"2113",Wonderland South of McMaster NB - #2113,,"42.942913","-81.285326",,,,,,false,"6",West
+WONDMMA4,"2114",Wonderland North of McMaster SB - #2114,,"42.944487","-81.288397",,,,,,false,"6",West
+WONDPVA1,"2119",Wonderland at PineValley Gate NB - #2119,,"42.942462","-81.283426",,,,,,false,"6",West
+WONDPVA2,"2120",Wonderland at Pine Valley Blvd SB - #2120,,"42.942327","-81.283654",,,,,,false,"6",West
+WONDPVA4,"2121",Wonderland at  PineValley Lane SB - #2121,,"42.941199","-81.28219",,,,,,false,"6",West
+WONDROSE,"2124",Wonderland at Rosecliffe Terr. SB - #2124,,"42.959528","-81.293657",,,,,,false,"6",West
+WONDSDA1,"2128",Wonderland at Southdale NB - #2128,,"42.939594","-81.281397",,,,,,false,"6",West
+WONDSPR1,"2132",Wonderland at Springbank NB - #2132,,"42.964403","-81.293102",,,,,,false,"6",West
+WONDTEE1,"2134",Wonderland at Teeple Terrace NB - #2134,,"42.959046","-81.293315",,,,,,false,"6",West
+WONDVIL1,"2135",Wonderland at Village Green NB - #2135,,"42.95074","-81.289716",,,,,,false,"6",West
+WONDVIL2,"2136",Wonderland at Village Green Ave SB - #2136,,"42.951463","-81.290115",,,,,,false,"6",West
+WONDVIS2,"2138",Wonderland at Viscount NS1 SB - #2138,,"42.948855","-81.289568",,,,,,false,"6",West
+WONDVIS3,"2139",780 Wonderland Rd NB - #2139,,"42.948946","-81.289303",,,,,,false,"6",West
+BASEWHA1,"2194",Base Line at Wharncliffe EB - #2194,,"42.959332","-81.259828",,,,,,false,"6",West
+BERKBER1,"2195",Berkshire at Berkshire Place NB - #2195,,"42.962777","-81.288488",,,,,,false,"6",West
+BERKBER2,"2196",Berkshire at Berkshire Place SB - #2196,,"42.962676","-81.288377",,,,,,false,"6",West
+BERKGAR2,"2198",Berkshire south of Gardenwood SB - #2198,,"42.962572","-81.28437",,,,,,false,"6",West
+COMMBOL1,"2213",Commissioners at Boler EB - #2213,,"42.959432","-81.332109",,,,,,false,"6",West
+EMERRIDG,"2220",Emery at Ridgewood WB - #2220,,"42.964458","-81.275884",,,,,,false,"6",West
+RIDGKER2,"2272",Ridgewood at Kernohan WB - #2272,,"42.967875","-81.280991",,,,,,false,"6",West
+WHARHORT,"2293",Wharncliffe at Horton SB - #2293,,"42.975906","-81.262288",,,,,,false,"6",West
+WONDVIS4,"2305",Wonderland at Viscount Rd SB - #2305,,"42.947805","-81.28928",,,,,,false,"6",West
+COMMWHAR,"2312",COMMISSIONERS & WHARNCLIF - #2312,,"42.956949","-81.260082",,,,,,false,"6",West
+WONDSPRI,"2323",Wonderland at Springbank SB - #2323,,"42.963094","-81.293081",,,,,,false,"6",West
+WESTMAL4,"2436",Westmount Mall at Stop 4 - #2436,,"42.947502","-81.291672",,,,,,false,"6",West
+WESTMAL5,"2437",Westmount Mall at Stop 5 - #2437,,"42.9473","-81.292217",,,,,,false,"6",West
+WESTMAL6,"2438",Westmount Mall at Stop 6 - #2438,,"42.947352","-81.291827",,,,,,false,"6",West
+COMMBEA1,"2461",Commissioners at Beachwood WB - #2461,,"42.956137","-81.276837",,,,,,false,"6",West
+COMMBEA2,"2462",Commissioners west of Beachwood EB - #2462,,"42.955804","-81.278701",,,,,,false,"6",West
+COMMBEA3,"2463",353 Commissioners - #2463,,"42.955854","-81.279878",,,,,,false,"6",West
+COMMFOE1,"2464",Commissioners at Forest Edge WB - #2464,,"42.954813","-81.287851",,,,,,false,"6",West
+COMMFOE2,"2465",Commissioners at Forest Edge EB - #2465,,"42.954529","-81.288286",,,,,,false,"6",West
+COMMTOP1,"2466",Commissioners at Topping Lane WB - #2466,,"42.955326","-81.284038",,,,,,false,"6",West
+COMMTOP2,"2467",Commissioners at Topping Lane EB - #2467,,"42.955275","-81.283406",,,,,,false,"6",West
+COMMCAD1,"2531",Commissioners at Cadeau Terrace 1 WB - #2531,,"42.963896","-81.347073",,,,,,false,"6",West
+COMMCAD2,"2532",Commissioners at Cadeau Terrace 2 WB - #2532,,"42.965448","-81.350985",,,,,,false,"6",West
+COMMCHE1,"2533",Commissioners at Chestnut Hill 1 SB - #2533,,"42.965489","-81.351525",,,,,,false,"6",West
+COMMCHE2,"2534",Commissioners at Chestnut Hill 2 SB - #2534,,"42.963767","-81.347056",,,,,,false,"6",West
+COMMGRA2,"2535",Commissioners at Grandview EB - #2535,,"42.963298","-81.344232",,,,,,false,"6",West
+COMMGRAN,"2536",Commissioners at Grandview WB - #2536,,"42.963281","-81.3438",,,,,,false,"6",West
+COMMHAL2,"2537",Commissioners at Halls Mills EB - #2537,,"42.960233","-81.334417",,,,,,false,"6",West
+COMMREYN,"2538",Commissioners at Reynolds SB - #2538,,"42.962395","-81.341114",,,,,,false,"6",West
+COMMSTE1,"2539",Commissioners at Stephen SB - #2539,,"42.961279","-81.33756",,,,,,false,"6",West
+KAINKIRK,"2542",Kains at Kirkpatrick NB - #2542,,"42.9724","-81.35654",,,,,,false,"6",West
+KAINOXFN,"2543",Kains at Oxford NB - #2543,,"42.968622","-81.35529",,,,,,false,"6",West
+KAINRIVE,"2545",Kains at Riverbend WB - #2545,,"42.974116","-81.36311",,,,,,false,"6",West
+KAINSUMM,"2546",Kains at Summerville NB - #2546,,"42.973192","-81.357717",,,,,,false,"6",West
+RIVESHOR,"2547",Riverbend at Shore SB - #2547,,"42.96848","-81.36103",,,,,,false,"6",West
+NOTRBELM,"2589",Notre Dame at Belmont NB - #2589,,"42.945862","-81.26784",,,,,,false,"6",West
+NOTRNORT,"2590",Notre Dame at Norton NB - #2590,,"42.942767","-81.266955",,,,,,false,"6",West
+NOTRSDAL,"2591",Notre Dame at Southdale NB - #2591,,"42.940578","-81.266504",,,,,,false,"6",West
+NOTRVIS2,"2592",Notre Dame at Viscount NB - #2592,,"42.948463","-81.270496",,,,,,false,"6",West
+WHARSOUT,"2594",Wharncliffe & Southdale NS SB - #2594,,"42.941215","-81.257979",,,,,,false,"6",West
+BASECOTS,"2605",Base Line at Cotswold WB - #2605,,"42.958416","-81.27099",,,,,,false,"6",West
+CRANBAR2,"2620",Cranbrook at Barclay SB - #2620,,"42.940934","-81.303746",,,,,,false,"6",West
+CRANBAR3,"2621",Cranbrook at Barclay NB - #2621,,"42.940907","-81.303501",,,,,,false,"6",West
+CRANBIRC,"2622",Cranbrook at Birchmount WB - #2622,,"42.938746","-81.305251",,,,,,false,"6",West
+CRANROBE,"2623",Cranbrook at Roberston Place EB - #2623,,"42.93861","-81.306893",,,,,,false,"6",West
+CRANSCHR,"2624",Cranbrook at Schraeder WB - #2624,,"42.938708","-81.307824",,,,,,false,"6",West
+CRANVIS2,"2625",Cranbrook & Viscount NB - #2625,,"42.944139","-81.302879",,,,,,false,"6",West
+TILLSOU2,"2631",Tillman at Southdale NB - #2631,,"42.937564","-81.308705",,,,,,false,"6",West
+VISCDUN2,"2633",Viscount at Dunsmoor EB - #2633,,"42.944816","-81.298567",,,,,,false,"6",West
+HORTSPRI,"2683",Horton at Springbank WB - #2683,,"42.975348","-81.269979",,,,,,false,"6",West
+SPRIFORH,"2688",Springbank at Forest Hill WB - #2688,,"42.972636","-81.274765",,,,,,false,"6",West
+COMMAND1,"2758",Commissioners at Andover EB - #2758,,"42.956092","-81.274636",,,,,,false,"6",West
+COMMWES1,"2759",Commissioners at West WB - #2759,,"42.956494","-81.270401",,,,,,false,"6",West
+DALHBRI2,"2760",Dalhousie at Brixham WB - #2760,,"42.938928","-81.291187",,,,,,false,"6",West
+DALHMCM1,"2761",Dalhousie south of McMaster SB - #2761,,"42.940333","-81.28826",,,,,,false,"6",West
+KERNRID1,"2762",Kernohan at Ridgewood Cres NB - #2762,,"42.968108","-81.280591",,,,,,false,"6",West
+KERNSPR1,"2763",Kernohan at Springbank Dr SB - #2763,,"42.968954","-81.281168",,,,,,false,"6",West
+SOUTBAS1,"2764",Southcrest at Base Line Rd WB - #2764,,"42.963995","-81.280197",,,,,,false,"6",West
+SOUTBAS2,"2765",Southcrest at Base Line EB - #2765,,"42.963954","-81.279755",,,,,,false,"6",West
+SOUTGAR1,"2766",Southcrest at Gardenwood Dr WB - #2766,,"42.963886","-81.284769",,,,,,false,"6",West
+SOUTGAR2,"2767",Southcrest east of Gardenwood EB - #2767,,"42.96383","-81.28437",,,,,,false,"6",West
+TOPPCOM1,"2770",Topping Lane at Commissioners NB - #2770,,"42.955886","-81.283106",,,,,,false,"6",West
+COMMWHA1,"2813",Commissioners at Wharncliffe FS EB - #2813,,"42.956738","-81.259968",,,,,,false,"6",West
+COMMWHA2,"2814",Commissioners at Wharncliffe WB - #2814,,"42.9569","-81.26194",,,,,,false,"6",West
+OXFORIV1,"2974",Oxford east of Riverbend EB - #2974,,"42.96587","-81.35806",,,,,,false,"6",West
+RIVEOXF1,"2975",Riverbend at Oxford SB - #2975,,"42.96575","-81.36141",,,,,,false,"6",West
+ADELADA1,"20",Adelaide at Ada NB - #20,,"42.974289","-81.225234",,,,,,false,"7",Inner_City_South
+ADELADA2,"21",Adelaide at Ada SB - #21,,"42.97461","-81.225615",,,,,,false,"7",Inner_City_South
+ADELEDNA,"29",Adelaide at Edna SB - #29,,"42.971883","-81.224342",,,,,,false,"7",Inner_City_South
+ADELLEA1,"48",Adelaide south of Leathorne St NB - #48,,"42.960884","-81.216852",,,,,,false,"7",Inner_City_South
+ADELLEA2,"49",Adelaide at Leathorne SB - #49,,"42.961015","-81.217334",,,,,,false,"7",Inner_City_South
+ADELLEA3,"50",Adelaide north of Leathorne 1 NB - #50,,"42.962904","-81.220032",,,,,,false,"7",Inner_City_South
+ADELLEA5,"52",Adelaide north of Leathorne 2 NB - #52,,"42.963991","-81.220618",,,,,,false,"7",Inner_City_South
+ADELMAUD,"56",Adelaide at Maud NB - #56,,"42.970708","-81.223681",,,,,,false,"7",Inner_City_South
+ADELTERR,"81",Adelaide at Terrace NB - #81,,"42.972963","-81.224651",,,,,,false,"7",Inner_City_South
+ADELTHO1,"82",Adelaide at Thompson NB - #82,,"42.968564","-81.222737",,,,,,false,"7",Inner_City_South
+ADELTHO2,"83",207 Adelaide - #83,,"42.964134","-81.220869",,,,,,false,"7",Inner_City_South
+ADELTHO4,"84",Adelaide at Thompson SB - #84,,"42.967775","-81.222568",,,,,,false,"7",Inner_City_South
+ADELTHO6,"85",155 Adelaide SB - #85,,"42.965996","-81.221812",,,,,,false,"7",Inner_City_South
+ADELTHO8,"86",247 Adelaide SB - #86,,"42.962455","-81.219962",,,,,,false,"7",Inner_City_South
+BASEDUND,"184",Base Line at Dundee Place EB - #184,,"42.959601","-81.25735",,,,,,false,"7",Inner_City_South
+BASEFAI2,"189",Base Line west of Fairview Ave WB - #189,,"42.962147","-81.226993",,,,,,false,"7",Inner_City_South
+BASEFAI3,"190",Base Line west of Fairview EB - #190,,"42.962039","-81.226664",,,,,,false,"7",Inner_City_South
+BASEHIG1,"192",Base Line at High EB - #192,,"42.961362","-81.235476",,,,,,false,"7",Inner_City_South
+BASEWEL1,"206",Base Line east of Wellington EB - #206,,"42.961772","-81.230042",,,,,,false,"7",Inner_City_South
+BASEWEL3,"208",Base Line west of Wellington EB - #208,,"42.961636","-81.231553",,,,,,false,"7",Inner_City_South
+BASEWEL6,"210",Base Line west of Wellington WB - #210,,"42.961786","-81.231501",,,,,,false,"7",Inner_City_South
+BRUCMARL,"303",Bruce at Marley Place EB - #303,,"42.972934","-81.251357",,,,,,false,"7",Inner_City_South
+BRUCWORT,"304",Bruce at Wortley EB - #304,,"42.972448","-81.253366",,,,,,false,"7",Inner_City_South
+BURLCAIR,"312",Burlington at Cairn EB - #312,,"42.963624","-81.203471",,,,,,false,"7",Inner_City_South
+BURLPOMI,"313",Burlington at Pond Mills EB - #313,,"42.963336","-81.201285",,,,,,false,"7",Inner_City_South
+CARFCAR1,"323",Carfrae at Carfrae NB - #323,,"42.974211","-81.245171",,,,,,false,"7",Inner_City_South
+CARFCAR2,"324",Carfrae & Carfrae St SB - #324,,"42.974234","-81.245255",,,,,,false,"7",Inner_City_South
+CARFGRAN,"325",Carfrae at Grand NB - #325,,"42.971887","-81.244635",,,,,,false,"7",Inner_City_South
+CARFWOOD,"326",Carfrae at Woodland Pl SB - #326,,"42.972115","-81.244794",,,,,,false,"7",Inner_City_South
+CATHBASE,"331",Cathcart at Baseline NB - #331,,"42.960272","-81.253127",,,,,,false,"7",Inner_City_South
+CATHDEVO,"334",Cathcart at Devonshire NB - #334,,"42.963072","-81.253339",,,,,,false,"7",Inner_City_South
+CATHELMW,"336",Cathcart at Elmwood NB - #336,,"42.970601","-81.254468",,,,,,false,"7",Inner_City_South
+CATHLANG,"339",Cathcart at Langarth NB - #339,,"42.965372","-81.253657",,,,,,false,"7",Inner_City_South
+CATHTECU,"340",Cathcart at Tecumseh NB - #340,,"42.967892","-81.254039",,,,,,false,"7",Inner_City_South
+COMMADE1,"445",Commissioners at Adelaide EB - #445,,"42.959153","-81.2149",,,,,,false,"7",Inner_City_South
+COMMADE2,"446",Commissioners east of Adelaide WB - #446,,"42.959517","-81.214417",,,,,,false,"7",Inner_City_South
+COMMADE4,"447",Commissioners west of Adelaide WB - #447,,"42.958643","-81.220485",,,,,,false,"7",Inner_City_South
+COMMDEV2,"450",Commissioners west of Deveron 1 WB - #450,,"42.962337","-81.195987",,,,,,false,"7",Inner_City_South
+COMMDEV4,"452",Commissioners west of Deveron 2 WB - #452,,"42.962191","-81.1969",,,,,,false,"7",Inner_City_South
+COMMDEV6,"453",Commissioners east of Deveron WB - #453,,"42.962645","-81.193643",,,,,,false,"7",Inner_City_South
+COMMFRO1,"454",Commissioners at Frontenac EB - #454,,"42.960312","-81.20809",,,,,,false,"7",Inner_City_South
+COMMFRO2,"455",Commissioners at Frontenac WB - #455,,"42.960331","-81.209188",,,,,,false,"7",Inner_City_South
+COMMKIE1,"462",Commissioners at King Edward EB - #462,,"42.960762","-81.205452",,,,,,false,"7",Inner_City_South
+COMMKIE2,"463",Commissioners at King Edward WB - #463,,"42.960842","-81.205928",,,,,,false,"7",Inner_City_South
+COMMLEA1,"464",Commissioners at Leathorne EB - #464,,"42.959597","-81.212585",,,,,,false,"7",Inner_City_South
+COMMLEA2,"465",Commissioners at Leathorne WB - #465,,"42.95983","-81.212451",,,,,,false,"7",Inner_City_South
+COMMPOM1,"475",Commissioners west of Pondmills EB - #475,,"42.961323","-81.201406",,,,,,false,"7",Inner_City_South
+COMMPOM3,"477",Commissioners east of Pondmills EB - #477,,"42.961925","-81.197476",,,,,,false,"7",Inner_City_South
+COMMPOM4,"478",Commissioners west of Pondmills WB - #478,,"42.9615","-81.20151",,,,,,false,"7",Inner_City_South
+EDWABASE,"630",Edward at Baseline SB - #630,,"42.959872","-81.256607",,,,,,false,"7",Inner_City_South
+EDWAELMW,"634",Edward at Elmwood SB - #634,,"42.970163","-81.257901",,,,,,false,"7",Inner_City_South
+EDWAHIWY,"637",Edward at Highway SB - #637,,"42.962174","-81.256749",,,,,,false,"7",Inner_City_South
+EDWALANG,"639",Edward at Langarth SB - #639,,"42.965432","-81.257158",,,,,,false,"7",Inner_City_South
+EDWATECU,"640",Edward at Tecumseh SB - #640,,"42.96804","-81.257575",,,,,,false,"7",Inner_City_South
+ELMWCATH,"641",Elmwood at Cathcart WB - #641,,"42.970779","-81.254355",,,,,,false,"7",Inner_City_South
+ELMWMARL,"642",Elmwood at Marley Place WB - #642,,"42.971201","-81.250563",,,,,,false,"7",Inner_City_South
+ELMWWORT,"643",Elmwood at Wortley WB - #643,,"42.970934","-81.252723",,,,,,false,"7",Inner_City_South
+GRANHIG1,"790",Grand at High EB - #790,,"42.971973","-81.240767",,,,,,false,"7",Inner_City_South
+GRANHIG2,"791",Grand at High WB - #791,,"42.972112","-81.24004",,,,,,false,"7",Inner_City_South
+GRANHIG4,"792",84 Grand WB - #792,,"42.971894","-81.241983",,,,,,false,"7",Inner_City_South
+HIGHBASE,"930",High at Baseline NB - #930,,"42.961578","-81.236142",,,,,,false,"7",Inner_City_South
+HIGHCHE1,"931",High at Chester NB - #931,,"42.963971","-81.236823",,,,,,false,"7",Inner_City_South
+HIGHCHE2,"932",High at Chester SB - #932,,"42.963761","-81.236863",,,,,,false,"7",Inner_City_South
+HIGHEME1,"933",High at Emery NB - #933,,"42.965409","-81.237156",,,,,,false,"7",Inner_City_South
+HIGHEME2,"934",High at Emery SB - #934,,"42.965776","-81.237322",,,,,,false,"7",Inner_City_South
+HIGHGRA2,"936",High at Grand SB - #936,,"42.9716","-81.238813",,,,,,false,"7",Inner_City_South
+HIGHMCL1,"937",High at McClary NB - #937,,"42.971092","-81.238544",,,,,,false,"7",Inner_City_South
+HIGHWIN2,"940",High at Windsor Cres SB - #940,,"42.968769","-81.238034",,,,,,false,"7",Inner_City_South
+HIGHWIN3,"941",High at Windsor Cres NB - #941,,"42.968628","-81.237928",,,,,,false,"7",Inner_City_South
+KINGBUR1,"1077",King Edward at Burlington NB - #1077,,"42.962132","-81.20638",,,,,,false,"7",Inner_City_South
+KINGCHI1,"1078",King Edward at Chippendale NB - #1078,,"42.964116","-81.208154",,,,,,false,"7",Inner_City_South
+KINGCHI2,"1079",King Edward at Chippendale SB - #1079,,"42.964385","-81.20833",,,,,,false,"7",Inner_City_South
+KINGEAGL,"1082",King Edward at Eagle SB - #1082,,"42.963123","-81.207767",,,,,,false,"7",Inner_City_South
+KINGECHO,"1083",King Edward at Echo SB - #1083,,"42.966097","-81.209213",,,,,,false,"7",Inner_City_South
+KINGSCE1,"1087",King Edward at Scenic NB - #1087,,"42.967366","-81.210686",,,,,,false,"7",Inner_City_South
+KINGSCE2,"1088",King Edward at Scenic SB - #1088,,"42.967282","-81.210728",,,,,,false,"7",Inner_City_South
+KINGTHO2,"1089",King Edward at Thompson SB - #1089,,"42.969234","-81.212795",,,,,,false,"7",Inner_City_South
+KINGVERM,"1090",King Edward at Vermont Ave NB - #1090,,"42.965959","-81.208889",,,,,,false,"7",Inner_City_South
+PONDAILS,"1399",Pond Mills at Ailsa SB - #1399,,"42.970378","-81.204489",,,,,,false,"7",Inner_City_South
+PONDBURL,"1406",Pond Mills at Burlington Gate NB - #1406,,"42.963757","-81.201037",,,,,,false,"7",Inner_City_South
+PONDCLE1,"1407",Pond Mills at Cleveland NB - #1407,,"42.96746","-81.202057",,,,,,false,"7",Inner_City_South
+PONDCLE2,"1408",Pond Mills at Cleveland SB - #1408,,"42.967599","-81.202236",,,,,,false,"7",Inner_City_South
+PONDCOMM,"1409",Pond Mills at Commissioners NB - #1409,,"42.962133","-81.200663",,,,,,false,"7",Inner_City_South
+PONDEGER,"1412",Pond Mills at Thompson NB - #1412,,"42.97274","-81.209805",,,,,,false,"7",Inner_City_South
+PONDSCE1,"1421",Pond Mills at Scenic NB - #1421,,"42.971897","-81.207463",,,,,,false,"7",Inner_City_South
+PONDSCE4,"1422",Pond Mills south of Scenic SB - #1422,,"42.971741","-81.207216",,,,,,false,"7",Inner_City_South
+RIDOBAKE,"1531",Ridout at Baker NB - #1531,,"42.967407","-81.246257",,,,,,false,"7",Inner_City_South
+RIDOBAS1,"1532",Ridout at Baseline NB - #1532,,"42.960517","-81.242718",,,,,,false,"7",Inner_City_South
+RIDOBAS2,"1533",Ridout at Baseline SB - #1533,,"42.961246","-81.243171",,,,,,false,"7",Inner_City_South
+RIDOCRA1,"1537",Ridout at Craig NB - #1537,,"42.974264","-81.249696",,,,,,false,"7",Inner_City_South
+RIDOCRA2,"1538",Ridout at Craig SB - #1538,,"42.974335","-81.249832",,,,,,false,"7",Inner_City_South
+RIDOELMW,"1539",Ridout at Elmwood SB - #1539,,"42.972601","-81.248939",,,,,,false,"7",Inner_City_South
+RIDOEME1,"1540",Ridout at Emery NB - #1540,,"42.964715","-81.244873",,,,,,false,"7",Inner_City_South
+RIDOEME2,"1541",Ridout at Emery SB - #1541,,"42.965227","-81.245179",,,,,,false,"7",Inner_City_South
+RIDOGRAN,"1544",Ridout & Grand Ave NB - #1544,,"42.971431","-81.248245",,,,,,false,"7",Inner_City_South
+RIDOHICK,"1545",Ridout at Hickson NB - #1545,,"42.962205","-81.243574",,,,,,false,"7",Inner_City_South
+RIDOING1,"1547",Ridout at Ingleside NB - #1547,,"42.975851","-81.250566",,,,,,false,"7",Inner_City_South
+RIDOMOU2,"1553",Ridout at Mountsfiled SB - #1553,,"42.959504","-81.242285",,,,,,false,"7",Inner_City_South
+RIDOROSE,"1554",Ridout at Rosel SB - #1554,,"42.962909","-81.244023",,,,,,false,"7",Inner_City_South
+RIDOTEC1,"1555",Ridout at Tecumseh NB - #1555,,"42.969427","-81.247221",,,,,,false,"7",Inner_City_South
+RIDOTEC2,"1556",Ridout at Tecumseh SB - #1556,,"42.969589","-81.247432",,,,,,false,"7",Inner_City_South
+RIDOWINS,"1557",Ridout at Windsor SB - #1557,,"42.967104","-81.246159",,,,,,false,"7",Inner_City_South
+SHELBUR2,"1656",Shelborne at Burlington Gate SB - #1656,,"42.963197","-81.200141",,,,,,false,"7",Inner_City_South
+SHELDEVE,"1657",Shelborne at Deveron EB - #1657,,"42.963077","-81.196346",,,,,,false,"7",Inner_City_South
+STANPERR,"1758",Stanley at Perry EB - #1758,,"42.978172","-81.259762",,,,,,false,"7",Inner_City_South
+STANWHAR,"1759",Stanley at Wharncliffe EB - #1759,,"42.977719","-81.261462",,,,,,false,"7",Inner_City_South
+STANWORT,"1760",Stanley at Wortley EB - #1760,,"42.978927","-81.257107",,,,,,false,"7",Inner_City_South
+THOMADE1,"1776",Princess Elizabeth Elementary School EB - #1776,,"42.968377","-81.221932",,,,,,false,"7",Inner_City_South
+THOMADE2,"1777",Thompson at Adelaide WB - #1777,,"42.968275","-81.223112",,,,,,false,"7",Inner_City_South
+THOMCHE1,"1779",Thompson at Chesterfield  EB - #1779,,"42.969255","-81.216183",,,,,,false,"7",Inner_City_South
+THOMCHE2,"1780",Thompson at Chesterfield  WB - #1780,,"42.969298","-81.21699",,,,,,false,"7",Inner_City_South
+THOMEME1,"1781",Thompson at Emerson  EB - #1781,,"42.968937","-81.219792",,,,,,false,"7",Inner_City_South
+THOMGLA1,"1783",Thompson at Gladstone Ave EB - #1783,,"42.969382","-81.21484",,,,,,false,"7",Inner_City_South
+THOMGLA2,"1784",Thompson at GladstoneWB - #1784,,"42.969463","-81.214921",,,,,,false,"7",Inner_City_South
+THOMJACQ,"1785",Thompson at Jacqueline WB - #1785,,"42.969025","-81.2199",,,,,,false,"7",Inner_City_South
+THOMKED1,"1786",Thompson at King Edward EB - #1786,,"42.96964","-81.212344",,,,,,false,"7",Inner_City_South
+THOMKED2,"1787",Thompson at King Edward  WB - #1787,,"42.969612","-81.213279",,,,,,false,"7",Inner_City_South
+VICTCOMM,"1854",Victoria Hospital at Commissioners NB - #1854,,"42.959454","-81.223182",,,,,,false,"7",Inner_City_South
+VICTLOT9,"1855",Victoria Hospital Cancer Centre SB - #1855,,"42.959952","-81.228915",,,,,,false,"7",Inner_City_South
+VICTMUBU,"1856",Victoria Hospital at Medical Unit Building - #1856,,"42.961257","-81.221941",,,,,,false,"7",Inner_City_South
+VICTWES1,"1857",Victoria Hospital at Western Counties EB - #1857,,"42.959117","-81.223662",,,,,,false,"7",Inner_City_South
+VICTZONB,"1859",Victoria Hospital & Baseline Rd Ent WB - #1859,,"42.961443","-81.226937",,,,,,false,"7",Inner_City_South
+WELLALEX,"1922",Wellington & Alexandra St NB - #1922,,"42.967398","-81.232396",,,,,,false,"7",Inner_City_South
+WELLBAS1,"1923",Wellington South of Baseline NB - #1923,,"42.961193","-81.230777",,,,,,false,"7",Inner_City_South
+WELLBAS2,"1924",Wellington at Baseline SB - #1924,,"42.961977","-81.231306",,,,,,false,"7",Inner_City_South
+WELLBOND,"1925",Wellington at Bond  NB - #1925,,"42.968858","-81.234644",,,,,,false,"7",Inner_City_South
+WELLCHES,"1929",Wellington at Chester NB - #1929,,"42.96436","-81.231661",,,,,,false,"7",Inner_City_South
+WELLCOLG,"1930",Wellington at Colgrove Pl SB - #1930,,"42.970156","-81.236499",,,,,,false,"7",Inner_City_South
+WELLCOM1,"1931",Wellington at Commissioners NB - #1931,,"42.958872","-81.230199",,,,,,false,"7",Inner_City_South
+WELLGRA1,"1942",Wellington at Grand Ave NB - #1942,,"42.972393","-81.238086",,,,,,false,"7",Inner_City_South
+WELLGRA2,"1943",Wellington at Grand SB - #1943,,"42.972119","-81.23806",,,,,,false,"7",Inner_City_South
+WELLMCL1,"1950",Wellington at McClary AVE NB - #1950,,"42.970589","-81.236686",,,,,,false,"7",Inner_City_South
+WELLPERC,"1958",Wellington at Percy SB - #1958,,"42.963536","-81.231625",,,,,,false,"7",Inner_City_South
+WELLTHJA,"1970",Wellington at Thomas Janes SB - #1970,,"42.965569","-81.232118",,,,,,false,"7",Inner_City_South
+WELLWELL,"1974",Wellington at Wellington Cres SB - #1974,,"42.968432","-81.234085",,,,,,false,"7",Inner_City_South
+WESTBAS1,"1985",Westminster at Baseline Rd NB - #1985,,"42.964112","-81.224824",,,,,,false,"7",Inner_City_South
+WESTBAS2,"1986",Westminster at Baseline Rd SB - #1986,,"42.964256","-81.22495",,,,,,false,"7",Inner_City_South
+WESTWHE1,"2007",Westminster at Whetter Ave NB - #2007,,"42.965611","-81.225135",,,,,,false,"7",Inner_City_South
+WESTWHE2,"2008",Westminster at Whetter Ave SB - #2008,,"42.966196","-81.225409",,,,,,false,"7",Inner_City_South
+ADELLEA7,"2185",Adelaide north of Leathorne 3 NB - #2185,,"42.965978","-81.221654",,,,,,false,"7",Inner_City_South
+BASEWHA1,"2194",Base Line at Wharncliffe EB - #2194,,"42.959332","-81.259828",,,,,,false,"7",Inner_City_South
+PMILTHOP,"2260",Pond Mills at Thompson - #2260,,"42.972808","-81.21007",,,,,,false,"7",Inner_City_South
+VICZONC,"2284",Victoria Hospital & Zone A EB - #2284,,"42.959493","-81.226954",,,,,,false,"7",Inner_City_South
+WESTTHO1,"2292",Westminster at Thompson Rd NB - #2292,,"42.967501","-81.224994",,,,,,false,"7",Inner_City_South
+KINGDIP1,"2333",King Edward at Dieppe NB - #2333,,"42.967584","-81.212023",,,,,,false,"7",Inner_City_South
+KINGDIP2,"2334",King Edward at Dieppe SB - #2334,,"42.967729","-81.212464",,,,,,false,"7",Inner_City_South
+VICTZON7,"2423",Victoria Hospital at Zone E WB - #2423,,"42.961601","-81.224164",,,,,,false,"7",Inner_City_South
+COMMWCO2,"2426",Commissioners at Western Counties Rd - #2426,,"42.958531","-81.223029",,,,,,false,"7",Inner_City_South
+PONDSCE2,"2449",Pond Mills north of Scenic SB - #2449,,"42.972444","-81.209591",,,,,,false,"7",Inner_City_South
+SHELODEL,"2452",Shelborne at Odell Place EB - #2452,,"42.96255","-81.19923",,,,,,false,"7",Inner_City_South
+VICTWEST,"2499",Victoria Hospital West Entrance NB - #2499,,"42.958824","-81.228335",,,,,,false,"7",Inner_City_South
+GRANRIDO,"2684",Grand at Bellevue EB - #2684,,"42.97138","-81.246221",,,,,,false,"7",Inner_City_South
+WESTTHO2,"2702",Westminster at Thompson Rd SB - #2702,,"42.967767","-81.224865",,,,,,false,"7",Inner_City_South
+COMMHIG3,"2805",Commissioners at High WB - #2805,,"42.958172","-81.235294",,,,,,false,"7",Inner_City_South
+COMMKIFD,"2808",Commissioners at Kingsford WB - #2808,,"42.958033","-81.238789",,,,,,false,"7",Inner_City_South
+COMMRIDO,"2809",Commissioners at Ridout WB - #2809,,"42.957808","-81.242128",,,,,,false,"7",Inner_City_South
+COMMWELL,"2812",Commissioners at Wellington WB - #2812,,"42.958353","-81.230904",,,,,,false,"7",Inner_City_South
+COMMWORT,"2815",Commissioners at Wortley WB - #2815,,"42.957617","-81.245721",,,,,,false,"7",Inner_City_South
+WELLBAS3,"2911",Wellington at Baseline Rd FS NB - #2911,,"42.962116","-81.230972",,,,,,false,"7",Inner_City_South
+PONDAIL2,"2915",Pond Mills at Ailsa NB - #2915,,"42.970579","-81.204727",,,,,,false,"7",Inner_City_South
+MEADREA1,"1165",Meadowgate at Reardon NB - #1165,,"42.963084","-81.180223",,,,,,false,"8",Southeast
+REARROTH,"1454",Reardon at Rothwell WB - #1454,,"42.962015","-81.176893",,,,,,false,"8",Southeast
+COMMMED1,"2215",Commissioners at Meadowlilly EB - #2215,,"42.963507","-81.18508",,,,,,false,"8",Southeast
+COMMMED2,"2216",Commissioners at Meadowlilly WB - #2216,,"42.963598","-81.186234",,,,,,false,"8",Southeast
+COMMMEDG,"2392",Commissioners at Meadowgate EB - #2392,,"42.963884","-81.181292",,,,,,false,"8",Southeast
+COMMHIG1,"2453",Commissioners at Highbury EB - #2453,,"42.963056","-81.188761",,,,,,false,"8",Southeast
+DARNMEAD,"2468",Darnley at Meadowgate EB - #2468,,"42.954763","-81.173716",,,,,,false,"8",Southeast
+LIGHEMER,"2476",Lighthouse at Emerald NB - #2476,,"42.958934","-81.171508",,,,,,false,"8",Southeast
+LIGHREAR,"2477",Lighthouse at Reardon NB - #2477,,"42.960028","-81.171739",,,,,,false,"8",Southeast
+LIGHWHSA,"2478",Lighthouse at White Sands NB - #2478,,"42.956574","-81.170588",,,,,,false,"8",Southeast
+MEADDORM,"2482",Meadowgate at Dormer SB - #2482,,"42.956891","-81.179056",,,,,,false,"8",Southeast
+MEADEVAN,"2483",Meadowgate at Evans SB - #2483,,"42.960995","-81.180924",,,,,,false,"8",Southeast
+MEADGOOD,"2484",Meadowgate at Goodfellow SB - #2484,,"42.958945","-81.181192",,,,,,false,"8",Southeast
+MEADREA3,"2485",Meadowgate at Reardon SB - #2485,,"42.962849","-81.180444",,,,,,false,"8",Southeast
+REARCHE1,"2486",Reardon at Chelton WB - #2486,,"42.96102","-81.174192",,,,,,false,"8",Southeast
+2530INNO,"2950",2530 Innovation SB - #2950 ,,"42.955778","-81.135632",,,,,,false,"8",Southeast
+2860INNO,"2951",2860 Innovation SB - #2951 ,,"42.961734","-81.132066",,,,,,false,"8",Southeast
+CONCINN1,"2952",Concept at Innovation WB - #2952 ,,"42.957821","-81.135162",,,,,,false,"8",Southeast
+DISCDRO1,"2953",Discovery west of Dr Oetker WB - #2953 ,,"42.947648","-81.133796",,,,,,false,"8",Southeast
+DROEBRA1,"2954",Dr Oetker south of Bradley SB - #2954 ,,"42.950006","-81.132922",,,,,,false,"8",Southeast
+HAMIORI1,"2955",Hamilton at Oriole SB - #2955 ,,"42.965563","-81.144855",,,,,,false,"8",Southeast
+HAMIORI2,"2956",Hamilton at Oriole NB - #2956 ,,"42.96532","-81.14377",,,,,,false,"8",Southeast
+VENTINN1,"2959",Venture at Innovation SB - #2959 ,,"42.963626","-81.134293",,,,,,false,"8",Southeast
+INNOBRA2,"2990",Innovation North of Bradley SB - #2990,,"42.95291","-81.13341",,,,,,false,"8",Southeast
+CHEEGLOB,"2611",3935 Cheese Factory Road - #2611,,"42.932795","-81.160356",,,,,,false,"11",South_Expansion
+COMMGLOB,"2612",Commerce at Global NB - #2612,,"42.932341","-81.167634",,,,,,false,"11",South_Expansion
+COMMMABR,"2613",Commerce at Max Brose NB - #2613,,"42.935515","-81.168433",,,,,,false,"11",South_Expansion
+WILTCOM1,"2949",Wilton Grove at Commerce EB - #2949,,"42.93013","-81.16853",,,,,,false,"11",South_Expansion
+ADELOSG1,"60",Adelaide at SE Osgoode NB - #60,,"42.93825","-81.209242",,,,,,false,"9",South
+ADELOSG2,"61",Adelaide at NW Osgoode SB - #61,,"42.941834","-81.213008",,,,,,false,"9",South
+ADELOSG3,"62",Adelaide at NE Osgoode NB - #62,,"42.942427","-81.213344",,,,,,false,"9",South
+ADELOSG4,"63",Adelaide at SE Osgoode SB - #63,,"42.937296","-81.20903",,,,,,false,"9",South
+ADELOSG5,"64",Adelaide at SE Osgoode NS NB - #64,,"42.937249","-81.208782",,,,,,false,"9",South
+ADELOSG6,"65",Adelaide at SW Osgoode SB - #65,,"42.939001","-81.2102",,,,,,false,"9",South
+ADELOSG7,"66",Adelaide at Osgoode 3 NB - #66,,"42.939237","-81.210169",,,,,,false,"9",South
+ADELSDAL,"77",Adelaide at Southdale SB - #77,,"42.943708","-81.214531",,,,,,false,"9",South
+ASHBMIL1,"168",Ashbury at Millbank EB - #168,,"42.937301","-81.202254",,,,,,false,"9",South
+ASHBMIL2,"169",Ashbury at Millbank WB - #169,,"42.937358","-81.202382",,,,,,false,"9",South
+ASHBSUR1,"170",Ashbury at Surrey Cres NB - #170,,"42.938413","-81.204312",,,,,,false,"9",South
+ASHBSUR2,"171",Ashbury at Surrey Cres SB - #171,,"42.938244","-81.2043",,,,,,false,"9",South
+BES1EXET,"250",Bessemer at Exeter NB - #250,,"42.927041","-81.212835",,,,,,false,"9",South
+BESSBES3,"252",Bessemer at Bessemer Crt 2 NB - #252,,"42.932033","-81.211985",,,,,,false,"9",South
+BESSHAR1,"253",Bessemer at Hargrieve NB - #253,,"42.929243","-81.212852",,,,,,false,"9",South
+BRADADE1,"291",Bradley between Willow & Adelaide  EB - #291,,"42.935783","-81.213495",,,,,,false,"9",South
+BRADADE2,"292",Bradley at Adelaide  WB - #292,,"42.935976","-81.209553",,,,,,false,"9",South
+BRADAGN2,"293",Bradley at Willow 1 WB - #293,,"42.935252","-81.216461",,,,,,false,"9",South
+BRADDEAR,"294",Bradley at Dearness WB - #294,,"42.93475","-81.221688",,,,,,false,"9",South
+BRADERNE,"295",Bradley at Ernest Ave EB - #295,,"42.93429","-81.237428",,,,,,false,"9",South
+BRADJALN,"296",Bradley at Jalna EB - #296,,"42.934325","-81.240431",,,,,,false,"9",South
+BRADWEL3,"297",Bradley east of Wellington Rd EB - #297,,"42.934543","-81.222187",,,,,,false,"9",South
+BRADWIL1,"298",Bradley at Willow 1 EB - #298,,"42.934873","-81.218812",,,,,,false,"9",South
+CHIDCHID,"384",Chiddington Ave at Chiddington Gt SB - #384,,"42.952254","-81.233581",,,,,,false,"9",South
+CHIDHUN1,"385",Chiddington at Huntingdon EB - #385,,"42.953491","-81.237051",,,,,,false,"9",South
+CHIDHUN2,"386",Chiddington at Huntingdon WB - #386,,"42.953562","-81.235669",,,,,,false,"9",South
+CHIDUPQ2,"389",Chiddington at Upper Queens WB - #389,,"42.953264","-81.239981",,,,,,false,"9",South
+CHIDWILK,"390",Chiddington at Wilkins NB - #390,,"42.952296","-81.233496",,,,,,false,"9",South
+DEARBRAD,"505",Dearness at Bradley NB - #505,,"42.935217","-81.220893",,,,,,false,"9",South
+DEARDUL1,"506",Dearness at Dunelm Lane NB - #506,,"42.937012","-81.221301",,,,,,false,"9",South
+DEARDUL2,"507",Dearness at Dunelm Lane SB - #507,,"42.936711","-81.221339",,,,,,false,"9",South
+DEARWILL,"508",Dearness at Willow Lane SB - #508,,"42.938281","-81.22172",,,,,,false,"9",South
+DEVECOM1,"513",Deveron at Commissioners NB - #513,,"42.961243","-81.194917",,,,,,false,"9",South
+DOWASH1,"528",Dow at Ashbury EB - #528,,"42.939373","-81.204839",,,,,,false,"9",South
+DOWASH2,"529",Dow at Ashbury WB - #529,,"42.93947","-81.205079",,,,,,false,"9",South
+DUNDHARC,"575",Dundalk at Harcroft Cres SB - #575,,"42.946155","-81.243894",,,,,,false,"9",South
+DUNDHIN1,"579",Dundalk at Hines NB - #579,,"42.945118","-81.244214",,,,,,false,"9",South
+DUNDHIN2,"580",Dundalk at Hines SB - #580,,"42.944798","-81.244219",,,,,,false,"9",South
+DUNDSDAL,"604",Dundalk at Southdale SB - #604,,"42.942477","-81.243882",,,,,,false,"9",South
+DUNDSTOC,"608",Dundalk at Stockton NB - #608,,"42.942628","-81.243814",,,,,,false,"9",South
+EDENEAS1,"626",Eden at Easy EB - #626,,"42.946669","-81.234692",,,,,,false,"9",South
+EDENEAS2,"627",Eden at Easy WB - #627,,"42.946758","-81.234301",,,,,,false,"9",South
+EDENNIX,"628",Eden at Nixon WB - #628,,"42.946509","-81.23719",,,,,,false,"9",South
+EDENVERU,"629",Eden at Verulam EB - #629,,"42.946947","-81.231417",,,,,,false,"9",South
+ENTEHUBR,"651",Enterprise at Hubrey EB - #651,,"42.933034","-81.184689",,,,,,false,"9",South
+ENTEMID1,"652",Enterprise at Midpark EB - #652,,"42.932497","-81.186907",,,,,,false,"9",South
+ENTEPOM1,"653",Enterprise at Pond Mills EB - #653,,"42.931561","-81.189731",,,,,,false,"9",South
+ERNEBRA1,"654",Ernest at Bradley NB - #654,,"42.934816","-81.236399",,,,,,false,"9",South
+ERNEBRA2,"655",Ernest at Bradley SB - #655,,"42.934612","-81.236504",,,,,,false,"9",South
+ERNECON1,"656",Ernest at Conway NB - #656,,"42.932709","-81.23643",,,,,,false,"9",South
+ERNECON2,"657",Ernest at Conway SB - #657,,"42.933053","-81.236551",,,,,,false,"9",South
+ERNEELVI,"658",Ernest at Elvira SB - #658,,"42.939341","-81.238539",,,,,,false,"9",South
+ERNEFEN1,"659",Ernest at Fennel NB - #659,,"42.929488","-81.23594",,,,,,false,"9",South
+ERNEFEN2,"660",Ernest at Fennel SB - #660,,"42.930285","-81.235775",,,,,,false,"9",South
+ERNEFINC,"661",Ernest at Finch SB - #661,,"42.92856","-81.236307",,,,,,false,"9",South
+ERNEJAL1,"662",Ernest at Jalna NB - #662,,"42.941107","-81.236799",,,,,,false,"9",South
+ERNEJAL2,"663",Ernest at Jalna SB - #663,,"42.9407","-81.237401",,,,,,false,"9",South
+ERNEMUR1,"665",Opposite Sir Aurther Carty PS - #665,,"42.938013","-81.238457",,,,,,false,"9",South
+ERNEMUR3,"666",Ernest at Muriel NB - #666,,"42.936425","-81.237508",,,,,,false,"9",South
+ERNEPAUL,"667",Ernest at Pauline SB - #667,,"42.93696","-81.23824",,,,,,false,"9",South
+ERNESCO1,"668",Ernest at Scotchmere SB - #668,,"42.926915","-81.235957",,,,,,false,"9",South
+ERNESCO2,"669",Ernest at Scotchmere NB - #669,,"42.926654","-81.2358",,,,,,false,"9",South
+EXETMEG,"670",Exeter at Meg EB - #670,,"42.92479","-81.228489",,,,,,false,"9",South
+EXETSHOL,"671",Exeter at Sholto WB - #671,,"42.924966","-81.228259",,,,,,false,"9",South
+EXETWEL1,"672",Exeter at Wellington EB - #672,,"42.926036","-81.215134",,,,,,false,"9",South
+FERNCONT,"721",Ferndale at Country Club Drive WB - #721,,"42.946932","-81.25205",,,,,,false,"9",South
+HIGVFER1,"943",Highview at Ferndale NB - #943,,"42.9478","-81.255608",,,,,,false,"9",South
+HIGVFER2,"944",Highview at Ferndale SB - #944,,"42.94795","-81.255727",,,,,,false,"9",South
+HIGVROS1,"945",Highview at Rossmore Crt NB - #945,,"42.952747","-81.255522",,,,,,false,"9",South
+HIGVROS2,"946",Highview at Rossmore Crt SB - #946,,"42.952859","-81.255598",,,,,,false,"9",South
+HIGVROS3,"947",Highview at Rossmore Place NB - #947,,"42.950456","-81.255103",,,,,,false,"9",South
+HIGVROS4,"948",Highview at Rossmore Place SB - #948,,"42.950352","-81.255194",,,,,,false,"9",South
+HIGVWHA2,"950",90 Highview - #950,,"42.954023","-81.256969",,,,,,false,"9",South
+HOLIEXET,"954",Holiday at Exeter SB - #954,,"42.926412","-81.218862",,,,,,false,"9",South
+HOLIGREE,"955",Holiday at Greenfield SB - #955,,"42.928343","-81.219316",,,,,,false,"9",South
+HUBRENT4,"988",Hubrey at Enterprise south SB - #988,,"42.930474","-81.183804",,,,,,false,"9",South
+HUBRWIL2,"989",Hubrey at Wilton Grove SB - #989,,"42.929375","-81.183108",,,,,,false,"9",South
+JALNAUGU,"1039",Jalna at Augusta WB - #1039,,"42.925083","-81.23802",,,,,,false,"9",South
+JALNBEE1,"1040",Jalna at Beechbank NB - #1040,,"42.940318","-81.230124",,,,,,false,"9",South
+JALNBEE2,"1041",Jalna at Beechbank Cr SB - #1041,,"42.940752","-81.230922",,,,,,false,"9",South
+JALNBEM2,"1043",Jalna at Beechmount SB - #1043,,"42.935685","-81.228522",,,,,,false,"9",South
+JALNBRA1,"1044",1102 Jalna - #1044,,"42.933241","-81.2283",,,,,,false,"9",South
+JALNBRA3,"1046",Jalna north of Bradley NB - #1046,,"42.934874","-81.228269",,,,,,false,"9",South
+JALNBRA4,"1047",Jalna south of Bradley SB - #1047,,"42.932977","-81.228337",,,,,,false,"9",South
+JALNCHES,"1048",Jalna at Cheswick Circle NB - #1048,,"42.92977","-81.24294",,,,,,false,"9",South
+JALNCOLE,"1050",Jalna at Colette NB - #1050,,"42.936824","-81.245692",,,,,,false,"9",South
+JALNERI1,"1051",Jalna at Erica NB - #1051,,"42.934258","-81.244643",,,,,,false,"9",South
+JALNERI2,"1052",Jalna at Erica north SB - #1052,,"42.936714","-81.245736",,,,,,false,"9",South
+JALNERI4,"1053",Jalna at Erica south SB - #1053,,"42.933905","-81.244384",,,,,,false,"9",South
+JALNERN3,"1055",Jalna at Ernest north EB - #1055,,"42.940752","-81.236511",,,,,,false,"9",South
+JALNERN4,"1056",Jalna at Ernest south WB - #1056,,"42.925286","-81.235316",,,,,,false,"9",South
+JALNERN5,"1057",Jalna at Ernest south EB - #1057,,"42.925268","-81.234714",,,,,,false,"9",South
+JALNFAI1,"1058",1559 Jalna NB - #1058,,"42.927868","-81.243276",,,,,,false,"9",South
+JALNFAI2,"1059",Jalna at Fairchild WB - #1059,,"42.92513","-81.241265",,,,,,false,"9",South
+JALNJOS1,"1060",Jalna at Josselyn NB - #1060,,"42.938372","-81.245514",,,,,,false,"9",South
+JALNJOS2,"1061",Jalna north of Josselyn SB - #1061,,"42.940554","-81.244017",,,,,,false,"9",South
+JALNJOS4,"1062",Jalna south of Josselyn SB - #1062,,"42.938103","-81.245772",,,,,,false,"9",South
+JALNMEG,"1063",Jalna at Meg WB - #1063,,"42.926158","-81.231418",,,,,,false,"9",South
+JALNPIER,"1064",Jalna at Piers NB - #1064,,"42.928458","-81.22641",,,,,,false,"9",South
+JALNPON1,"1065",Jalna at Ponderosa NB - #1065,,"42.938001","-81.22926",,,,,,false,"9",South
+JALNPOP1,"1067",Jalna at Poplar WB - #1067,,"42.941114","-81.231727",,,,,,false,"9",South
+JALNSDAL,"1071",Jalna at Southdale NB - #1071,,"42.941258","-81.243625",,,,,,false,"9",South
+JALNTUMB,"1072",Jalna at Tumbleweed SB - #1072,,"42.938465","-81.229455",,,,,,false,"9",South
+MEGEXE1,"1168",Meg at Exeter NB - #1168,,"42.925081","-81.231996",,,,,,false,"9",South
+MEGEXE2,"1169",Meg at Exeter SB - #1169,,"42.925303","-81.232154",,,,,,false,"9",South
+MILLASHB,"1174",Millbank at Ashbury SB - #1174,,"42.942113","-81.202548",,,,,,false,"9",South
+MILLBEX1,"1175",687 Millbank - #1175,,"42.940822","-81.200906",,,,,,false,"9",South
+MILLBEX2,"1176",Millbank at Bexhill  SB - #1176,,"42.941025","-81.201199",,,,,,false,"9",South
+MILLBEX3,"1177",Millbank at Bexhill  NB - #1177,,"42.938394","-81.200185",,,,,,false,"9",South
+MILLBEX4,"1178",720 Millbank - #1178,,"42.938947","-81.200415",,,,,,false,"9",South
+MILLBRID,"1179",Millbank at Bridington NB - #1179,,"42.942167","-81.202469",,,,,,false,"9",South
+MILLDOWN,"1180",Millbank at Downing NB - #1180,,"42.946786","-81.211933",,,,,,false,"9",South
+MILLDUD1,"1181",Millbank at Dudley NB - #1181,,"42.94404","-81.20437",,,,,,false,"9",South
+MILLDUD2,"1182",Millbank at Dudley SB - #1182,,"42.944011","-81.204454",,,,,,false,"9",South
+MILLEBU2,"1183",131 Millbank - #1183,,"42.946075","-81.211972",,,,,,false,"9",South
+MILLEBU4,"1184",Millbank at Ebury SB - #1184,,"42.9487","-81.211287",,,,,,false,"9",South
+MILLHARR,"1185",Millbank at Harrow  NB - #1185,,"42.945846","-81.204681",,,,,,false,"9",South
+MILLPAR1,"1186",Millbank at Parliament EB - #1186,,"42.952091","-81.20796",,,,,,false,"9",South
+MILLPAR2,"1187",Millbank at Parliament WB - #1187,,"42.952118","-81.20764",,,,,,false,"9",South
+MILLSDA1,"1188",Millbank at Southdale NB - #1188,,"42.945211","-81.21175",,,,,,false,"9",South
+MILLSDA2,"1189",Millbank at Southdale SB - #1189,,"42.944955","-81.211803",,,,,,false,"9",South
+MILLSDA4,"1190",Laurier Secondary School - #1190,,"42.94561","-81.204729",,,,,,false,"9",South
+MILLSHA1,"1191",Millbank at Shaftsbury east NB - #1191,,"42.950273","-81.205551",,,,,,false,"9",South
+MILLSHA2,"1192",Millbank at Shaftsbury east SB - #1192,,"42.950104","-81.205462",,,,,,false,"9",South
+MILLSHA3,"1193",Millbank at Shaftsbury NB - #1193,,"42.949798","-81.210517",,,,,,false,"9",South
+MILLSHA4,"1194",Millbank at Shaftsbury west SB - #1194,,"42.949744","-81.210611",,,,,,false,"9",South
+MILLSTAN,"1195",Millbank at Stanhope NB - #1195,,"42.948279","-81.21163",,,,,,false,"9",South
+NEWBADE1,"1228",Newbold at Adelaide EB - #1228,,"42.934315","-81.208905",,,,,,false,"9",South
+NEWBBESS,"1229",Newbold at Bessemer EB - #1229,,"42.934002","-81.211509",,,,,,false,"9",South
+NEWBCON1,"1231",Newbold at Consortium EB - #1231,,"42.934763","-81.20534",,,,,,false,"9",South
+NEWBTOWE,"1232",Newbold at Towerline EB - #1232,,"42.93529","-81.201678",,,,,,false,"9",South
+NIXOCRE2,"1234",Nixon at Creston SB - #1234,,"42.944628","-81.237278",,,,,,false,"9",South
+NIXOEDEN,"1235",Nixon at Eden NB - #1235,,"42.946199","-81.237585",,,,,,false,"9",South
+NIXOSDAL,"1236",Nixon at Southdale SB - #1236,,"42.943059","-81.236891",,,,,,false,"9",South
+NIXOWIMB,"1237",Nixon at Southdale NB - #1237,,"42.94292","-81.236739",,,,,,false,"9",South
+OSGOADE1,"1249",Osgoode east of Adelaide EB - #1249,,"42.937583","-81.208226",,,,,,false,"9",South
+OSGOADE3,"1250",Osgoode west of Adelaide EB - #1250,,"42.938882","-81.210941",,,,,,false,"9",South
+OSGOBRE1,"1251",Osgoode at Breckenridge EB - #1251,,"42.937553","-81.217407",,,,,,false,"9",South
+OSGOBRE2,"1252",Osgoode at Breckenridge WB - #1252,,"42.93763","-81.217447",,,,,,false,"9",South
+OSGOFITZ,"1253",Osgoode at Fitzroy WB - #1253,,"42.937771","-81.214978",,,,,,false,"9",South
+OSGOKIN1,"1254",Osgoode at Kinburn EB - #1254,,"42.937955","-81.213015",,,,,,false,"9",South
+OSGOKIN2,"1255",Osgoode at Kinburn WB - #1255,,"42.939015","-81.21095",,,,,,false,"9",South
+OSGOKIN4,"1256",1081 Osgoode WB - #1256,,"42.938117","-81.212643",,,,,,false,"9",South
+OSGOMETC,"1257",Osgoode at Metcalfe EB - #1257,,"42.937637","-81.215597",,,,,,false,"9",South
+OSGOWOO1,"1258",Osgoode at Woodrow EB - #1258,,"42.938591","-81.206426",,,,,,false,"9",South
+OSGOWOO2,"1259",Osgoode at Woodrow WB - #1259,,"42.938269","-81.206641",,,,,,false,"9",South
+PARKMAEN,"1373",Parkwood Hospital Main Entrance WB - #1373,,"42.956014","-81.225232",,,,,,false,"9",South
+PARKWEC2,"1376",Parkwood Hospital at  Western Counties Rd WB - #1376,,"42.95685","-81.22372",,,,,,false,"9",South
+PONDBAN1,"1400",Pond Mills at Banbury NB - #1400,,"42.956785","-81.199411",,,,,,false,"9",South
+PONDBAN2,"1401",Pond Mills at Banbury SB - #1401,,"42.957486","-81.199719",,,,,,false,"9",South
+PONDBRA2,"1402",Pond Mills south of Bradley SB - #1402,,"42.940033","-81.192238",,,,,,false,"9",South
+PONDBUC4,"1405",Pond Mills at Buchanan SB - #1405,,"42.935958","-81.191411",,,,,,false,"9",South
+PONDDEV2,"1410",Pond Mills north of Deveron SB - #1410,,"42.960494","-81.200409",,,,,,false,"9",South
+PONDDEV4,"1411",Pond Mills south of Deveron SB - #1411,,"42.955138","-81.198965",,,,,,false,"9",South
+PONDENT2,"1413",Pond Mills at Enterprise SB - #1413,,"42.932011","-81.191569",,,,,,false,"9",South
+PONDMILL,"1414",Pond Mills at Millers SB - #1414,,"42.949311","-81.195525",,,,,,false,"9",South
+PONDMIR1,"1415",450 Pond Mills - #1415,,"42.953063","-81.196476",,,,,,false,"9",South
+PONDMIR2,"1416",Pond Mills at Millridge SB - #1416,,"42.950517","-81.196272",,,,,,false,"9",South
+PONDMIR3,"1417",Pond Mills at Millridge NB - #1417,,"42.951371","-81.196403",,,,,,false,"9",South
+PONDMIR4,"1418",492 Pond Mills - #1418,,"42.953053","-81.196603",,,,,,false,"9",South
+PONDOLDH,"1419",Pond Mills South of Commissioners NB - #1419,,"42.960678","-81.200278",,,,,,false,"9",South
+PONDPONV,"1420",Pond Mills at Pondview NB - #1420,,"42.949301","-81.195321",,,,,,false,"9",South
+ROXBWEL2,"1608",Roxburgh at Wellington WB - #1608,,"42.919249","-81.207311",,,,,,false,"9",South
+SANDVER1,"1625",Sandringham at Verulam EB - #1625,,"42.9482","-81.23162",,,,,,false,"9",South
+SANDVER2,"1626",Sandringham at Verulam WB - #1626,,"42.948212","-81.231745",,,,,,false,"9",South
+SANDWIL2,"1627",Sandringham at Wilkins SB - #1627,,"42.948826","-81.234216",,,,,,false,"9",South
+SANDWIL4,"1628",Sandringham at Wilkins WB - #1628,,"42.948943","-81.234219",,,,,,false,"9",South
+SHOLEXE1,"1658",Sholto at Exeter NB - #1658,,"42.925738","-81.225438",,,,,,false,"9",South
+SHOLEXE2,"1659",Sholto at Exeter SB - #1659,,"42.925398","-81.225474",,,,,,false,"9",South
+SHOLJAL1,"1660",Sholto at Jalna Blvd NB - #1660,,"42.926831","-81.226266",,,,,,false,"9",South
+SHOLJAL2,"1661",Jalna at Archer N Leg SB - #1661,,"42.927482","-81.226401",,,,,,false,"9",South
+SOUTADE1,"1666",Southdale & Adelaide EB - #1666,,"42.944433","-81.21403",,,,,,false,"9",South
+SOUTADE2,"1667",Southdale at Adelaide WB - #1667,,"42.944488","-81.215236",,,,,,false,"9",South
+SOUTDUL1,"1673",Southdale at Dulaney Dr. EB - #1673,,"42.942115","-81.24042",,,,,,false,"9",South
+SOUTDUL2,"1674",Southdale at Dulaney WB - #1674,,"42.942263","-81.240731",,,,,,false,"9",South
+SOUTDUN2,"1675",Southdale at Dundalk WB - #1675,,"42.941979","-81.244486",,,,,,false,"9",South
+SOUTEAS2,"1678",Southdale at Easy WB - #1678,,"42.942993","-81.232317",,,,,,false,"9",South
+SOUTHOME,"1680",Southdale at Homeview WB - #1680,,"42.941369","-81.251878",,,,,,false,"9",South
+SOUTJAL1,"1681",Southdale East of Jalna Blvd EB - #1681,,"42.941877","-81.242985",,,,,,false,"9",South
+SOUTKOR1,"1683",Southdale at Koru Crt EB - #1683,,"42.94568","-81.200586",,,,,,false,"9",South
+SOUTKOR2,"1684",Southdale at Koru Crt WB - #1684,,"42.945718","-81.200797",,,,,,false,"9",South
+SOUTMIL1,"1685",Southdale at Millbank Dr E EB - #1685,,"42.945247","-81.205007",,,,,,false,"9",South
+SOUTMIL2,"1686",Southdale East of Millbank WB - #1686,,"42.945472","-81.203992",,,,,,false,"9",South
+SOUTMIL3,"1687",St Francis Elementary School EB - #1687,,"42.944869","-81.209276",,,,,,false,"9",South
+SOUTMIL4,"1688",964 Southdale WB - #1688,,"42.944983","-81.209328",,,,,,false,"9",South
+SOUTMIL5,"1689",Southdale at Millbank Dr West EB - #1689,,"42.944622","-81.212057",,,,,,false,"9",South
+SOUTMIL6,"1690",Southdale West of Millbank WB - #1690,,"42.944705","-81.212499",,,,,,false,"9",South
+SOUTERNE,"1691",Southdale at Ernest St EB - #1691,,"42.942535","-81.236357",,,,,,false,"9",South
+SOUTNIX1,"1691",Southdale at Nixon EB - #1691,,"42.942378","-81.237243",,,,,,false,"9",South
+SOUTNIX2,"1692",Southdale at Nixon WB - #1692,,"42.942523","-81.237558",,,,,,false,"9",South
+SOUTPOM1,"1697",Southdale at Pond Mills Road EB - #1697,,"42.945932","-81.197587",,,,,,false,"9",South
+SOUTPOM2,"1698",Southdale at Pond Mills WB - #1698,,"42.945995","-81.196964",,,,,,false,"9",South
+SOUTVER1,"1700",Southdale at Verulam EB - #1700,,"42.943068","-81.229588",,,,,,false,"9",South
+SOUTVER2,"1701",Southdale at Verulam WB - #1701,,"42.943186","-81.230062",,,,,,false,"9",South
+SOUTWEL1,"1703",Southdale at Wellington EB - #1703,,"42.94359","-81.224377",,,,,,false,"9",South
+SOUTWEL2,"1704",Southdale at Wellington  WB - #1704,,"42.943796","-81.224327",,,,,,false,"9",South
+SOUTWIL1,"1711",Southdale at Willow Dr EB - #1711,,"42.943924","-81.220704",,,,,,false,"9",South
+SOUTWIL2,"1712",Southdale at Willow WB - #1712,,"42.943993","-81.220942",,,,,,false,"9",South
+UPPECHI4,"1825",Upper Queens North of Chiddington SB - #1825,,"42.95352","-81.240689",,,,,,false,"9",South
+UPPECOM1,"1826",Upper Queens at Commissioners Rd NB - #1826,,"42.957458","-81.241439",,,,,,false,"9",South
+UPPECOM2,"1827",Upper Queens at Commissioners Rd SB - #1827,,"42.957062","-81.24153",,,,,,false,"9",South
+VERUEDEN,"1852",Verulam at Eden SB - #1852,,"42.947258","-81.231175",,,,,,false,"9",South
+WELLBRA1,"1926",Wellington North of Bradley  NB - #1926,,"42.935398","-81.223745",,,,,,false,"9",South
+WELLBRA2,"1927",Wellington at Bradley  SB - #1927,,"42.933922","-81.223468",,,,,,false,"9",South
+WELLCOM4,"1933",Wellington South of Commissioners SB - #1933,,"42.957854","-81.230256",,,,,,false,"9",South
+WELLCRES,"1934",Wellington at Creston Ave NB - #1934,,"42.946286","-81.227132",,,,,,false,"9",South
+WELLDEAR,"1935",Wellington at Dearness NB - #1935,,"42.929847","-81.219712",,,,,,false,"9",South
+WELLEXE1,"1940",Wellington at Exeter NB - #1940,,"42.926829","-81.217786",,,,,,false,"9",South
+WELLEXE2,"1941",Wellington at Exeter SB - #1941,,"42.927087","-81.2183",,,,,,false,"9",South
+WELLMON1,"1952",Wellington at Montgomery Gate NB - #1952,,"42.939082","-81.224643",,,,,,false,"9",South
+WELLMON2,"1953",Wellington South of Montgomery Gate SB - #1953,,"42.936868","-81.224381",,,,,,false,"9",South
+WELLMON4,"1954",Wellington North of Montgomery Gt SB - #1954,,"42.939705","-81.225036",,,,,,false,"9",South
+WELLNAD1,"1956",705 Wellington SB - #1956,,"42.94844","-81.228036",,,,,,false,"9",South
+WELLNADI,"1957",Wellington at Creston SB - #1957,,"42.946946","-81.227657",,,,,,false,"9",South
+WELLSDA1,"1963",Wellington South of Southdale NB - #1963,,"42.942563","-81.225428",,,,,,false,"9",South
+WELLSDA2,"1964",Wellington at Southdale SB - #1964,,"42.944319","-81.226408",,,,,,false,"9",South
+WELLSDA3,"1965",Wellington North of Southdale Rd NB - #1965,,"42.944743","-81.22623",,,,,,false,"9",South
+WELLWAT1,"1971",Wellington at Waterman NB - #1971,,"42.956452","-81.229685",,,,,,false,"9",South
+WELLWAT2,"1972",Wellington at Waterman SB - #1972,,"42.954466","-81.229486",,,,,,false,"9",South
+WELLWIL1,"1975",Wellington South of Wilkins St NB - #1975,,"42.951107","-81.228451",,,,,,false,"9",South
+WELLWIL3,"1977",Wellington North of Wilkins NB - #1977,,"42.9546","-81.229335",,,,,,false,"9",South
+WELLWIL4,"1978",Wellington at Wilkins SB - #1978,,"42.95176","-81.22885",,,,,,false,"9",South
+WHITOMA3,"2060",White Oaks Mall Stop 3 - #2060,,"42.93249","-81.22356",,,,,,false,"9",South
+WHITOMA1,"2061",White Oaks Mall Stop 2 - #2061,,"42.93208","-81.22315",,,,,,false,"9",South
+WHITOMA2,"2062",White Oaks Mall Stop 1 - #2062,,"42.931378","-81.22283",,,,,,false,"9",South
+WHITOMA4,"2063",White Oaks Mall Stop 4 - #2063,,"42.93277","-81.2237",,,,,,false,"9",South
+WILKCHI1,"2066",Wilkins at Chiddington Gate NB - #2066,,"42.950843","-81.234488",,,,,,false,"9",South
+WILKCHI2,"2067",Wilkins at Chiddington Gate SB - #2067,,"42.951127","-81.234432",,,,,,false,"9",South
+WILLDEAR,"2068",Willow at Dearness EB - #2068,,"42.938624","-81.220898",,,,,,false,"9",South
+WILLOSG1,"2069",Willow at Osgoode  EB - #2069,,"42.938917","-81.218758",,,,,,false,"9",South
+WILLOSG2,"2070",Willow at Osgoode WB - #2070,,"42.93894","-81.218681",,,,,,false,"9",South
+WILTSIS4,"2075",Wilton Grove at Sise Rd WB - #2075,,"42.927417","-81.201219",,,,,,false,"9",South
+BRADADE3,"2203",Bradley at Adelaide EB - #2203,,"42.935911","-81.209743",,,,,,false,"9",South
+BRADPOMI,"2204",Bradley at Pond Mills WB - #2204,,"42.94077","-81.1928",,,,,,false,"9",South
+BRADWIL4,"2205",Bradley at Willow 2 WB - #2205,,"42.934989","-81.218937",,,,,,false,"9",South
+BRADWOPS,"2206",White Oaks Elementary School - #2206,,"42.9342","-81.232633",,,,,,false,"9",South
+COMMWCO1,"2217",Commissioners at Western Counties EB - #2217,,"42.958442","-81.218679",,,,,,false,"9",South
+HIGVWHA3,"2236",89 Highview - #2236,,"42.953949","-81.257261",,,,,,false,"9",South
+JALNBRA7,"2242",Jalna south of Bradley NB - #2242,,"42.933106","-81.243455",,,,,,false,"9",South
+JALNCONW,"2243",Jalna at Conway NB - #2243,,"42.932331","-81.24271",,,,,,false,"9",South
+PONDBRA4,"2262",Pond Mills south of Bradley 2 SB - #2262,,"42.937239","-81.191571",,,,,,false,"9",South
+PONDDEV1,"2264",Pond Mills at Deveron NB - #2264,,"42.955404","-81.198939",,,,,,false,"9",South
+WHOKMANB,"2295",Jalna at White Oaks Mall NB - #2295,,"42.931158","-81.227254",,,,,,false,"9",South
+WHOKMASB,"2296",Jalna at White Oaks Mall SB - #2296,,"42.931102","-81.227399",,,,,,false,"9",South
+WILTMIDP,"2297",Wilton Grove & Midpark Rd WB - #2297,,"42.928763","-81.185865",,,,,,false,"9",South
+WILTPMI2,"2299",Wilton Grove West of Pond Mills WB - #2299,,"42.928073","-81.193661",,,,,,false,"9",South
+WILTPMI4,"2300",Wilton Grove East of Pondmills WB - #2300,,"42.928501","-81.189098",,,,,,false,"9",South
+WILTSIS2,"2303",990 Wilton Grove WB - #2303,,"42.92765","-81.19867",,,,,,false,"9",South
+BRADADE4,"2324",Bradley between Adelaide & Willow WB - #2324,,"42.935836","-81.21345",,,,,,false,"9",South
+BRADAGN1,"2325",Bradley at Willow 2 EB - #2325,,"42.935125","-81.216969",,,,,,false,"9",South
+BRADWEL1,"2326",Bradley west of Wellington Rd EB - #2326,,"42.934247","-81.224411",,,,,,false,"9",South
+BRADWEL2,"2327",Bradley at Wellington WB - #2327,,"42.934508","-81.224159",,,,,,false,"9",South
+NEWBBRA1,"2335",Newbold at Bradley NB - #2335,,"42.936267","-81.201488",,,,,,false,"9",South
+WELLCRE2,"2428",Wellington Between Creston and Wilkins NB - #2428,,"42.948492","-81.227842",,,,,,false,"9",South
+ROXBCAS2,"2488",Roxburgh at Castleton WB - #2488,,"42.919576","-81.20377",,,,,,false,"9",South
+SISEGVA2,"2490",Sise at Green Valley NS SB - #2490,,"42.922103","-81.202517",,,,,,false,"9",South
+SISEWIG2,"2492",Sise at Wilton Grove FS SB - #2492,,"42.926519","-81.203194",,,,,,false,"9",South
+BRADMEDI,"2597",Bradley at Jalna East EB - #2597,,"42.934185","-81.229978",,,,,,false,"9",South
+JALNARC5,"2598",Jalna south of Archer 2 SB - #2598,,"42.925985","-81.229217",,,,,,false,"9",South
+PARKMEHE,"2616",Parkwood Hospital at Mental Health Building - #2616,,"42.954056","-81.226738",,,,,,false,"9",South
+FERNHAM1,"2641",Ferndale at Hampstead EB - #2641,,"42.94714","-81.247113",,,,,,false,"9",South
+FERNHAM2,"2642",Ferndale at Hampstead WB - #2642,,"42.947192","-81.247644",,,,,,false,"9",South
+FERNHOM1,"2643",Ferndale at Homeview EB - #2643,,"42.94692","-81.250697",,,,,,false,"9",South
+FERNVIN1,"2645",Ferndale at Vincent WB - #2645,,"42.946761","-81.243845",,,,,,false,"9",South
+WELLHARL,"2689",Wellington at Harlech Gt SB - #2689,,"42.941826","-81.225455",,,,,,false,"9",South
+BRADERN1,"2790",Bradley west of Ernest WB - #2790,,"42.934461","-81.236875",,,,,,false,"9",South
+BRADERN2,"2791",Bradley west of Ernest 2 WB - #2791,,"42.934504","-81.240483",,,,,,false,"9",South
+BRADJAL1,"2792",Bradley at Jalna FS EB - West Leg - #2792,,"42.933373","-81.243164",,,,,,false,"9",South
+BRADJAL2,"2793",Bradley west of Jalna WB - East Leg - #2793,,"42.934342","-81.228901",,,,,,false,"9",South
+BRADJAL3,"2794",Bradley west of Jalna WB - West Leg - #2794,,"42.93316","-81.244069",,,,,,false,"9",South
+DEVEBANB,"2816",Deveron at Banbury NB - #2816,,"42.959415","-81.192223",,,,,,false,"9",South
+DEVEGLEN,"2817",Deveron at Glenroy EB - #2817,,"42.954873","-81.194643",,,,,,false,"9",South
+DEVELYSA,"2818",Deveron at Lysanda NB - #2818,,"42.956786","-81.191196",,,,,,false,"9",South
+DEVEPOND,"2819",Deveron at Pond Mills EB - #2819,,"42.955722","-81.198692",,,,,,false,"9",South
+SOUTMONT,"2878",Southdale at Montgomery WB - #2878,,"42.943475","-81.227054",,,,,,false,"9",South
+WELLSDA5,"2887",Wellington at Southdale NS 3 NB - #2887,,"42.942176","-81.225262",,,,,,false,"9",South
+BRADMIL1,"2967",Bradley at Millbank EB - #2967,,"42.93649","-81.20192",,,,,,false,"9",South
+BRADMIL2,"2968",Bradley at Millbank WB - #2968,,"42.93659","-81.20202",,,,,,false,"9",South
+BRADPOM1,"2970",Bradley at Pond Mills EB - #2970,,"42.940753","-81.19257",,,,,,false,"9",South
+SOUTAND1,"1668",Southdale at Andover EB - #1668,,"42.93949","-81.273187",,,,,,false,"10",Southwest
+2454MAIN,"2504",Main at Bainard Street - #2504,,"42.9105","-81.29627",,,,,,false,"10",Southwest
+CAMPMARI,"2506",Campbell at Marianna SB - #2506,,"42.908825","-81.290361",,,,,,false,"10",Southwest
+CAMPSUNR,"2507",Campbell at Sunray SB - #2507,,"42.906921","-81.289498",,,,,,false,"10",Southwest
+COLTBROA,"2508",Col Talbot at Broadway NB - #2508,,"42.907747","-81.299135",,,,,,false,"10",Southwest
+MAINCAMP,"2518",Main at Campbell EB - #2518,,"42.911671","-81.291879",,,,,,false,"10",Southwest
+WHARCAMP,"2522",Wharncliffe at Campbell WB - #2522,,"42.912681","-81.290596",,,,,,false,"10",Southwest
+WHARSAVO,"2523",Wharncliffe at Savoy SB - #2523,,"42.917457","-81.284838",,,,,,false,"10",Southwest
+WONDBRA2,"2525",Wonderland at Bradley FS NB - #2525,,"42.932846","-81.279825",,,,,,false,"10",Southwest
+WONDWHAR,"2528",Wonderland at Wharncliffe NB - #2528,,"42.924222","-81.277947",,,,,,false,"10",Southwest
+WHARLEGE,"2593",Wharncliffe & Legendary FS SB - #2593,,"42.937396","-81.261016",,,,,,false,"10",Southwest
+WHARWON2,"2595",Wharncliffe at Southbridge SB - #2595,,"42.926969","-81.273561",,,,,,false,"10",Southwest
+WONDPOWR,"2596",Wonderland & Power Centre Driveway - #2596,,"42.936356","-81.280632",,,,,,false,"10",Southwest
+WONDWHA2,"2610",Wonderland & Wharncliffe FS 2 NB - #2610,,"42.926019","-81.278341",,,,,,false,"10",Southwest
+COLTSOU2,"2619",Colonel Talbot at Southdale NB - #2619,,"42.936291","-81.317145",,,,,,false,"10",Southwest
+TILLSOUT,"2632",Tillman at Southdale SB - #2632,,"42.936485","-81.308691",,,,,,false,"10",Southwest
+SUNRHOWA,"2691",Sunray at Howard WB - #2691,,"42.905571","-81.294421",,,,,,false,"10",Southwest
+SUNRCOLT,"2703",Colonel Talbot at Sunray NB - #2703,,"42.905244","-81.297939",,,,,,false,"10",Southwest
+SOUTSING,"2748",Southdale at Singleton NS EB - #2748,,"42.939259","-81.27664",,,,,,false,"10",Southwest
+SOUTSPRI,"2749",Southdale at Springmeadow EB - #2749,,"42.939714","-81.270057",,,,,,false,"10",Southwest
+WHARCAST,"2751",Wharncliffe at Castle Rock SB - #2751,,"42.932731","-81.266579",,,,,,false,"10",Southwest
+WONDBRA3,"2752",Wonderland at Bradley NS NB - #2752,,"42.929391","-81.279073",,,,,,false,"10",Southwest
+SOUTPINE,"2768",Southdale at Pine Valley EB - #2768,,"42.938701","-81.283717",,,,,,false,"10",Southwest
+SOUTSWCC,"2769",Southdale at SW Community Centre EB - #2769,,"42.938393","-81.288383",,,,,,false,"10",Southwest
+EXETBRE1,"2820",Exeter at Breck FS 2 EB - #2820,,"42.922879","-81.250712",,,,,,false,"10",Southwest
+EXETBRE2,"2821",Exeter at Breck NS WB - #2821,,"42.922755","-81.25439",,,,,,false,"10",Southwest
+EXETBREC,"2822",Exeter at Breck FS 1 EB - #2822,,"42.922582","-81.253885",,,,,,false,"10",Southwest
+EXETMEA2,"2823",Exeter at Meadowbrook NS WB - #2823,,"42.922099","-81.262122",,,,,,false,"10",Southwest
+EXETMEA3,"2824",Exeter at Meadowbrook FS WB - #2824,,"42.921669","-81.267691",,,,,,false,"10",Southwest
+EXETMEA4,"2825",Exeter at Meadowbrook FS 1 EB - #2825,,"42.921557","-81.266372",,,,,,false,"10",Southwest
+EXETMEA5,"2826",Exeter at Meadowbrook FS 2 EB - #2826,,"42.921883","-81.262239",,,,,,false,"10",Southwest
+EXETWHIT,"2827",Exeter at White Oak Road WB - #2827,,"42.923078","-81.250843",,,,,,false,"10",Southwest
+EXETWON1,"2828",Exeter at Wonderland FS WB - #2828,,"42.920822","-81.277777",,,,,,false,"10",Southwest
+EXETWOND,"2829",Exeter at Wonderland FS EB - #2829,,"42.920737","-81.276307",,,,,,false,"10",Southwest
+RALECOLT,"2868",Raleigh at Colonel Talbot WB - #2868,,"42.932945","-81.316234",,,,,,false,"10",Southwest
+RALERALE,"2869",Raleigh at Raleigh Cres E Leg WB - #2869,,"42.933356","-81.314034",,,,,,false,"10",Southwest
+TILBPOME,"2884",Tilbury at Pomeroy WB - #2884,,"42.934464","-81.310761",,,,,,false,"10",Southwest
+TILLRALE,"2885",Tillman at Raleigh SB - #2885,,"42.934839","-81.308467",,,,,,false,"10",Southwest
+WHARCAM1,"2894",Wharncliffe at Campbell FS NB - #2894,,"42.91413","-81.288532",,,,,,false,"10",Southwest
+WHARSAV1,"2897",Wharncliffe at Savoy FS 2 SB - #2897,,"42.914822","-81.288048",,,,,,false,"10",Southwest
+WHITBRA1,"2898",White Oak Road south of Bradley SB - #2898,,"42.92971","-81.249489",,,,,,false,"10",Southwest
+WHITBRAD,"2899",White Oak Road at Bradley NS NB - #2899,,"42.931339","-81.249597",,,,,,false,"10",Southwest
+WHITDOW1,"2900",White Oak Road at Dowell FS NB - #2900,,"42.929483","-81.24918",,,,,,false,"10",Southwest
+WHITDOW2,"2901",White Oak Road at Dowell NS SB - #2901,,"42.927813","-81.249048",,,,,,false,"10",Southwest
+WHITDOWE,"2902",White Oak Road at Dowell NS NB - #2902,,"42.92739","-81.248689",,,,,,false,"10",Southwest
+WHITEXE1,"2903",White Oak Road at Exeter 2 NB - #2903,,"42.925736","-81.248319",,,,,,false,"10",Southwest
+WHITEXE2,"2904",White Oak Road at Exeter NS 1 SB - #2904,,"42.925574","-81.248498",,,,,,false,"10",Southwest
+WHITEXE3,"2905",White Oak Road at Exeter NS 2 SB - #2905,,"42.923436","-81.248007",,,,,,false,"10",Southwest
+WHITEXET,"2906",White Oak Road at Exeter NB - #2906,,"42.923652","-81.247821",,,,,,false,"10",Southwest
+WHARMOR2,"2961",Wharncliffe at Morgan NS SB - #2961 ,,"42.928928","-81.271164",,,,,,false,"10",Southwest
+COMMDEV1,"449",Commissioners at Deveron EB - #449,,"42.962324","-81.194459",,,,,,false,,
+PERTWIN1,"1378",Perth Dr at Windermere NB - #1378,,"43.01492","-81.274939",,,,,,false,,
+PERTWIN2,"1379",Perth at Windermere SB - #1379,,"43.014975","-81.275094",,,,,,false,,
+SOUTAND2,"1669",Southdale at Andover  WB - #1669,,"42.939725","-81.273089",,,,,,false,,
+SOUTNOD1,"1694",Southdale West of Notre Dame Dr  EB - #1694,,"42.940031","-81.266737",,,,,,false,,
+SOUTNOD2,"1695",Southdale East of Notre Dame WB - #1695,,"42.940325","-81.264321",,,,,,false,,
+SOUTNOD4,"1696",Southdale West of Notre Dame WB - #1696,,"42.940115","-81.267119",,,,,,false,,
+SOUTWHA1,"1706",Southdale West of Wharncliffe  EB - #1706,,"42.940606","-81.258723",,,,,,false,,
+SOUTWHA2,"1707",Southdale West of Wharncliffe WB - #1707,,"42.940725","-81.259235",,,,,,false,,
+SOUTWHA3,"1708",Southdale East of Wharncliffe EB - #1708,,"42.940758","-81.256515",,,,,,false,,
+SOUTWHA4,"1709",Southdale East of Wharncliffe WB - #1709,,"42.940992","-81.255824",,,,,,false,,
+SOUTWHOK,"1710",Southdale at White Oak Sideroad EB - #1710,,"42.941189","-81.251447",,,,,,false,,
+SOUTWON1,"1713",Southdale at Wonderland EB - #1713,,"42.938977","-81.280693",,,,,,false,,
+SOUTWON2,"1714",Southdale at Wonderland  WB - #1714,,"42.939343","-81.278838",,,,,,false,,
+YORKADE1,"2154",York at Adelaide EB - #2154,,"42.986345","-81.230015",,,,,,false,,
+YORKADE2,"2155",York at Adelaide WB - #2155,,"42.986415","-81.230103",,,,,,false,,
+YORKTHA2,"2171",York at Thames WB - #2171,,"42.979536","-81.255353",,,,,,false,,
+SOUTNOD3,"2337",Southdale East of Notre Dame Dr EB - #2337,,"42.940153","-81.264311",,,,,,false,,
+FANSPIN2,"2514",Fanshawe at Pinnacle EB - #2514,,"43.02166","-81.299195",,,,,,false,,
+SOUTPOME,"2629",Southdale at Pomeroy EB - #2629,,"42.936735","-81.311914",,,,,,false,,
+WESTWIN1,"2772",Windermere at Western EB - #2772,,"43.015039","-81.276075",,,,,,false,,
+COMMCAR1,"2802",Commissioners at Carnegie EB - #2802,,"42.95707","-81.252776",,,,,,false,,
+COMMCAR2,"2803",Commissioners at Carnegie WB - #2803,,"42.957299","-81.25202",,,,,,false,,
+COMMHIG2,"2804",Commissioners at High EB - #2804,,"42.957999","-81.234836",,,,,,false,,
+COMMHIHE,"2806",Commissioners at Highland Heights EB - #2806,,"42.957504","-81.244155",,,,,,false,,
+COMMHILD,"2807",Commissioners at Highland WB - #2807,,"42.95706","-81.258284",,,,,,false,,
+COMMUPP1,"2810",Commissioners at Upper Queens FS EB - #2810,,"42.95769","-81.240978",,,,,,false,,
+COMMWEL1,"2811",Commissioners at Wellington NS EB - #2811,,"42.958113","-81.231224",,,,,,false,,
+PLANFAI3,"2862",Plane Tree at Faircloth FS WB - #2862,,"43.027201","-81.298574",,,,,,false,,
+PLANFAIR,"2863",Plane Tree at Faircloth NS EB - #2863,,"43.027095","-81.298419",,,,,,false,,
