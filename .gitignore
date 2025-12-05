@@ -5,12 +5,19 @@ dataset_generator/london_weather_hourly_estimated.csv
 # Data
 data/
 
+<<<<<<< HEAD
 # Caches
 **/cache/
 
+=======
+>>>>>>> b3b062a (Req.txt, data, and rodes + visualizer prototype)
 # Python
 .venv
 **/__pycache__/
 
 # MacOS
+<<<<<<< HEAD
 **/.DS_Store
+=======
+**/.DS_Store
+>>>>>>> b3b062a (Req.txt, data, and rodes + visualizer prototype)

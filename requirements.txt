@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Machine learning
 scikit-learn==1.4.0
 
@@ -24,3 +25,10 @@ scikit-learn
 tqdm
 plotly
 geopy
+=======
+pandas
+numpy
+folium
+osmnx
+scikit-learn
+>>>>>>> b3b062a (Req.txt, data, and rodes + visualizer prototype)
