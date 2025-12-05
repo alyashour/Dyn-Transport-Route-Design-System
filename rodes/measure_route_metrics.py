@@ -2,7 +2,10 @@
 Weekly network-level bus route evaluation for static and dynamic routes.
 
 Usage:
-    python evaluate_week.py <routes_path> [--static | --dynamic]
+    python measure_route_metrics.py <routes_path> [--static | --dynamic]
+
+Example:
+    python measure_route_metrics.py "rodes_a/designed_routes/clarke_write-{date}.csv" --dynamic
 
 Static: single routes.csv applies for the whole week
 Dynamic: multiple {model}-route-{date}.csv files for each day
@@ -51,7 +54,7 @@ TRIPS_CSV = "../data/trips.csv"
 # Weekly filter parameters
 # -------------------------------
 START_DATE = pd.Timestamp(2021, 11, 18)
-END_DATE   = pd.Timestamp(2021, 11, 25)
+END_DATE   = pd.Timestamp(2021, 11, 24)
 print(f'Computing metrics for {START_DATE.strftime("%a %d %b %Y")} to {END_DATE.strftime("%a %d %b %Y")}')
 
 # -------------------------------
@@ -115,7 +118,7 @@ def compute_route_metrics(routes_df):
 if IS_DYNAMIC:
     # dynamic: multiple files, one per day
     date_range = pd.date_range(START_DATE, END_DATE)
-    daily_routes_files = [ROUTES_PATH.format(date=d.strftime("%Y-%m-%d")) for d in date_range]
+    daily_routes_files = [ROUTES_PATH.format(date=d.strftime("%Y_%m_%d")) for d in date_range]
 else:
     daily_routes_files = [ROUTES_PATH]
 
