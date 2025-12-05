@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 import sys
+=======
+>>>>>>> 0902e9d (added google ortools)
 import pandas as pd
 import osmnx as ox
 import plotly.graph_objects as go
 import plotly.express as px
 from itertools import cycle
 
+<<<<<<< HEAD
 args = sys.argv
 if len(args) < 2:
     print('Usage `visualize.py <routes.csv>`')
@@ -13,6 +17,9 @@ else:
     ROUTES_CSV = args[1]
 
 # ROUTES_CSV = "rodes_a/designed_routes/google_ortools-2025-11-18.csv"
+=======
+ROUTES_CSV = "rodes_a/designed_routes/google_ortools-2025-11-18.csv"
+>>>>>>> 0902e9d (added google ortools)
 STOPS_CSV = "../data/stops.csv"
 
 routes_df = pd.read_csv(ROUTES_CSV)
