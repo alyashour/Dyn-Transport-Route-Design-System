@@ -3,3 +3,6 @@ numpy
 folium
 osmnx
 scikit-learn
+matplotlib
+tqdn
+plotly
