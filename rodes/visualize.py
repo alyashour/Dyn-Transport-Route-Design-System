@@ -4,8 +4,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 from itertools import cycle
 
-ROUTES_CSV = "designed_routes.csv"
-STOPS_CSV = "../../data/stops.csv"
+ROUTES_CSV = "rodes_a/designed_routes/google_ortools-2025-11-18.csv"
+STOPS_CSV = "../data/stops.csv"
 
 routes_df = pd.read_csv(ROUTES_CSV)
 stops_df = pd.read_csv(STOPS_CSV)
