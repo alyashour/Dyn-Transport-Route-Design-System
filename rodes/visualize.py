@@ -1,10 +1,18 @@
+import sys
 import pandas as pd
 import osmnx as ox
 import plotly.graph_objects as go
 import plotly.express as px
 from itertools import cycle
 
-ROUTES_CSV = "rodes_a/designed_routes/google_ortools-2025-11-18.csv"
+args = sys.argv
+if len(args) < 2:
+    print('Usage `visualize.py <routes.csv>`')
+    sys.exit(1)
+else:
+    ROUTES_CSV = args[1]
+
+# ROUTES_CSV = "rodes_a/designed_routes/google_ortools-2025-11-18.csv"
 STOPS_CSV = "../data/stops.csv"
 
 routes_df = pd.read_csv(ROUTES_CSV)

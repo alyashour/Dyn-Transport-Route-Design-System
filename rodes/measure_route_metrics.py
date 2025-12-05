@@ -25,7 +25,7 @@ if input(
 # -------------------------------
 # File paths
 # -------------------------------
-ROUTES_CSV = "rodes_a/designed_routes/clarke_write-2025-11-18.csv"
+ROUTES_CSV = "rodes_a/designed_routes/google_ortools-2025-11-18.csv"
 STOPS_CSV = "../data/stops.csv"
 TRIPS_CSV = "../data/trips.csv"
 
