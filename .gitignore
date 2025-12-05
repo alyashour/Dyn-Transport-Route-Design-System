@@ -6,11 +6,17 @@ dataset_generator/london_weather_hourly_estimated.csv
 data/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Caches
 **/cache/
 
 =======
 >>>>>>> b3b062a (Req.txt, data, and rodes + visualizer prototype)
+=======
+# Caches
+**/cache/
+
+>>>>>>> 748e956 (clarke_write metrics and implementation)
 # Python
 .venv
 **/__pycache__/
