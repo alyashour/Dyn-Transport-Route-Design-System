@@ -455,7 +455,7 @@ if __name__ == "__main__":
     )
     
     metrics = designer.calculate_metrics(
-        service_frequency_minutes=15,
+        service_frequency_minutes=20,
         service_hours=16,
         bus_capacity=50,
         days_in_analysis=30
