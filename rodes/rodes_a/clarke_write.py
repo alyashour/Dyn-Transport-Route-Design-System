@@ -1,3 +1,9 @@
+"""
+Runs the Clarke-Write Algorithm on MLR output for some date.
+Usage: `python clarke_write.py [date]`
+E.g.: `python clarke_write.py 2025_11_23`
+"""
+
 import pandas as pd
 import numpy as np
 from typing import List, Optional
@@ -469,7 +475,7 @@ if __name__ == "__main__":
         days_in_analysis=30
     )
     
-    routes_df = designer.export_routes(f'designed_routes/clarke_write-{date}')
+    routes_df = designer.export_routes(f'designed_routes/clarke_write-{date}.csv')
     print("\n" + "="*60)
     print("DESIGNED ROUTES:")
     print("="*60)

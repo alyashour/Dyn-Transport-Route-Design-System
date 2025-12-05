@@ -6,8 +6,11 @@ Uses:
 - Max stops and max distance constraints
 - Scales OD grid by scalar
 - Outputs CSV of routes with stops, stop names, num stops, total distance
+
+Usage `python google_ortools.py <date>`
 """
 
+import sys
 import pandas as pd
 import numpy as np
 from geopy.distance import geodesic
@@ -18,17 +21,24 @@ import os
 # -------------------------------
 # Config
 # -------------------------------
+args = sys.argv
+if len(args) < 2:
+    print(f'Usage `{args[0]} <date>`')
+    sys.exit(1)
+else:
+    date = args[1]
+
 STOPS_CSV = "../../data/stops.csv"
-OD_GRID_NPY = "../../data/mlr_output_2021_11_18.npy"  # precomputed OD trips
+OD_GRID_NPY = f"../../data/mlr_output_{date}.npy"  # precomputed OD trips
 GRID_SCALAR = 1000                         # scale trips by this factor
-OUTPUT_CSV = "optimized_routes.csv"
+OUTPUT_CSV = f"designed_routes/google_ortools-{date}.csv"
 DISTANCE_CACHE = "cache/distance_matrix.npy"
 
 NUM_VEHICLES = 60
 DEPOT_STOP_ID = "ADELADA1"
 MAX_ROUTE_LENGTH = 25  # max stops per vehicle
 MAX_DISTANCE = 30      # max distance per vehicle (km)
-VEHICLE_CAPACITY = 50  # passengers per bus (adjust)
+VEHICLE_CAPACITY = 50  # passengers per bus
 
 # -------------------------------
 # Load stops
@@ -47,7 +57,7 @@ n = len(stop_ids)
 print(f'Loading OD grid from {OD_GRID_NPY}')
 trip_grid = np.load(OD_GRID_NPY) * GRID_SCALAR
 
-# Optional: remove very low-demand trips to reduce problem size
+# remove very low-demand trips to reduce problem size
 trip_grid[trip_grid < 1e-3] = 0
 
 # -------------------------------
@@ -87,7 +97,7 @@ routing.SetArcCostEvaluatorOfAllVehicles(transit_callback_index)
 # Add constraints
 # -------------------------------
 
-# 1️⃣ Max route distance dimension
+# Max route distance dimension
 routing.AddDimension(
     transit_callback_index,
     0,
@@ -98,7 +108,7 @@ routing.AddDimension(
 distance_dim = routing.GetDimensionOrDie("Distance")
 distance_dim.SetGlobalSpanCostCoefficient(100)
 
-# 2️⃣ Max stops per route
+# Max stops per route
 def length_callback(from_index, to_index):
     return 1
 length_callback_index = routing.RegisterTransitCallback(length_callback)
@@ -112,7 +122,7 @@ routing.AddDimension(
 length_dim = routing.GetDimensionOrDie("Stops")
 length_dim.SetGlobalSpanCostCoefficient(10)
 
-# 3️⃣ Capacity / demand dimension
+# Capacity / demand dimension
 # Compute demand per stop as total outgoing passengers from that stop
 demand_per_stop = trip_grid.sum(axis=1).astype(int).tolist()  # passengers boarding at stop i
 
@@ -129,7 +139,7 @@ routing.AddDimensionWithVehicleCapacity(
     "Capacity"
 )
 
-# 4️⃣ Skip penalties proportional to demand
+# Skip penalties proportional to demand
 for i in range(1, n):
     penalty = int(max(demand_per_stop[i], 1) * 1000)  # high penalty if stop has demand
     routing.AddDisjunction([manager.NodeToIndex(i)], penalty)
