@@ -1,3 +1,8 @@
+""" 
+Preprocesses the data into a single .h5 file.
+Very quick takes like 2 mins on average.
+"""
+
 import pandas as pd
 import numpy as np
 import h5py as hp
@@ -5,11 +10,13 @@ import os
 import io
 
 # Configuration
-TRIPS_FILE = 'data/trips_data_full.csv'
-WEATHER_FILE = 'data/weather.csv'
-STOPS_FILE = 'data/stop_data.csv'
-POPULATION_FILE = 'data/city_population.csv'
-OUTPUT_FILE = 'dataset.h5'
+# - data in
+TRIPS_FILE = '../in/trips.csv'
+WEATHER_FILE = '../in/weather.csv'
+STOPS_FILE = '../in/stops.csv'
+POPULATION_FILE = '../in/city_population.csv'
+# - data out
+OUTPUT_FILE = '../cache/dataset.h5'
 CHUNK_SIZE = 100000 
 
 def get_weather_index(condition):

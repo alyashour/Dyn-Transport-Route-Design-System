@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
-from transit_data_processor import TransitDataProcessor
+from mlr.transit_data_processor import TransitDataProcessor
 from util import *
-from mlr_grid import MLRGrid
+from mlr.mlr_grid import MLRGrid
 
 # Assume TransitDataProcessor, MLRGrid, haversine_distance, 
 # get_season, is_holiday, and other necessary imports 

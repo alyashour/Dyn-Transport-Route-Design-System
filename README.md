@@ -8,3 +8,5 @@
     - Rodes-a: 3 algorithms & heuristics that determine routes.
     - Rodes-b: machine learning clustering + algorithm that dtermines routes.
 
+## Pipeline
+First generate a 

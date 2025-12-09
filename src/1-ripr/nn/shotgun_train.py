@@ -11,12 +11,11 @@ from dataset import ShotgunDataset
 from model import ShotgunPredictor
 
 # --- CONFIGURATION ---
-H5_FILE = 'dataset.h5'
-BATCH_SIZE = 8 # 32 is what I used but you'll wanna close all your tabs
+H5_FILE = '../cache/dataset.h5'
+BATCH_SIZE = 16 # 32 is what I used but you'll wanna close all your tabs
 LEARNING_RATE = 1e-3
-EPOCHS = 100
+EPOCHS = 60
 VALIDATION_SPLIT = 0.2
-# HIDDEN_DIM removed as it's no longer needed
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 best_val_loss = 4
 save_loss_gap = 0.1
@@ -48,7 +47,7 @@ if __name__ == "__main__":
     train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
     
-    # 3. Initialize Model (No hidden dim arg)
+    # 3. Initialize Model
     model = ShotgunPredictor(input_dim, num_stops)
 
     try:

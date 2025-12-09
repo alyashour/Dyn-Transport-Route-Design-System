@@ -3,7 +3,8 @@ dataset_generator/london_ridership_trip_generation.csv
 dataset_generator/london_weather_hourly_estimated.csv
 
 # Data
-data/
+data/*
+model_outputs/
 
 # Caches
 **/cache/
