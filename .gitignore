@@ -6,9 +6,6 @@ dataset_generator/london_weather_hourly_estimated.csv
 data/*
 model_outputs/
 
-# Caches
-**/cache/
-
 # Python
 .venv
 **/__pycache__/

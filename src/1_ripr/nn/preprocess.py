@@ -8,15 +8,19 @@ import numpy as np
 import h5py as hp
 import os
 import io
+from ...util import get_root
 
 # Configuration
+ROOT = get_root()
+DATA_IN = ROOT / 'data/1_ripr/in'
+MEMCACHE = ROOT / 'data/1_ripr/memcache'
 # - data in
-TRIPS_FILE = '../in/trips.csv'
-WEATHER_FILE = '../in/weather.csv'
-STOPS_FILE = '../in/stops.csv'
-POPULATION_FILE = '../in/city_population.csv'
+TRIPS_FILE = DATA_IN / 'trips.csv'
+WEATHER_FILE = DATA_IN / 'weather.csv'
+STOPS_FILE = DATA_IN / 'stops.csv'
+POPULATION_FILE = DATA_IN / 'city_population.csv'
 # - data out
-OUTPUT_FILE = '../cache/dataset.h5'
+OUTPUT_FILE = MEMCACHE / 'dataset.h5'
 CHUNK_SIZE = 100000 
 
 def get_weather_index(condition):

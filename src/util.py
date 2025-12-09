@@ -1,3 +1,5 @@
+from pathlib import Path 
+
 import numpy as np
 from datetime import datetime
 
@@ -37,3 +39,9 @@ def is_holiday(day, month, year):
         return True
     
     return False
+
+def get_root(path: Path = Path(__file__).resolve()):
+    for parent in [path] + list(path.parents):
+        if (parent / ".git").exists():
+            return parent
+    raise RuntimeError("Not inside a git repo")

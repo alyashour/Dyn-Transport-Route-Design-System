@@ -12,7 +12,7 @@ from model import ShotgunPredictor
 
 # --- CONFIGURATION ---
 H5_FILE = '../cache/dataset.h5'
-BATCH_SIZE = 16 # 32 is what I used but you'll wanna close all your tabs
+BATCH_SIZE = 32 # 32 is what I used but you'll wanna close all your tabs
 LEARNING_RATE = 1e-3
 EPOCHS = 60
 VALIDATION_SPLIT = 0.2

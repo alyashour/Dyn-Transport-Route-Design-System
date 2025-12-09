@@ -8,3 +8,5 @@ tqdn
 plotly
 geopy
 ortools
+h5py
+torch
