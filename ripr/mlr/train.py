@@ -109,13 +109,13 @@ def main():
         print(f'Columns:\n {processor.trips.columns}')
         if input('Confirm (y/n): ') not in ['y', 'Y']:
             print('Canceling')
-            raise "Canceled"
+            raise "Canceled" # type: ignore
         
         # Step 1.2: Head data
         print(f'Head:\n{processor.trips.head()}')
         if input('Confirm (y/n): ') not in ['y', 'Y']:
             print('Canceling')
-            raise "Canceled"
+            raise "Canceled" # type: ignore
     
     # Step 2: Split data
     train_data, val_data, test_data = processor.split_data()

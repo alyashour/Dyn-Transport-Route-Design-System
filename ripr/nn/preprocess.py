@@ -5,11 +5,11 @@ import os
 import io
 
 # Configuration
-TRIPS_FILE = '../../data/trips.csv'
-WEATHER_FILE = '../../data/weather.csv'
-STOPS_FILE = '../../data/stops.csv'
-POPULATION_FILE = '../../data/city_population.csv'
-OUTPUT_FILE = 'out/dataset.h5'
+TRIPS_FILE = 'data/trips_data_full.csv'
+WEATHER_FILE = 'data/weather.csv'
+STOPS_FILE = 'data/stop_data.csv'
+POPULATION_FILE = 'data/city_population.csv'
+OUTPUT_FILE = 'dataset.h5'
 CHUNK_SIZE = 100000 
 
 def get_weather_index(condition):
@@ -58,7 +58,7 @@ def get_csv_date_range(filepath):
 
     # Parse last line using the columns we grabbed earlier
     # We wrap it in StringIO so pandas can parse the CSV format (handling commas etc)
-    df_end = pd.read_csv(io.StringIO(last_line), names=columns, header=None) # type: ignore
+    df_end = pd.read_csv(io.StringIO(last_line), names=columns, header=None)
     end_date = pd.to_datetime(df_end[['Year', 'Month', 'Day']]).iloc[0]
     
     return start_date, end_date
@@ -92,9 +92,9 @@ if __name__ == "__main__":
     date_to_idx = {d.date(): i for i, d in enumerate(weather_df['Date'])}
     num_days = len(weather_df)
     
-    years = weather_df['Date'].dt.year.values # type: ignore
-    months = weather_df['Date'].dt.month.values # type: ignore
-    days = weather_df['Date'].dt.day.values # type: ignore
+    years = weather_df['Date'].dt.year.values
+    months = weather_df['Date'].dt.month.values
+    days = weather_df['Date'].dt.day.values
     
     print(f"   Final Master Timeline: {num_days} days (aligned to trips).")
 
@@ -125,7 +125,7 @@ if __name__ == "__main__":
         dates_buffer[:, 0] = (years - 2000).astype('uint8')
         dates_buffer[:, 1] = months.astype('uint8')
         dates_buffer[:, 2] = days.astype('uint8')
-        dates_buffer[:, 3] = weather_df['Date'].dt.dayofweek.values.astype('uint8') # type: ignore
+        dates_buffer[:, 3] = weather_df['Date'].dt.dayofweek.values.astype('uint8')
         dates_buffer[:, 4] = weather_df['Weather_Condition'].apply(get_weather_index).astype('uint8')
         
         dset_dates[:] = dates_buffer
@@ -173,15 +173,15 @@ if __name__ == "__main__":
             dset_det = f['trips']
             dset_sum = f['day_trips']
             
-            dset_det.resize(write_ptr + num_rows, axis=0) # type: ignore
-            dset_det[write_ptr : write_ptr + num_rows] = block # type: ignore
+            dset_det.resize(write_ptr + num_rows, axis=0)
+            dset_det[write_ptr : write_ptr + num_rows] = block
             
             # Update summary (Indices 0, 1, 2 now)
-            s_data = dset_sum[d_idx] # type: ignore
-            s_data[0] = total_trips # type: ignore
-            s_data[1] = write_ptr # type: ignore
-            s_data[2] = write_ptr + num_rows # type: ignore
-            dset_sum[d_idx] = s_data # type: ignore
+            s_data = dset_sum[d_idx]
+            s_data[0] = total_trips
+            s_data[1] = write_ptr
+            s_data[2] = write_ptr + num_rows
+            dset_sum[d_idx] = s_data
             
         return write_ptr + num_rows
 

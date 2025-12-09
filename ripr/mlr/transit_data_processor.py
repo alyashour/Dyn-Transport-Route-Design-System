@@ -62,21 +62,21 @@ class TransitDataProcessor:
         ).astype(int)
         
         # Merge weather data
-        self.weather_data['Date'] = pd.to_datetime(self.weather_data['Date'])
+        self.weather_data['Date'] = pd.to_datetime(self.weather_data['Date']) # type: ignore
         self.trips['Date'] = pd.to_datetime(
             self.trips[['Year', 'Month', 'Day']]
         )
-        self.trips = self.trips.merge(self.weather_data, on='Date', how='left')
+        self.trips = self.trips.merge(self.weather_data, on='Date', how='left') # type: ignore
         
         # Merge population data
-        self.trips = self.trips.merge(self.population_data, on='Year', how='left')
+        self.trips = self.trips.merge(self.population_data, on='Year', how='left') # type: ignore
         
         # One-hot encode weather
         weather_dummies = pd.get_dummies(self.trips['Weather_Condition'], prefix='Weather_Condition')
         self.trips = pd.concat([self.trips, weather_dummies], axis=1)
         
         # Add stop coordinates
-        stop_coords = self.stop_data.set_index('stop_id')[['stop_lat', 'stop_lon']]
+        stop_coords = self.stop_data.set_index('stop_id')[['stop_lat', 'stop_lon']] # type: ignore
         self.trips = self.trips.merge(
             stop_coords,
             left_on='Origin ID', 

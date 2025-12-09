@@ -1,10 +1,61 @@
 import torch
+import torch.nn.functional as F
 from torch.utils.data import Dataset
 import h5py
 import numpy as np
 from util import get_season, is_holiday
+from tqdm import tqdm
 
-class TransitDataset(Dataset):
+# Feature Dimensions
+N_MONTHS = 12     # 0-11 (User handled 0-indexing)
+N_DAYS = 31       # 0-30
+N_DOWS = 7        # 0-6
+N_SEASONS = 4     # 0-3
+N_WEATHER = 3     # 0-2 (Clear, Rain, Snow)
+
+def encode_features(month, day, dow, season, weather, holiday, temps):
+    """
+    Encodes raw feature values into a concatenated tensor.
+    Shared by both the Dataset (training) and Inference scripts.
+    
+    Args:
+        month (int): 0-11
+        day (int): 0-30
+        dow (int): 0-6
+        season (int): 0-3
+        weather (int): 0-2
+        holiday (bool/int/float): 0 or 1
+        temps (list/tensor/array): [High, Low]
+    
+    Returns:
+        torch.Tensor: Concatenated feature vector
+    """
+    # Build One-Hot Vectors using torch's native method
+    # We create tensors, cast to Long (int64) for one_hot, then Float for the network
+    oh_month = F.one_hot(torch.tensor(month - 1, dtype=torch.long), num_classes=N_MONTHS).float()
+    oh_day = F.one_hot(torch.tensor(day - 1, dtype=torch.long), num_classes=N_DAYS).float()
+    oh_dow = F.one_hot(torch.tensor(dow, dtype=torch.long), num_classes=N_DOWS).float()
+    oh_season = F.one_hot(torch.tensor(season, dtype=torch.long), num_classes=N_SEASONS).float()
+    oh_weather = F.one_hot(torch.tensor(weather, dtype=torch.long), num_classes=N_WEATHER).float()
+    
+    # Scalar Features - Handle various input types (Tensor vs scalar)
+    if isinstance(holiday, torch.Tensor):
+        feat_holiday = holiday.float().view(1)
+    else:
+        feat_holiday = torch.tensor([float(holiday)], dtype=torch.float32)
+        
+    if isinstance(temps, torch.Tensor):
+        feat_temps = temps.float()
+    else:
+        feat_temps = torch.tensor(temps, dtype=torch.float32)
+    
+    # Concatenate all features
+    return torch.cat([
+        oh_month, oh_day, oh_dow, oh_season, oh_weather, 
+        feat_holiday, feat_temps
+    ])
+
+class ShotgunDataset(Dataset):
     def __init__(self, h5_file):
         super().__init__()
         self.h5_file = h5_file
@@ -16,24 +67,8 @@ class TransitDataset(Dataset):
             self.num_stops = f['stops'].shape[0]
             self.num_days = f['dates'].shape[0]
 
-        # Define Feature Dimensions for One-Hot Encoding
-        self.n_months = 12     # 1-12
-        self.n_days = 31       # 1-31
-        self.n_dows = 7        # 0-6
-        self.n_seasons = 4     # 0-3
-        self.n_weather = 3     # 0-2 (Clear, Rain, Snow)
-        
     def __len__(self):
         return self.num_days
-
-    def _get_one_hot(self, value, num_classes, offset=0):
-        """Helper to create one-hot vector."""
-        idx = value - offset
-        idx = max(0, min(idx, num_classes - 1))
-        
-        vec = torch.zeros(num_classes, dtype=torch.float32)
-        vec[idx] = 1.0
-        return vec
 
     def __getitem__(self, idx):
         # Open file fresh for every item. 
@@ -67,21 +102,8 @@ class TransitDataset(Dataset):
             season = get_season(month)
             holiday = is_holiday(day, month, year)
             
-            # Build One-Hot Vectors
-            oh_month = self._get_one_hot(month, self.n_months, offset=1)
-            oh_day = self._get_one_hot(day, self.n_days, offset=1)
-            oh_dow = self._get_one_hot(dow, self.n_dows, offset=0)
-            oh_season = self._get_one_hot(season, self.n_seasons, offset=0)
-            oh_weather = self._get_one_hot(weather, self.n_weather, offset=0)
-            
-            # Scalar Features
-            feat_holiday = torch.tensor([float(holiday)], dtype=torch.float32)
-            feat_temps = torch.from_numpy(temps_row.astype(np.float32))
-            
-            x = torch.cat([
-                oh_month, oh_day, oh_dow, oh_season, oh_weather, 
-                feat_holiday, feat_temps
-            ])
+            # Use shared encoding function
+            x = encode_features(month, day, dow, season, weather, holiday, temps_row)
 
             # ---------------------------------------------------------
             # 3. TARGET OUTPUT
@@ -109,9 +131,14 @@ class TransitDataset(Dataset):
         return x, target
 
 if __name__ == "__main__":
-    ds = TransitDataset('dataset.h5')
+    ds = ShotgunDataset('dataset.h5')
     print(f"Dataset Length: {len(ds)} days")
     
     x, y = ds[100] 
     print(f"Input Shape: {x.shape}")
     print(f"Target Shape: {y.shape}")
+
+    for i in tqdm(range(len(ds))):
+        ds[i]
+
+    print("No failed retrievals!")
